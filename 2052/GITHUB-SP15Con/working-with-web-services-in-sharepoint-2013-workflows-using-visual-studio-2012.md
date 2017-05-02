@@ -251,7 +251,7 @@ OData 和 WCF 数据服务通过向您提供 [服务操作](http://msdn.microsof
 ![图 3. '属性工具'窗口](images/ngWSSP2013WorkflowVS201203.png)
   
 
-    此活动指示 工作流管理器 使用 SharePoint REST API 检索当前列表项的属性，并将 **JSON** 响应存储在刚刚创建的 **DynamicValue** 变量中。
+   此活动指示 工作流管理器 使用 SharePoint REST API 检索当前列表项的属性，并将 **JSON** 响应存储在刚刚创建的 **DynamicValue** 变量中。
     
   
 3. 通过单击"LookupSpListItem"活动中的获取属性链接，从列表项检索客户 ID。执行此操作会向设计图画添加"GetDynamicValueProperties"活动。
@@ -439,7 +439,7 @@ OData 和 WCF 数据服务通过向您提供 [服务操作](http://msdn.microsof
 ![图 10 更新的列表项](images/ngWSSP2013WorkflowVS201210.png)
   
 
-    请注意，列表项是由 SharePoint 承载的应用程序代表启动工作流的人员更新。但是，在此演练中，工作流是由管理员启动。
+   请注意，列表项是由 SharePoint 承载的应用程序代表启动工作流的人员更新。但是，在此演练中，工作流是由管理员启动。
     
   
 
