@@ -251,7 +251,7 @@ The first thing the workflow needs to do is retrieve the customer ID, as entered
 ![Figure 3. Properties Tool Window](images/ngWSSP2013WorkflowVS201203.png)
   
 
-    This activity tells Workflow Manager to use the SharePoint REST API to retrieve the properties of the current list item and to store the **JSON** response in the **DynamicValue** variable that you just created.
+   This activity tells Workflow Manager to use the SharePoint REST API to retrieve the properties of the current list item and to store the **JSON** response in the **DynamicValue** variable that you just created.
     
   
 3. Retrieve the customer ID from the list item by clicking the Get Properties link in the **LookupSpListItem** activity. Doing this adds a **GetDynamicValueProperties** activity to the design surface.
@@ -439,7 +439,7 @@ The workflow is now complete and should function properly. To confirm its stabil
 ![Figure 10 Updated List Item](images/ngWSSP2013WorkflowVS201210.png)
   
 
-    Notice that the list item was updated by the SharePoint hosted app on behalf of the person who started the workflow. In this walkthrough, however, it was started by the administrator.
+   Notice that the list item was updated by the SharePoint hosted app on behalf of the person who started the workflow. In this walkthrough, however, it was started by the administrator.
     
   
 
