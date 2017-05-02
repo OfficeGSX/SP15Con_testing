@@ -251,7 +251,7 @@ Ausführen der Workflow muss zunächst wird die Kunden-ID abrufen vom Benutzer e
 ![Abbildung 3: Eigenschaftentoolfenster](images/ngWSSP2013WorkflowVS201203.png)
   
 
-    Diese Aktivität weist Workflow-Manager der SharePoint-REST-API verwenden, um die Eigenschaften des aktuellen Listenelements abzurufen und die **JSON** -Antwort in der Variablen **DynamicValue** zu speichern, die Sie gerade erstellt haben.
+   Diese Aktivität weist Workflow-Manager der SharePoint-REST-API verwenden, um die Eigenschaften des aktuellen Listenelements abzurufen und die **JSON** -Antwort in der Variablen **DynamicValue** zu speichern, die Sie gerade erstellt haben.
     
   
 3. Rufen Sie die Kunden-ID aus dem Listenelement, indem Sie auf den Link Eigenschaften erhalten möchten , in der **LookupSpListItem**-Aktivität. Auf diese Weise fügt eine **GetDynamicValueProperties**-Aktivität auf die Entwurfsoberfläche.
@@ -439,7 +439,7 @@ Der Workflow ist nun abgeschlossen und sollte ordnungsgemäß funktionieren. Um 
 ![Abbildung 10: Aktualisiertes Listenelement](images/ngWSSP2013WorkflowVS201210.png)
   
 
-    Beachten Sie, dass das Listenelement, durch den SharePoint aktualisiert wurde gehosteten app im Namen der Person, die den Workflow gestartet hat. In dieser exemplarischen Vorgehensweise wurde jedoch vom Administrator auslösen.
+   Beachten Sie, dass das Listenelement, durch den SharePoint aktualisiert wurde gehosteten app im Namen der Person, die den Workflow gestartet hat. In dieser exemplarischen Vorgehensweise wurde jedoch vom Administrator auslösen.
     
   
 
