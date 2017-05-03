@@ -835,7 +835,7 @@ Visual Studio 2013 Office 开发人员工具添加了一个自动生成向导，
     
   ```HTML
   
-<input type="button" value="Subscribe" onclick="SubscribeEntity();"/>
+  <input type="button" value="Subscribe" onclick="SubscribeEntity();"/>
   ```
 
 为了让事件运行，您还必须让 SharePoint 列表接受外部事件。该操作通过启用外部事件功能完成。
