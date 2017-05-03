@@ -103,7 +103,7 @@ Avant de convertir votre fichier HTML, voici les meilleures pratiques et conseil
 
   ```
   
-<Script> (function( …
+  <Script> (function( …
   ```
 
 - Vous devez introduire une référence (externe) à la bibliothèque JQuery avant la balise **</head>**.

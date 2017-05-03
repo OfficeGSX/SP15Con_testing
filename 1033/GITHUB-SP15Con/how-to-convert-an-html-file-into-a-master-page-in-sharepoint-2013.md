@@ -103,7 +103,7 @@ Before you convert your HTML file, here are some best practices and guidance to 
 
   ```
   
-<Script> (function( …
+  <Script> (function( …
   ```
 
 - A reference to the JQuery library (an external reference) should go before the **</head>** tag.

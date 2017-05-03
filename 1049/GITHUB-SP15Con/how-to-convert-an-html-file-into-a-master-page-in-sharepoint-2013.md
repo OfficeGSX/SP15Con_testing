@@ -103,7 +103,7 @@ ms.assetid: a76ab289-3256-45de-ac63-d5112a74e3c7
 
   ```
   
-<Script> (function( …
+  <Script> (function( …
   ```
 
 - Ссылка на библиотеку JQuery (внешняя ссылка) должна находиться перед тегом **</head>**.

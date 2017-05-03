@@ -103,7 +103,7 @@ ms.assetid: a76ab289-3256-45de-ac63-d5112a74e3c7
 
   ```
   
-<Script> (function( …
+  <Script> (function( …
   ```
 
 - 对 JQuery 库的引用（外部引用）应位于 **</head>** 标记前面。
