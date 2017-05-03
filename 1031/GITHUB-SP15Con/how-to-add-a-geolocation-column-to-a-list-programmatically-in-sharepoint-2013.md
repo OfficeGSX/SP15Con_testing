@@ -51,7 +51,7 @@ Ein MSI-Paket mit dem Namen SQLSysClrTypes.msi muss auf jedem Front-End-Webserve
 - Ein gültiger Bing Maps-Schlüssel festgelegt Farm oder Web-Ebene, die aus der  [Bing Maps-Kontocenter](https://www.bingmapsportal.com/)abgerufen werden können.
     
     > **WICHTIG**
-      > Beachten Sie, dass Sie für die Einhaltung von Bedingungen, die von den Bing Maps-Schlüssel und alle erforderlichen Angaben für Ihre Verwendung gelten für Benutzer von der Anwendung verantwortlich sind Bezug Daten an den Bing Maps-Dienst weitergeleitet.
+      <br/> Beachten Sie, dass Sie für die Einhaltung von Bedingungen, die von den Bing Maps-Schlüssel und alle erforderlichen Angaben für Ihre Verwendung gelten für Benutzer von der Anwendung verantwortlich sind Bezug Daten an den Bing Maps-Dienst weitergeleitet.
 - Visual Studio 2010.
     
   

@@ -27,7 +27,7 @@ SharePoint 2013には、新しいフィールド タイプである地理位置�
 - ファーム レベルまたは Web レベルでの有効な Bing Maps キーセット。これは、 [Bing Maps Account Center](https://www.bingmapsportal.com/) から入手できます。
     
     > **重要**
-      > Bing Maps キーの使用にあたっては、利用規約を遵守する義務を負い、Bing Maps サービスに渡されたデータに関しては、アプリケーションの使用者への開示義務を負うものとします。 
+      <br/> Bing Maps キーの使用にあたっては、利用規約を遵守する義務を負い、Bing Maps サービスに渡されたデータに関しては、アプリケーションの使用者への開示義務を負うものとします。 
 - Visual Studio 2010。
     
   

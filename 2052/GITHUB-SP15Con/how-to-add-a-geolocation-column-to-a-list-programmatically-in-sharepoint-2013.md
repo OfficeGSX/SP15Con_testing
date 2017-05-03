@@ -27,7 +27,7 @@ SharePoint 2013 引入了一个名为 地理位置 的新字段类型，使您�
 - 可以从 [Bing 地图帐户中心](https://www.bingmapsportal.com/)（https://www.bingmapsportal.com）获取场或 Web 级别的有效 Bing 地图密钥设置。
     
     > **重要信息**
-      > 请注意您必须遵守使用 Bing 地图密钥的条款和条件，以及将任何与传递到 Bing 地图服务的数据有关的信息透露给应用程序用户的相关条款和条件。 
+      <br/> 请注意您必须遵守使用 Bing 地图密钥的条款和条件，以及将任何与传递到 Bing 地图服务的数据有关的信息透露给应用程序用户的相关条款和条件。 
 - Visual Studio 2010。
     
   

@@ -27,7 +27,7 @@ An MSI package named SQLSysClrTypes.msi must be installed on every SharePoint fr
 - A valid Bing Maps key set at the farm or web level, which can be obtained from the  [Bing Maps Account Center](https://www.bingmapsportal.com/).
     
     > **IMPORTANT**
-      > Please note that you are responsible for compliance with terms and conditions applicable to your use of the Bing Maps key, and any necessary disclosures to users of your application regarding data passed to the Bing Maps service. 
+      <br/> Please note that you are responsible for compliance with terms and conditions applicable to your use of the Bing Maps key, and any necessary disclosures to users of your application regarding data passed to the Bing Maps service. 
 - Visual Studio 2010.
     
   
