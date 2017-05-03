@@ -203,7 +203,7 @@ public class AdventureWorks : DataService<AdventureWorksEntities>
     这使授权的客户端对指定的资源的实体集具有读和写访问权限。
     
     > **注释**
-      > 任何客户端都可以访问 ASP.NET 应用程序，也可以访问数据服务公开的资源。在生产数据服务中，为避免对资源进行未经授权的访问，您还应保护应用程序本身。有关详细信息，请参阅  [WCF 数据服务的安全](http://msdn.microsoft.com/zh-cn/library/dd728284.aspx)。 
+      <br/> 任何客户端都可以访问 ASP.NET 应用程序，也可以访问数据服务公开的资源。在生产数据服务中，为避免对资源进行未经授权的访问，您还应保护应用程序本身。有关详细信息，请参阅  [WCF 数据服务的安全](http://msdn.microsoft.com/zh-cn/library/dd728284.aspx)。 
 如果 BCS 要接收通知，后端数据源必须有一种接受添加和删除订阅通知的请求的机制。
   
     
