@@ -814,7 +814,7 @@ Visual Studio 2013 Office 开发人员工具添加了一个自动生成向导，
     
   ```
   
-function SubscribeEntity()
+  function SubscribeEntity()
 {
     var notificationCallback = new SP.BusinessData.Runtime.NotificationCallback(context, "http://[MACHINE NAME]:8585");
     var url = myweb.get_url();
