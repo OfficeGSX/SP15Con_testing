@@ -60,7 +60,7 @@ SharePoint 2013 ermöglicht Ihnen, mobile Anwendungen zu erstellen, mit die exte
 
 
 > **WICHTIG**
-> Wenn Sie eine app für Windows Phone 8 entwickeln, müssen Sie Visual Studio Express 2012 anstelle von Visual Studio 2010 Express verwenden. Alle Informationen in diesem Artikel betrifft mit Ausnahme der Entwicklungsumgebung erstellen von apps für Windows Phone 8 und Windows Phone 7.> For more information, see  [Vorgehensweise: Einrichten einer Umgebung für die Entwicklung von mobilen Anwendungen für SharePoint](how-to-set-up-an-environment-for-developing-mobile-apps-for-sharepoint.md).
+> Wenn Sie eine app für Windows Phone 8 entwickeln, müssen Sie Visual Studio Express 2012 anstelle von Visual Studio 2010 Express verwenden. Alle Informationen in diesem Artikel betrifft mit Ausnahme der Entwicklungsumgebung erstellen von apps für Windows Phone 8 und Windows Phone 7.<br/> For more information, see  [Vorgehensweise: Einrichten einer Umgebung für die Entwicklung von mobilen Anwendungen für SharePoint](how-to-set-up-an-environment-for-developing-mobile-apps-for-sharepoint.md).
   
     
     
