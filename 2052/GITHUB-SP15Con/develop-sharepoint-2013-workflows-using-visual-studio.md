@@ -102,7 +102,7 @@ Visual Studio 使开发人员能够创建可供 SharePoint Designer 使用的自
 |允许重用工作流  <br/> |工作流只能由在其上开发它的列表或库使用。但是，SharePoint Designer 提供可在同一个网站中多次使用的可重用工作流。  <br/> |可将工作流编写为模板，以便工作流在部署后可重用并与任何列表或库关联。  <br/> |
 |允许您将工作流作为 SharePoint 解决方案或 SharePoint 外接程序的一部分包含。  <br/> |不可访问  <br/> |可访问  <br/> |
 |允许您创建自定义操作  <br/> |否。但是，SharePoint Designer 可以使用和实现通过 Visual Studio 创建和部署的自定义操作。  <br/> |是。但请注意，在 Visual Studio 中，将使用基础活动而不是对应的操作。  <br/> |
-|允许您编写自定义代码  <br/> |不可访问  <br/> |不可访问  <br/> > **注释**> 与早期版本有所不同。在 SharePoint 2013 中，工作流仅是声明性的并且 Visual Studio 依赖工作流开发的可视设计图面。           |
+|允许您编写自定义代码  <br/> |不可访问  <br/> |不可访问  <br/> <br/> **注释**<br/> 与早期版本有所不同。在 SharePoint 2013 中，工作流仅是声明性的并且 Visual Studio 依赖工作流开发的可视设计图面。           |
 |可以使用 Visio Professional 创建工作流逻辑  <br/> |可访问  <br/> |不可访问  <br/> |
 |部署  <br/> |自动部署到在其中创建工作流的列表、库或网站。  <br/> |创建一个 SharePoint 解决方案包 (.wsp) 文件并将该解决方案包部署到网站 (SPWeb)。  <br/> |
 |适用于工作流的一键式发布  <br/> |可访问  <br/> |可访问  <br/> |
