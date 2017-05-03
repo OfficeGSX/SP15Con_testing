@@ -225,7 +225,7 @@ public string subscriptionStorePath = @"\\\\[SHARE_NAME]\\SubscriptionStore\\Sub
 
 
     > **NOTE**
-      > This file is an XML file that is updated with the new subscriptions. Access to this file will be made by the server process, so make sure you have granted sufficient rights for this file access. > You might also want to create a database solution for storing subscription information. 
+      > This file is an XML file that is updated with the new subscriptions. Access to this file will be made by the server process, so make sure you have granted sufficient rights for this file access. <br/> You might also want to create a database solution for storing subscription information. 
 
     Then add the following two **WebGet** methods to handle the subscriptions.
     

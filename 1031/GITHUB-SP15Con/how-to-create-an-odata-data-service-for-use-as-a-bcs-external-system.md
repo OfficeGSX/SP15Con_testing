@@ -225,7 +225,7 @@ public string subscriptionStorePath = @"\\\\[SHARE_NAME]\\SubscriptionStore\\Sub
 
 
     > **HINWEIS**
-      > Diese Datei ist eine XML-Datei, die mit der neuen Abonnements aktualisiert wird. Zugriff auf diese Datei wird von der Serverprozess vorgenommen werden, so stellen Sie sicher, dass Sie über ausreichende Rechte für den Zugriff auf diese Datei gewährt haben.> Sie möchten möglicherweise auch eine Lösung Datenbank zum Speichern von Informationen zu Abonnement zu erstellen.
+      > Diese Datei ist eine XML-Datei, die mit der neuen Abonnements aktualisiert wird. Zugriff auf diese Datei wird von der Serverprozess vorgenommen werden, so stellen Sie sicher, dass Sie über ausreichende Rechte für den Zugriff auf diese Datei gewährt haben.<br/> Sie möchten möglicherweise auch eine Lösung Datenbank zum Speichern von Informationen zu Abonnement zu erstellen.
 
     Fügen Sie die folgenden zwei **WebGet** -Methoden zum Behandeln von Abonnements aufgelistet.
     
