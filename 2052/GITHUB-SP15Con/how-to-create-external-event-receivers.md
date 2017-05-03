@@ -814,8 +814,8 @@ Visual Studio 2013 Office 开发人员工具添加了一个自动生成向导，
     
   ```
   
-function SubscribeEntity()
-{
+  function SubscribeEntity()
+  {
     var notificationCallback = new SP.BusinessData.Runtime.NotificationCallback(context, "http://[MACHINE NAME]:8585");
     var url = myweb.get_url();
     notificationCallback.set_notificationContext(url);
@@ -823,7 +823,7 @@ function SubscribeEntity()
     var subscription = entity.subscribe(1, notificationCallback, "", "SubscribeCustomer", lobSystemInstance);
     context.load(subscription);
     context.executeQueryAsync(OnSubscribeSuccess, failmethod);
-}
+  }
   ```
 
 若要通过此脚本注册事件接收器，您必须在项目的 Default.aspx 页上创建一个按钮，并调用 **onclick()** 方法的 **SubscribeEntity()**。
