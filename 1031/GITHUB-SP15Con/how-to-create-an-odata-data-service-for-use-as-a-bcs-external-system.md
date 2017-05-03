@@ -220,7 +220,7 @@ Der letzte Schritt beim Erstellen des Diensts ist für die **Subscribe** und **U
     
   ```cs
   
-public string subscriptionStorePath = @"\\\\[SHARE_NAME]\\SubscriptionStore\\SubscriptionStore.xml";
+  public string subscriptionStorePath = @"\\\\[SHARE_NAME]\\SubscriptionStore\\SubscriptionStore.xml";
   ```
 
 

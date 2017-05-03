@@ -220,7 +220,7 @@ El último paso en la creación del servicio es agregar operaciones de servicio 
     
   ```cs
   
-public string subscriptionStorePath = @"\\\\[SHARE_NAME]\\SubscriptionStore\\SubscriptionStore.xml";
+  public string subscriptionStorePath = @"\\\\[SHARE_NAME]\\SubscriptionStore\\SubscriptionStore.xml";
   ```
 
 

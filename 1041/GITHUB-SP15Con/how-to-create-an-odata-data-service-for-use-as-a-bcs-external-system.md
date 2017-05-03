@@ -220,7 +220,7 @@ BCS が通知を受信するには、通知購読で追加および削除され�
     
   ```cs
   
-public string subscriptionStorePath = @"\\\\[SHARE_NAME]\\SubscriptionStore\\SubscriptionStore.xml";
+  public string subscriptionStorePath = @"\\\\[SHARE_NAME]\\SubscriptionStore\\SubscriptionStore.xml";
   ```
 
 
