@@ -225,7 +225,7 @@ public string subscriptionStorePath = @"\\\\[SHARE_NAME]\\SubscriptionStore\\Sub
 
 
     > **NOTA**
-      > Este archivo es un archivo XML que se actualiza con las nuevas suscripciones. El acceso a este archivo se hará por el proceso del servidor, así que asegúrese de que ha concedido los derechos necesarios para el acceso a este archivo. <br/> También puede crear una solución de base de datos para almacenar la información de suscripción. 
+      <br/> Este archivo es un archivo XML que se actualiza con las nuevas suscripciones. El acceso a este archivo se hará por el proceso del servidor, así que asegúrese de que ha concedido los derechos necesarios para el acceso a este archivo. <br/> También puede crear una solución de base de datos para almacenar la información de suscripción. 
 
     A continuación, agregue los dos métodos siguientes **WebGet** para controlar las suscripciones.
     

@@ -203,7 +203,7 @@ Standardmäßig beim Dienst WCF erstellt wurde, kann es aufgrund der Sicherheits
     Auf diese Weise können autorisierte Clients Lese- und Schreibzugriff auf Ressourcen für die angegebene Entitätenmengen.
     
     > **HINWEIS**
-      > Jeder Client, der die ASP.NET Anwendung zugreifen kann, kann auch die Ressourcen zugreifen, die vom Datendienst verfügbar gemacht werden. In einem Datendienst Produktion sollte um nicht autorisierten Zugriff auf Ressourcen zu verhindern, dass Sie auch die Anwendung selbst sichern. Weitere Informationen finden Sie unter  [Sichern von WCF Data Services](http://msdn.microsoft.com/en-us/library/dd728284.aspx).
+      <br/> Jeder Client, der die ASP.NET Anwendung zugreifen kann, kann auch die Ressourcen zugreifen, die vom Datendienst verfügbar gemacht werden. In einem Datendienst Produktion sollte um nicht autorisierten Zugriff auf Ressourcen zu verhindern, dass Sie auch die Anwendung selbst sichern. Weitere Informationen finden Sie unter  [Sichern von WCF Data Services](http://msdn.microsoft.com/en-us/library/dd728284.aspx).
 Für BCS zum Empfangen von Benachrichtigungen, muss es einen Mechanismus für die Back-End-Datenquelle, die eine Anforderung an hinzugefügt und entfernt aus der Benachrichtigungsabonnements werden akzeptieren.
   
     
