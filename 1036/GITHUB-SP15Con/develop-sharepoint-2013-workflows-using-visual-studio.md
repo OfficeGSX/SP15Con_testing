@@ -108,7 +108,7 @@ Le tableau suivant présente une comparaison côte à côte des fonctionnalités
 |Publication en un clic disponible pour les flux de travail  <br/> |Oui  <br/> |Oui  <br/> |
 |Les flux de travail peuvent être packagés et déployés vers un serveur distant  <br/> |Oui  <br/> |Oui  <br/> |
 |Débogage  <br/> |Les flux de travail ne peuvent pas être débogués.  <br/> |Les flux de travail peuvent être débogués à l'aide de Visual Studio.  <br/> |
-|Peut utiliser uniquement les actions approuvées par l'administrateur du site  <br/> |Oui  <br/> |Oui  <br/> > **REMARQUE**> Ceci a été modifié par rapport aux versions précédentes. Auparavant, les flux de travail et les actions qui étaient créés à l'aide de Visual Studio étaient basés sur du code et déployés sur toute l'étendue de la batterie ; l'approbation de l'administrateur n'était donc pas nécessaire.           |
+|Peut utiliser uniquement les actions approuvées par l'administrateur du site  <br/> |Oui  <br/> |Oui  <br/> <br/> **REMARQUE**<br/> Ceci a été modifié par rapport aux versions précédentes. Auparavant, les flux de travail et les actions qui étaient créés à l'aide de Visual Studio étaient basés sur du code et déployés sur toute l'étendue de la batterie ; l'approbation de l'administrateur n'était donc pas nécessaire.           |
    
 
 ## Développement de flux de travail à l'aide de Visual Studio

@@ -108,7 +108,7 @@ In der folgenden Tabelle werden die Features und Anforderungen für die Verwendu
 |Veröffentlichen per Mausklick für Workflows verfügbar  <br/> |Ja  <br/> |Ja  <br/> |
 |Workflows können verpackt und auf einem Remoteserver bereitgestellt werden  <br/> |Ja  <br/> |Ja  <br/> |
 |Debuggen  <br/> |Kein Debuggen möglich.  <br/> |Workflow kann mithilfe von Visual Studio debuggt werden.  <br/> |
-|Kann nur Aktionen verwenden, die vom Websiteadministrator genehmigt wurden  <br/> |Ja  <br/> |Ja  <br/> > **HINWEIS**> Dies ist anders als bei früheren Versionen. Zuvor waren Workflows und Aktionen, die mit Visual Studio erstellt wurden, codebasiert und wurden im Farmbereich bereitgestellt, sodass keine Administratorgenehmigung erforderlich war.           |
+|Kann nur Aktionen verwenden, die vom Websiteadministrator genehmigt wurden  <br/> |Ja  <br/> |Ja  <br/> <br/> **HINWEIS**<br/> Dies ist anders als bei früheren Versionen. Zuvor waren Workflows und Aktionen, die mit Visual Studio erstellt wurden, codebasiert und wurden im Farmbereich bereitgestellt, sodass keine Administratorgenehmigung erforderlich war.           |
    
 
 ## Entwickeln von Workflows mit Visual Studio

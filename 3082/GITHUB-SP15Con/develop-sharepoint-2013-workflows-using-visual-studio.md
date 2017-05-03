@@ -108,7 +108,7 @@ En la siguiente tabla se ofrece una comparación en paralelo de las característ
 |Publicación con un clic disponible para flujos de trabajo  <br/> |Sí  <br/> |Sí  <br/> |
 |Los flujos de trabajo se pueden empaquetar e implementar en un servidor remoto  <br/> |Sí  <br/> |Sí  <br/> |
 |Depuración  <br/> |No se puede depurar.  <br/> |El flujo de trabajo se puede depurar mediante Visual Studio.  <br/> |
-|Solo se pueden usar acciones aprobadas por el administrador del sitio  <br/> |Sí  <br/> |Sí  <br/> > **NOTA**> Esto ha cambiado desde versiones anteriores. Anteriormente, los flujos de trabajo y las acciones creados mediante Visual Studio se basaban en código y se implementaban en el ámbito de un conjunto de servidores, así que no se necesitaba aprobación del administrador.           |
+|Solo se pueden usar acciones aprobadas por el administrador del sitio  <br/> |Sí  <br/> |Sí  <br/> <br/> **NOTA**<br/> Esto ha cambiado desde versiones anteriores. Anteriormente, los flujos de trabajo y las acciones creados mediante Visual Studio se basaban en código y se implementaban en el ámbito de un conjunto de servidores, así que no se necesitaba aprobación del administrador.           |
    
 
 ## Desarrollo de flujos de trabajo con Visual Studio

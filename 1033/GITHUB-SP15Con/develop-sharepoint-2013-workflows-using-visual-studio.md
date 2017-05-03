@@ -108,7 +108,7 @@ The following table provides a side-by-side comparison of the features and requi
 |One-click publishing available for workflows  <br/> |Yes  <br/> |Yes  <br/> |
 |Workflows can be packaged and deployed to a remote server  <br/> |Yes  <br/> |Yes  <br/> |
 |Debugging  <br/> |Cannot be debugged.  <br/> |Workflow can be debugged by using Visual Studio.  <br/> |
-|Can use only actions that are approved by site administrator  <br/> |Yes  <br/> |Yes  <br/> > **NOTE**> This is changed from previous versions. Previously, workflows and actions that were authored by using Visual Studio were code-based and deployed at the farm scope, so administrator approval was not required.           |
+|Can use only actions that are approved by site administrator  <br/> |Yes  <br/> |Yes  <br/> <br/> **NOTE**<br/> This is changed from previous versions. Previously, workflows and actions that were authored by using Visual Studio were code-based and deployed at the farm scope, so administrator approval was not required.           |
    
 
 ## Developing workflows using Visual Studio

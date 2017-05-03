@@ -108,7 +108,7 @@ A tabela a seguir oferece uma comparação lado a lado dos recursos e dos requis
 |Publicação de um clique disponível para fluxos de trabalho  <br/> |Sim  <br/> |Sim  <br/> |
 |Os fluxos de trabalho podem ser empacotados e implantados em um servidor remoto  <br/> |Sim  <br/> |Sim  <br/> |
 |Depuração  <br/> |Não pode ser depurado.  <br/> |O fluxo de trabalho pode ser depurado usando o Visual Studio.  <br/> |
-|Só pode usar ações aprovadas pelo administrador do site  <br/> |Sim  <br/> |Sim  <br/> > **OBSERVAçãO**> Isso foi alterado das versões anteriores. Anteriormente, os fluxos de trabalho e as ações criadas usando o Visual Studio eram baseadas em código e implantadas no escopo do farm e, portanto, a aprovação do administrador não era necessária.           |
+|Só pode usar ações aprovadas pelo administrador do site  <br/> |Sim  <br/> |Sim  <br/> <br/> **OBSERVAçãO**<br/> Isso foi alterado das versões anteriores. Anteriormente, os fluxos de trabalho e as ações criadas usando o Visual Studio eram baseadas em código e implantadas no escopo do farm e, portanto, a aprovação do administrador não era necessária.           |
    
 
 ## Desenvolvimento fluxos de trabalho usando o Visual Studio
