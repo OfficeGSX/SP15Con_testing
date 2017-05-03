@@ -206,8 +206,8 @@ End If
   ```
 
 
-    > **注释**
-      > 默认情况下，用户只能从 PerformancePoint 仪表板设计器 创建自定义对象。若要使用户能够在 仪表板设计器 之外创建自定义对象，您必须添加一个菜单项以将  _CreateItem_ 请求从库中的内容类型发送到编辑器。有关详细信息，请参阅 [用于自定义 PerformancePoint Services 对象的编辑器](http://msdn.microsoft.com/library/7c5924f1-91f3-436a-9d94-2e0dc454c8cc%28Office.15%29.aspx)。 
+> **注释**
+> 默认情况下，用户只能从 PerformancePoint 仪表板设计器 创建自定义对象。若要使用户能够在 仪表板设计器 之外创建自定义对象，您必须添加一个菜单项以将  _CreateItem_ 请求从库中的内容类型发送到编辑器。有关详细信息，请参阅 [用于自定义 PerformancePoint Services 对象的编辑器](http://msdn.microsoft.com/library/7c5924f1-91f3-436a-9d94-2e0dc454c8cc%28Office.15%29.aspx)。 
 13. 从存储库检索筛选器的基础数据源。该示例筛选器编辑器使用 **FilterRepositoryHelper.DataSourceHelper** 属性调用 **DataSourceConsumerHelper.GetDataSource** 方法，该方法用于根据数据源在存储库中的位置来检索数据源。如以下代码示例所示。
     
   ```cs

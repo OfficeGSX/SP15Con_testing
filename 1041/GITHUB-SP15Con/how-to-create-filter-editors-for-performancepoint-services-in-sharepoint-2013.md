@@ -206,8 +206,8 @@ End If
   ```
 
 
-    > **メモ**
-      > 既定では、ユーザーは PerformancePoint ダッシュボード デザイナー からのみカスタム オブジェクトを作成できます。ユーザーが ダッシュボード デザイナー の外部でカスタム オブジェクトを作成できるようにするには、リポジトリのコンテンツ タイプから  _CreateItem_ 要求をエディターに送るメニュー項目を追加する必要があります。詳細については、「 [カスタム PerformancePoint Services オブジェクトのエディター](http://msdn.microsoft.com/library/7c5924f1-91f3-436a-9d94-2e0dc454c8cc%28Office.15%29.aspx)」を参照してください。 
+> **メモ**
+> 既定では、ユーザーは PerformancePoint ダッシュボード デザイナー からのみカスタム オブジェクトを作成できます。ユーザーが ダッシュボード デザイナー の外部でカスタム オブジェクトを作成できるようにするには、リポジトリのコンテンツ タイプから  _CreateItem_ 要求をエディターに送るメニュー項目を追加する必要があります。詳細については、「 [カスタム PerformancePoint Services オブジェクトのエディター](http://msdn.microsoft.com/library/7c5924f1-91f3-436a-9d94-2e0dc454c8cc%28Office.15%29.aspx)」を参照してください。 
 13. フィルターの基盤となるデータ ソースをリポジトリから取得します。サンプル フィルター エディターは、 **FilterRepositoryHelper.DataSourceHelper** プロパティを使用して、 **DataSourceConsumerHelper.GetDataSource** メソッドを呼び出します。このメソッドは、リポジトリ内の場所によってデータ ソースを取得するために使用されます。次のコード サンプルにその例を示します。
     
   ```cs

@@ -206,8 +206,8 @@ End If
   ```
 
 
-    > **NOTE**
-      > By default, users can create custom objects from PerformancePoint Dashboard Designer only. To enable users to create a custom object outside of Dashboard Designer, you must add a menu item that sends a  _CreateItem_ request to your editor from the content type in the repository. For more information, see [Editors for Custom PerformancePoint Services Objects](http://msdn.microsoft.com/library/7c5924f1-91f3-436a-9d94-2e0dc454c8cc%28Office.15%29.aspx). 
+> **NOTE**
+> By default, users can create custom objects from PerformancePoint Dashboard Designer only. To enable users to create a custom object outside of Dashboard Designer, you must add a menu item that sends a  _CreateItem_ request to your editor from the content type in the repository. For more information, see [Editors for Custom PerformancePoint Services Objects](http://msdn.microsoft.com/library/7c5924f1-91f3-436a-9d94-2e0dc454c8cc%28Office.15%29.aspx). 
 13. Retrieve the filter's underlying data source from the repository. The sample filter editor uses the **FilterRepositoryHelper.DataSourceHelper** property to call the **DataSourceConsumerHelper.GetDataSource** method, which is used to retrieve the data source by its location in the repository. This is shown in the following code example.
     
   ```cs
