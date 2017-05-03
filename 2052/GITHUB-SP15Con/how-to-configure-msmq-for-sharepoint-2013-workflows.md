@@ -63,7 +63,7 @@ MSMQ 在 Windows Server 中作为"功能"提供。若要启用 MSMQ，请执行�
     
     
     > **注释**
-      > 当您第一次添加"消息队列"功能时，"专用队列"文件夹是空的。但是，触发事件的工作流运行（或 SharePoint 内容更改事件触发的工作流运行）后，"专用队列"文件夹将按图 2 所示填充。 
+      <br/> 当您第一次添加"消息队列"功能时，"专用队列"文件夹是空的。但是，触发事件的工作流运行（或 SharePoint 内容更改事件触发的工作流运行）后，"专用队列"文件夹将按图 2 所示填充。 
 7. 要完成安装，必须使用 Windows PowerShell 脚本将 **SPWorkflowServiceApplicationProxy.AllowQueue** 属性设置为 **true**。在"SharePoint 管理 Shell"中运行以下内容：
     
   ```
