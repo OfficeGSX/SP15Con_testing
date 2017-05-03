@@ -31,7 +31,7 @@ Einen Bereich Sicherheit erhöhen, können Sie beispielsweise die folgende Inhal
 - Eine Anmeldelink getrennt von dem Menüband für nicht authentifizierte Benutzer oder Benutzer, die noch nicht authentifiziert werden.
     
     > **HINWEIS**
-      > Dieser Link wird in eine Gestaltungsvorlage, die erstellt wird, mithilfe des Entwurfs-Managers automatisch eingefügt, aber Sie können es löschen, wenn er nicht benötigt wird.
+      <br/> Dieser Link wird in eine Gestaltungsvorlage, die erstellt wird, mithilfe des Entwurfs-Managers automatisch eingefügt, aber Sie können es löschen, wenn er nicht benötigt wird.
 Ein Bereich Sicherheit erhöhen, verfügt über zwei wichtige eigenschafteneinstellungen, eine für die Authentifizierung und eine für Berechtigungen (oder Autorisierung). Einen Bereich Sicherheit erhöhen, können Sie beispielsweise die folgende Inhalte für bestimmte Benutzer anzuzeigen:
   
     
@@ -43,7 +43,7 @@ Ein Bereich Sicherheit erhöhen, verfügt über zwei wichtige eigenschafteneinst
 - **Berechtigungen** Mit dieser Eigenschaft können Sie eine bestimmte Berechtigung auswählen, die Benutzer benötigen, um den Inhalt in der Systemsteuerung nicht anzeigen.
     
     > **HINWEIS**
-      > Eine einzelne Berechtigung, die keiner Berechtigungsstufe auswählen. (Eine Berechtigungsstufe ist ein Satz von Berechtigungen erteilt wurden.)
+      <br/> Eine einzelne Berechtigung, die keiner Berechtigungsstufe auswählen. (Eine Berechtigungsstufe ist ein Satz von Berechtigungen erteilt wurden.)
 Natürlich, wenn Sie die Authentifizierung nur anonyme Benutzer beschränken, ist es normalerweise nicht erforderlich, eine bestimmte Berechtigung anzugeben, da anonyme Benutzer in der Regel keine SharePoint 2013 Berechtigungen erteilt wurden. Es ist sinnvoll, nur für alle Benutzer oder mit allen authentifizierten Benutzern Berechtigungen zu verwenden.
   
     
