@@ -814,8 +814,8 @@ Fügen Sie jetzt Clientcode, um der Liste, um ereignisbenachrichtigungen abonnie
     
   ```
   
-function SubscribeEntity()
-{
+  function SubscribeEntity()
+  {
     var notificationCallback = new SP.BusinessData.Runtime.NotificationCallback(context, "http://[MACHINE NAME]:8585");
     var url = myweb.get_url();
     notificationCallback.set_notificationContext(url);
@@ -823,7 +823,7 @@ function SubscribeEntity()
     var subscription = entity.subscribe(1, notificationCallback, "", "SubscribeCustomer", lobSystemInstance);
     context.load(subscription);
     context.executeQueryAsync(OnSubscribeSuccess, failmethod);
-}
+  }
   ```
 
 Um den Ereignisempfänger mit diesem Skript zu registrieren, müssen Sie eine Schaltfläche auf der Seite "Default.aspx" in Ihrem Projekt erstellen, und rufen Sie die **SubscribeEntity()** die **onclick()** -Methode.
@@ -835,7 +835,7 @@ Um den Ereignisempfänger mit diesem Skript zu registrieren, müssen Sie eine Sc
     
   ```HTML
   
-<input type="button" value="Subscribe" onclick="SubscribeEntity();"/>
+  <input type="button" value="Subscribe" onclick="SubscribeEntity();"/>
   ```
 
 Für Ereignisdienst funktioniert müssen Sie auch die SharePoint-Liste externe Ereignisse akzeptieren aktivieren. Dies erfolgt durch Aktivieren des Features für externe Ereignisse.

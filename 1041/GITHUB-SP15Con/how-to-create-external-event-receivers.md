@@ -814,8 +814,8 @@ Office Developer Tools for Visual Studio 2013 が自動生成ウィザードを�
     
   ```
   
-function SubscribeEntity()
-{
+  function SubscribeEntity()
+  {
     var notificationCallback = new SP.BusinessData.Runtime.NotificationCallback(context, "http://[MACHINE NAME]:8585");
     var url = myweb.get_url();
     notificationCallback.set_notificationContext(url);
@@ -823,7 +823,7 @@ function SubscribeEntity()
     var subscription = entity.subscribe(1, notificationCallback, "", "SubscribeCustomer", lobSystemInstance);
     context.load(subscription);
     context.executeQueryAsync(OnSubscribeSuccess, failmethod);
-}
+  }
   ```
 
 このスクリプトを使用してイベント レシーバーを登録するには、プロジェクトの Default.aspx ページにボタンを作成し、 **onclick()** メソッドから **SubscribeEntity()** を呼び出す必要があります。
@@ -835,7 +835,7 @@ function SubscribeEntity()
     
   ```HTML
   
-<input type="button" value="Subscribe" onclick="SubscribeEntity();"/>
+  <input type="button" value="Subscribe" onclick="SubscribeEntity();"/>
   ```
 
 イベントを動作させるには、SharePoint リストを有効にして、外部イベントを受け取れるようにすることも必要です。これは、外部イベント機能をオンにすることで可能になります。

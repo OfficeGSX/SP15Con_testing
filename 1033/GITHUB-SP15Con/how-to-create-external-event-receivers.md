@@ -814,8 +814,8 @@ You will now add client code to allow your list to subscribe to event notificati
     
   ```
   
-function SubscribeEntity()
-{
+  function SubscribeEntity()
+  {
     var notificationCallback = new SP.BusinessData.Runtime.NotificationCallback(context, "http://[MACHINE NAME]:8585");
     var url = myweb.get_url();
     notificationCallback.set_notificationContext(url);
@@ -823,7 +823,7 @@ function SubscribeEntity()
     var subscription = entity.subscribe(1, notificationCallback, "", "SubscribeCustomer", lobSystemInstance);
     context.load(subscription);
     context.executeQueryAsync(OnSubscribeSuccess, failmethod);
-}
+  }
   ```
 
 To register the event receiver with this script, you have to create a button on the Default.aspx page in your project and call the **SubscribeEntity()** from the **onclick()** method.
@@ -835,7 +835,7 @@ To register the event receiver with this script, you have to create a button on 
     
   ```HTML
   
-<input type="button" value="Subscribe" onclick="SubscribeEntity();"/>
+  <input type="button" value="Subscribe" onclick="SubscribeEntity();"/>
   ```
 
 For eventing to work, you must also enable the SharePoint list to accept external events. This is done by turning on the External Events feature.
