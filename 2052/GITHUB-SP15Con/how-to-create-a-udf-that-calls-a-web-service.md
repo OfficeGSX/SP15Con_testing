@@ -23,7 +23,7 @@ ms.assetid: 360c5766-4b5d-4a48-9f23-8955036924ce
 
 
 > **注释**
-> 测试代码之前，请确保您调用的 Web 服务可用。Web 服务服务器可能已停机或者 Web 服务已终止。如果 Web 服务不可用，从代码向 Web 服务发起的调用将失败。 > 您可以访问 Web 服务的网站，检查其是否可用。在此示例中，URL 为： >  `http://webservices.imacination.com/distance/Distance.jws?wsdl`> 如果 Web 服务可用，您将能够查看 Web Services 描述语言 (WSDL)。如果不可用，您通常将收到"找不到网页"的错误。 
+> 测试代码之前，请确保您调用的 Web 服务可用。Web 服务服务器可能已停机或者 Web 服务已终止。如果 Web 服务不可用，从代码向 Web 服务发起的调用将失败。 <br/> 您可以访问 Web 服务的网站，检查其是否可用。在此示例中，URL 为： <br/>  `http://webservices.imacination.com/distance/Distance.jws?wsdl`<br/> 如果 Web 服务可用，您将能够查看 Web Services 描述语言 (WSDL)。如果不可用，您通常将收到"找不到网页"的错误。 
   
     
     
