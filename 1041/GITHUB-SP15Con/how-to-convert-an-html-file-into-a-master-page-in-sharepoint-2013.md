@@ -91,8 +91,8 @@ HTML ファイルを変換する前に、検討すべきベスト プラクテ�
     
   ```
   
-<script>
-(function( …
+  <script>
+  (function( …
 
   ```
 

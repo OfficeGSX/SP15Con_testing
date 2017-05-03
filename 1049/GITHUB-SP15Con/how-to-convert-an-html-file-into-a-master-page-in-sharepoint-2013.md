@@ -91,8 +91,8 @@ ms.assetid: a76ab289-3256-45de-ac63-d5112a74e3c7
     
   ```
   
-<script>
-(function( …
+  <script>
+  (function( …
 
   ```
 

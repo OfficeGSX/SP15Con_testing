@@ -91,8 +91,8 @@ Before you convert your HTML file, here are some best practices and guidance to 
     
   ```
   
-<script>
-(function( …
+  <script>
+  (function( …
 
   ```
 
