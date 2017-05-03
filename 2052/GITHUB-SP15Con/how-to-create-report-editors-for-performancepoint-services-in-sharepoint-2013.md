@@ -170,8 +170,8 @@ reportviewRepositoryHelper = new ReportViewRepositoryHelper();
   ```
 
 
-    > **注释**
-      > 默认情况下，用户只能从 PerformancePoint 仪表板设计器 创建自定义对象。若要使用户能够在仪表板设计器之外创建自定义对象，您必须添加一个菜单项以将  _CreateItem_ 请求从库中的内容类型发送到编辑器。有关详细信息，请参阅 [用于自定义 PerformancePoint Services 对象的编辑器](http://msdn.microsoft.com/library/7c5924f1-91f3-436a-9d94-2e0dc454c8cc%28Office.15%29.aspx)。 
+> **注释**
+> 默认情况下，用户只能从 PerformancePoint 仪表板设计器 创建自定义对象。若要使用户能够在仪表板设计器之外创建自定义对象，您必须添加一个菜单项以将  _CreateItem_ 请求从库中的内容类型发送到编辑器。有关详细信息，请参阅 [用于自定义 PerformancePoint Services 对象的编辑器](http://msdn.microsoft.com/library/7c5924f1-91f3-436a-9d94-2e0dc454c8cc%28Office.15%29.aspx)。 
 13. 定义报表的终结点，这使报表能够从筛选器和记分卡检索数据。示例报表编辑器定义了所需的端点属性，如以下代码示例中所示。
     
   ```cs
