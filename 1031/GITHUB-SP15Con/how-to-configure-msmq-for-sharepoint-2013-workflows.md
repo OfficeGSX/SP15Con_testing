@@ -63,7 +63,7 @@ MSMQ wird als "Feature" in Windows Server bereitgestellt. Gehen Sie wie folgt vo
     
     
     > **HINWEIS**
-      <br/> Wenn Sie das Feature **Message Queuing** zunächst hinzufügen, ist der Ordner **Private Warteschlangen** leer. Nach der Ausführung eines Workflows, der ein Ereignis ausgelöst wird (oder eines Workflows ausgelöst, indem eine SharePoint Content Change-Ereignis ausgeführt wird), wird jedoch der Ordner **Private Warteschlangen** aufgefüllt, wie in Abbildung 2 dargestellt.
+      > Wenn Sie das Feature **Message Queuing** zunächst hinzufügen, ist der Ordner **Private Warteschlangen** leer. Nach der Ausführung eines Workflows, der ein Ereignis ausgelöst wird (oder eines Workflows ausgelöst, indem eine SharePoint Content Change-Ereignis ausgeführt wird), wird jedoch der Ordner **Private Warteschlangen** aufgefüllt, wie in Abbildung 2 dargestellt.
 7. Um die Installation abzuschließen, müssen Sie die **SPWorkflowServiceApplicationProxy.AllowQueue** -Eigenschaft auf **true** mithilfe eines Skripts Windows PowerShell festlegen. Führen Sie in der **SharePoint-Zentraladministration Shell** folgenden Befehl:
     
   ```
