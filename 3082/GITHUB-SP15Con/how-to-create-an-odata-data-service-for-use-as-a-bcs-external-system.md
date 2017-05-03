@@ -203,7 +203,7 @@ De forma predeterminada, no se puede obtener acceso al crear el servicio WCF deb
     Esto permite que clientes autorizados tengan acceso de lectura y escritura a los recursos de los conjuntos de la entidad especificada.
     
     > **NOTA**
-      > Cualquier cliente que pueda acceder a la aplicación ASP.NET también puede obtener acceso a los recursos expuestos por el servicio de datos. En un servicio de datos de producción, para evitar el acceso no autorizado a los recursos, debería también asegurar la propia aplicación. Para más información, consulte  [Proteger WCF Data Services](http://msdn.microsoft.com/es-es/library/dd728284.aspx). 
+      <br/> Cualquier cliente que pueda acceder a la aplicación ASP.NET también puede obtener acceso a los recursos expuestos por el servicio de datos. En un servicio de datos de producción, para evitar el acceso no autorizado a los recursos, debería también asegurar la propia aplicación. Para más información, consulte  [Proteger WCF Data Services](http://msdn.microsoft.com/es-es/library/dd728284.aspx). 
 Para que BCS reciba notificaciones, debe haber un mecanismo en el origen de datos back-end que acepte una solicitud para agregar y eliminar suscripciones de notificación.
   
     
