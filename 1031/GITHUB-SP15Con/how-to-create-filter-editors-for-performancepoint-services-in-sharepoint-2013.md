@@ -273,7 +273,7 @@ Dim dataSourceCollection As ICollection = filterRepositoryHelper.DataSourceHelpe
   
 
     > **HINWEIS**
-      > Die Anzeigedatentabelle wird von der  [DisplayValues](https://msdn.microsoft.com/library/Microsoft.PerformancePoint.Scorecards.ParameterDefinition.DisplayValues.aspx) -Eigenschaft zurückgegeben, und sie wird initialisiert, wenn der Filterdatenanbieter die [GetDisplayDataInternal](https://msdn.microsoft.com/library/Microsoft.PerformancePoint.Scorecards.Server.Extensions.CustomParameterDataProvider.GetDisplayDataInternal.aspx) -Methode aufruft. Falls die Datentabelle andere Spalten enthält, können Sie andere Spaltenzuordnungen definieren, um zusätzliche Funktionalität anzubieten.
+      <br/> Die Anzeigedatentabelle wird von der  [DisplayValues](https://msdn.microsoft.com/library/Microsoft.PerformancePoint.Scorecards.ParameterDefinition.DisplayValues.aspx) -Eigenschaft zurückgegeben, und sie wird initialisiert, wenn der Filterdatenanbieter die [GetDisplayDataInternal](https://msdn.microsoft.com/library/Microsoft.PerformancePoint.Scorecards.Server.Extensions.CustomParameterDataProvider.GetDisplayDataInternal.aspx) -Methode aufruft. Falls die Datentabelle andere Spalten enthält, können Sie andere Spaltenzuordnungen definieren, um zusätzliche Funktionalität anzubieten.
 
   ```cs
   
