@@ -119,7 +119,7 @@ Excel Services を使用して行える開発は 5 種類あります。
     
 
 > **メモ**
-> ブックの変更を行う (たとえば、Excel Web Services を使用して値を範囲に対して設定する) 場合、ブックに対する変更はその特定のセッションでのみ保持されます。保存されたり、元のブックに保存されることはありません。現在のブックのセッションが終了する際 (例: **CloseWorkbook** メソッドを呼び出したとき、またはセッションがタイム アウトになったとき)、行われた変更は失われます。> ブックに対して行った変更を保存する場合は、 **GetWorkbook** メソッドを使用してから、 **SaveWorkbook** メソッドまたは **SaveWorkbookCopy** メソッドを使用してブックを保存します。Excel Web Services API について、詳細は「 [Microsoft.Office.Excel.Server.WebServices](https://msdn.microsoft.com/library/Microsoft.Office.Excel.Server.WebServices.aspx) 」を参照してください。
+> ブックの変更を行う (たとえば、Excel Web Services を使用して値を範囲に対して設定する) 場合、ブックに対する変更はその特定のセッションでのみ保持されます。保存されたり、元のブックに保存されることはありません。現在のブックのセッションが終了する際 (例: **CloseWorkbook** メソッドを呼び出したとき、またはセッションがタイム アウトになったとき)、行われた変更は失われます。<br/> ブックに対して行った変更を保存する場合は、 **GetWorkbook** メソッドを使用してから、 **SaveWorkbook** メソッドまたは **SaveWorkbookCopy** メソッドを使用してブックを保存します。Excel Web Services API について、詳細は「 [Microsoft.Office.Excel.Server.WebServices](https://msdn.microsoft.com/library/Microsoft.Office.Excel.Server.WebServices.aspx) 」を参照してください。
   
     
     

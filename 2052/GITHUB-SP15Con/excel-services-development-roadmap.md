@@ -119,7 +119,7 @@ Excel Services 的一个重要方面是解决方案开发人员可以通过编�
     
 
 > **注释**
-> 对工作簿进行更改时例如，使用 Excel Web Services 将值设置为范围对工作簿的更改将仅为该特定会话保存。更改不会保存到原始工作簿中。当前工作簿会话结束时（例如，当您调用 **CloseWorkbook** 方法时，或当会话超时时），您所做的更改将丢失。> 如果您想保存对工作簿所做的更改，您可以使用 **GetWorkbook** 方法，然后使用 **SaveWorkbook** 方法或 **SaveWorkbookCopy** 方法保存工作簿。有关 Excel Web Services API 的详细信息，请参阅 [Microsoft.Office.Excel.Server.WebServices](https://msdn.microsoft.com/library/Microsoft.Office.Excel.Server.WebServices.aspx) 。
+> 对工作簿进行更改时例如，使用 Excel Web Services 将值设置为范围对工作簿的更改将仅为该特定会话保存。更改不会保存到原始工作簿中。当前工作簿会话结束时（例如，当您调用 **CloseWorkbook** 方法时，或当会话超时时），您所做的更改将丢失。<br/> 如果您想保存对工作簿所做的更改，您可以使用 **GetWorkbook** 方法，然后使用 **SaveWorkbook** 方法或 **SaveWorkbookCopy** 方法保存工作簿。有关 Excel Web Services API 的详细信息，请参阅 [Microsoft.Office.Excel.Server.WebServices](https://msdn.microsoft.com/library/Microsoft.Office.Excel.Server.WebServices.aspx) 。
   
     
     
