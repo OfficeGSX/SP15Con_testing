@@ -234,7 +234,7 @@ Die folgende Tabelle beschreibt die Parameter, die das Cmdlet verwendet.
 |:-----|:-----|
 | _SearchApplication_ <br/> |Erforderlich ist. Der Name der Suchdienstanwendung, beispielsweise "Suchdienstanwendung". <br/> |
 | _typeName_ <br/> |Erforderlich. Der starke Name der Assembly für den benutzerdefinierten Security Trimmer. <br/> |
-| _RulePath_ <br/> |Benötigt nach der Rasentrimmer; für die Vorabversion Rasentrimmer optional. Die Durchforstungsregel für die Sicherheit Trimmer. <br/> > **HINWEIS**> Es empfiehlt sich, eine Durchforstungsregel pro Inhaltsquelle verwenden.          |
+| _RulePath_ <br/> |Benötigt nach der Rasentrimmer; für die Vorabversion Rasentrimmer optional. Die Durchforstungsregel für die Sicherheit Trimmer. <br/> <br/> **HINWEIS**<br/> Es empfiehlt sich, eine Durchforstungsregel pro Inhaltsquelle verwenden.          |
 | _id_ <br/> |Erforderlich. Der Bezeichner (ID) des Security Trimmers. Dieser Wert ist eindeutig. Wird ein Security Trimmer mit einem Bezeichner registriert, der bereits für einen anderen Security Trimmer registriert ist, wird die Registrierung des ersten Trimmers mit der Registrierung für den zweiten Trimmer überschrieben. <br/> |
 | _properties_ <br/> |Optional. Die Name/Wert-Paare, die die Konfigurationseigenschaften angeben. Erforderliches Format:  `Name1~Value1~Name2~Value~…` <br/> |
    

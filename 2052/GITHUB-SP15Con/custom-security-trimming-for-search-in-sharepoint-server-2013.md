@@ -234,7 +234,7 @@ public void Initialize(NameValueCollection staticProperties, SearchServiceApplic
 |:-----|:-----|
 | _SearchApplication_ <br/> |必需。Search Service 应用程序的名称，例如"Search Service Application"。  <br/> |
 | _typeName_ <br/> |必需。自定义安全修整程序程序集的强名称。  <br/> |
-| _RulePath_ <br/> |对于后修整程序为必需；对于预修整程序为可选。安全修整程序的爬网规则。  <br/> > **注释**> 我们建议每个内容源使用一种爬网规则。           |
+| _RulePath_ <br/> |对于后修整程序为必需；对于预修整程序为可选。安全修整程序的爬网规则。  <br/> <br/> **注释**<br/> 我们建议每个内容源使用一种爬网规则。           |
 | _id_ <br/> |必需。安全修整程序标识符 (ID)。此值是唯一的；如果使用一个已为另一个安全修整程序注册的 ID 来注册某个安全修整程序，则将使用第二个修整程序的注册来覆盖第一个修整程序的注册。  <br/> |
 | _properties_ <br/> |可选。指定配置属性的名称-值对。必须使用以下格式： `Name1~Value1~Name2~Value~…` <br/> |
    
