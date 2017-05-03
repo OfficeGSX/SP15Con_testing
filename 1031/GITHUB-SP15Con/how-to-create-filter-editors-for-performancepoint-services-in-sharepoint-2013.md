@@ -207,7 +207,7 @@ End If
 
 
     > **HINWEIS**
-      > Standardmäßig können Benutzer von PerformancePoint Dashboard-Designer nur benutzerdefinierte Objekte erstellen. Um Benutzern das Erstellen eines benutzerdefinierten Objekts außerhalb Dashboard-Designer zu aktivieren, müssen Sie ein Menüelement hinzufügen, die vom Inhaltstyp im Repository eine  _CreateItem_ -Anforderung an den Editor sendet. Weitere Informationen finden Sie unter [Editoren für benutzerdefinierte PerformancePoint Services-Objekte](http://msdn.microsoft.com/library/7c5924f1-91f3-436a-9d94-2e0dc454c8cc%28Office.15%29.aspx).
+      <br/> Standardmäßig können Benutzer von PerformancePoint Dashboard-Designer nur benutzerdefinierte Objekte erstellen. Um Benutzern das Erstellen eines benutzerdefinierten Objekts außerhalb Dashboard-Designer zu aktivieren, müssen Sie ein Menüelement hinzufügen, die vom Inhaltstyp im Repository eine  _CreateItem_ -Anforderung an den Editor sendet. Weitere Informationen finden Sie unter [Editoren für benutzerdefinierte PerformancePoint Services-Objekte](http://msdn.microsoft.com/library/7c5924f1-91f3-436a-9d94-2e0dc454c8cc%28Office.15%29.aspx).
 13. Rufen Sie die zugrunde liegende Datenquelle des Filters aus dem Repository ab. Der Beispiel-Filter-Editor verwendet die **FilterRepositoryHelper.DataSourceHelper**-Eigenschaft zum Abrufen der **DataSourceConsumerHelper.GetDataSource**-Methode, mit der die Datenquelle anhand ihres Speicherorts im Repository abgerufen wird. Dies wird im folgenden Codebeispiel demonstriert.
     
   ```cs
