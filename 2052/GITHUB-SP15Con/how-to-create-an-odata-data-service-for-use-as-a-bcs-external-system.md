@@ -220,7 +220,7 @@ public class AdventureWorks : DataService<AdventureWorksEntities>
     
   ```cs
   
-public string subscriptionStorePath = @"\\\\[SHARE_NAME]\\SubscriptionStore\\SubscriptionStore.xml";
+  public string subscriptionStorePath = @"\\\\[SHARE_NAME]\\SubscriptionStore\\SubscriptionStore.xml";
   ```
 
 
