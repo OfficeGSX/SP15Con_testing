@@ -36,7 +36,7 @@ To close the workbook asynchronously, you must do two things:
     
   ```
   
-public void CloseWorkbookAsync(string sessionId)
+  public void CloseWorkbookAsync(string sessionId)
   ```
 
 

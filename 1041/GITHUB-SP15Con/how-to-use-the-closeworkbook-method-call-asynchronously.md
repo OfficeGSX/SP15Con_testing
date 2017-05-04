@@ -36,7 +36,7 @@ Excel Web Services を使用する場合、セッションが終了したら **C
     
   ```
   
-public void CloseWorkbookAsync(string sessionId)
+  public void CloseWorkbookAsync(string sessionId)
   ```
 
 
