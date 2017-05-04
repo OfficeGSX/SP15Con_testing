@@ -426,7 +426,7 @@ $searchApp | Get-SPEnterpriseSearchSecurityTrimmer
   ```
 
 
-    安全修整程序在结果中必须是可见的。
+安全修整程序在结果中必须是可见的。
     
   
 
