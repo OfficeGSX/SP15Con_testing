@@ -60,7 +60,7 @@ SharePoint 2013 中的位置和地图功能为开发人员提供了独特的机�
 |:-----|:-----|
 | [如何：在 SharePoint 2013 中设置 Web 和服务器场级别的必应 Bing 地图密钥](how-to-set-the-bing-maps-key-at-the-web-and-farm-level-in-sharepoint-2013.md) <br/> |SharePoint 2013 使用 Bings Maps 来呈现位置的地图。若要使用 Bing Maps 功能，您需要创建一个 Bings Maps 密钥，并在 Web 或场级别设置该密钥。本文显示在 SharePoint 2013 中设置密钥的各种方法以及如何选择它们。如果您没有使用 Bing Maps 密钥，或者该密钥没有在包含列表的 Web 上或场级别上设置，您将看到有关地图的错误信息。  <br/> |
 | [如何：在 SharePoint 2013 中以编程方式向列表添加 Geolocation 列](how-to-add-a-geolocation-column-to-a-list-programmatically-in-sharepoint-2013.md) <br/> |默认情况下，用户不能使用 SharePoint 列表上的"地理位置"列。要将该列添加到 SharePoint 列表，您需要编写代码。在本主题中，您将了解如何以编程方式将"地理位置"字段添加到一个列表中。  <br/> |
-| [如何：使用客户端呈现扩展地理位置字段类型](how-to-extend-the-geolocation-field-type-using-client-side-rendering.md) <br/> |您可以通过创建从"地理位置"字段派生的自定义字段类型，将自己的呈现提供给默认用户界面 (UI)、逻辑和"地理位置"字段行为。SharePoint 2013 通过以下方法简化了自定义字段类型的创建：在"地理位置"字段类中提供一个新的 JSLink 属性，它指向用于呈现该字段的自定义 .js 文件，从而使您能够运行 JavaScript。  <br/> > **注释**> 调查列表或事件列表不支持 JSLink 属性。SharePoint 日历是事件列表。           |
+| [如何：使用客户端呈现扩展地理位置字段类型](how-to-extend-the-geolocation-field-type-using-client-side-rendering.md) <br/> |您可以通过创建从"地理位置"字段派生的自定义字段类型，将自己的呈现提供给默认用户界面 (UI)、逻辑和"地理位置"字段行为。SharePoint 2013 通过以下方法简化了自定义字段类型的创建：在"地理位置"字段类中提供一个新的 JSLink 属性，它指向用于呈现该字段的自定义 .js 文件，从而使您能够运行 JavaScript。  <br/> <br/> **注释**<br/> 调查列表或事件列表不支持 JSLink 属性。SharePoint 日历是事件列表。           |
    
 
 ## 其他资源
