@@ -328,7 +328,7 @@ Puede crear diferentes tipos de filtros. Para cada filtro que cree, haga lo sigu
     
 
     
-    Un filtro de comparación limita los elementos devueltos según una condición (como Estado = "Nueva Jersey") y se convierte en una cláusula WHERE de SQL.
+Un filtro de comparación limita los elementos devueltos según una condición (como Estado = "Nueva Jersey") y se convierte en una cláusula WHERE de SQL.
     
 1. En el cuadro **Tipo de filtro**, seleccione **Comparación**.
     
@@ -362,7 +362,7 @@ Puede crear diferentes tipos de filtros. Para cada filtro que cree, haga lo sigu
     
 
     
-    Un filtro comodín limita los elementos devueltos según un valor de cadena especificado por el usuario (por ejemplo, estado contiene "Nuevo") y se convierte en una cláusula SQL como. Los caracteres comodín válidos en SQL Server son * (asterisco), que significa que coincide con cualquier número de caracteres y _ (subrayado), que significa que coinciden con un carácter y solo uno. 
+Un filtro comodín limita los elementos devueltos según un valor de cadena especificado por el usuario (por ejemplo, estado contiene "Nuevo") y se convierte en una cláusula SQL como. Los caracteres comodín válidos en SQL Server son * (asterisco), que significa que coincide con cualquier número de caracteres y _ (subrayado), que significa que coinciden con un carácter y solo uno. 
   
     
     
@@ -397,7 +397,7 @@ Puede crear diferentes tipos de filtros. Para cada filtro que cree, haga lo sigu
     
 
     
-    En la mayoría de los casos, debe definir un filtro de límite para las operaciones de leer y leer lista. Si no define un valor de **Límite predeterminado**, no se recuperan datos del origen de datos externo. Asegúrese de que el valor predeterminado que se especifica para el filtro de límite es inferior a 2.000, ya que la limitación predeterminada de Servicios de conectividad empresarial (BCS) es 2.000 elementos. Puede aumentar este límite si es necesario.
+En la mayoría de los casos, debe definir un filtro de límite para las operaciones de leer y leer lista. Si no define un valor de **Límite predeterminado**, no se recuperan datos del origen de datos externo. Asegúrese de que el valor predeterminado que se especifica para el filtro de límite es inferior a 2.000, ya que la limitación predeterminada de Servicios de conectividad empresarial (BCS) es 2.000 elementos. Puede aumentar este límite si es necesario.
     
 1. En el cuadro **Tipo de filtro**, seleccione **Límite**. 
     
