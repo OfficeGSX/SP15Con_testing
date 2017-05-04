@@ -96,8 +96,8 @@ To create the farm solution that uses the JavaScript object model to work with F
   ```
 
 
-    > **NOTE**
-      > The "Get followers and followed people" example doesn't use the button control or the form digest control, which is only required for operations that update server content. A form digest generates a message digest used for security validation. 
+> **NOTE**
+> The "Get followers and followed people" example doesn't use the button control or the form digest control, which is only required for operations that update server content. A form digest generates a message digest used for security validation. 
 10. Replace the comment between the **script** tags with the code example from one of the following scenarios:
     
   -  [Start or stop following people](how-to-follow-people-by-using-the-javascript-object-model-in-sharepoint-2013.md#bk_FollowPeople)

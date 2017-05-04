@@ -96,8 +96,8 @@ Um die farmlösung erstellen, die das JavaScript-Objektmodell verwendet, um mit 
   ```
 
 
-    > **HINWEIS**
-      > Das Beispiel "Erhalten Sie nachfolgende Aktivitäten und beobachteter Personen" nicht verwenden, das Button-Steuerelement oder das Formular Digest-Steuerelement, das nur ist erforderlich für Vorgänge, die Serverinhalte zu aktualisieren. Eine Formulardigest generiert einen Nachrichtenhash für die sicherheitsüberprüfung verwendet.
+> **HINWEIS**
+> Das Beispiel "Erhalten Sie nachfolgende Aktivitäten und beobachteter Personen" nicht verwenden, das Button-Steuerelement oder das Formular Digest-Steuerelement, das nur ist erforderlich für Vorgänge, die Serverinhalte zu aktualisieren. Eine Formulardigest generiert einen Nachrichtenhash für die sicherheitsüberprüfung verwendet.
 10. Ersetzen Sie den Kommentar zwischen den Tags **script** durch das Codebeispiel aus einem der folgenden Szenarien:
     
   -  [Starten oder Beenden von Personen folgen](how-to-follow-people-by-using-the-javascript-object-model-in-sharepoint-2013.md#bk_FollowPeople)
