@@ -15,29 +15,7 @@ In diesem Artikel erhalten Sie einen schnellen Überblick über die unterschiedl
 
 |||
 |:-----|:-----|
-|**In diesem Artikel**<br/>          [Add-Ins für SharePoint](#Apps)<br/>           [SharePoint-Veröffentlichungssites](#ECM)<br/>           [SharePoint-Farmlösungen](#Solutions)<br/>           [Mobile Add-Ins für SharePoint](#Mobile)<br/>           [Wiederverwendbare Komponenten für SharePoint](#Reuse)<br/>           [Zusätzliche Ressourcen](#SP15devinSP_addlresources)|
-**Video anschauen: Entwicklungsoptionen für Office 2013 und SharePoint 2013**
-
-  
-    
-    
-
-  
-    
-    
-![Videos](images/mod_icon_video.png)
-  
-    
-    
-
-  
-    
-    
-
-  
-    
-    
-|
+|**In diesem Artikel**<br/>          [Add-Ins für SharePoint](#Apps)<br/>           [SharePoint-Veröffentlichungssites](#ECM)<br/>           [SharePoint-Farmlösungen](#Solutions)<br/>           [Mobile Add-Ins für SharePoint](#Mobile)<br/>           [Wiederverwendbare Komponenten für SharePoint](#Reuse)<br/>           [Zusätzliche Ressourcen](#SP15devinSP_addlresources)|**Video anschauen: Entwicklungsoptionen für Office 2013 und SharePoint 2013**<br/>![Videos](images/mod_icon_video.png)<br/>|
    
 
 Sie können auf vielfältige Weise Anwendungen für die SharePoint 2013-Plattform entwickeln. Diese Anwendungen können - je nach deren Erstellungstools, nach den verwendeten Programmierungsmodellen, nach dem Methoden der Paketerstellung und Bereitstellung, den Methoden der Vermarktung und schließlich nach den Geräten, auf denen sie ausgeführt werden - sinnvoll in folgenden Gruppen eingeteilt werden.
