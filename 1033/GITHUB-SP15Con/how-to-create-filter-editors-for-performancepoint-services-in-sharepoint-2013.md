@@ -131,7 +131,7 @@ Dim action As String = Request.QueryString(ClickOnceLaunchKeys.LaunchOperation)
   ```
 
 
-    For information about query string parameters, see  [Editors for Custom PerformancePoint Services Objects](http://msdn.microsoft.com/library/7c5924f1-91f3-436a-9d94-2e0dc454c8cc%28Office.15%29.aspx).
+For information about query string parameters, see  [Editors for Custom PerformancePoint Services Objects](http://msdn.microsoft.com/library/7c5924f1-91f3-436a-9d94-2e0dc454c8cc%28Office.15%29.aspx).
     
   
 10. Retrieve the **FilterRepositoryHelper** object, which is used to make calls to the repository, as shown in the following code example.

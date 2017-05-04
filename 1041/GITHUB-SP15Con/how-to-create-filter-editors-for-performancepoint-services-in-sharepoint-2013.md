@@ -131,7 +131,7 @@ Dim action As String = Request.QueryString(ClickOnceLaunchKeys.LaunchOperation)
   ```
 
 
-    クエリ文字列パラメーターの詳細については、「 [カスタム PerformancePoint Services オブジェクトのエディター](http://msdn.microsoft.com/library/7c5924f1-91f3-436a-9d94-2e0dc454c8cc%28Office.15%29.aspx)」を参照してください。
+  クエリ文字列パラメーターの詳細については、「 [カスタム PerformancePoint Services オブジェクトのエディター](http://msdn.microsoft.com/library/7c5924f1-91f3-436a-9d94-2e0dc454c8cc%28Office.15%29.aspx)」を参照してください。
     
   
 10. 以下のコード サンプルに示すように、リポジトリに呼び出しをするための **FilterRepositoryHelper** オブジェクトを取得します。

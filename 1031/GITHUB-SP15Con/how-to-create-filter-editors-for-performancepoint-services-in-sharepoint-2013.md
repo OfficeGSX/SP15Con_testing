@@ -131,7 +131,7 @@ Dim action As String = Request.QueryString(ClickOnceLaunchKeys.LaunchOperation)
   ```
 
 
-    Informationen zu den Abfragezeichenfolgenparametern finden Sie unter  [Editoren für benutzerdefinierte PerformancePoint Services-Objekte](http://msdn.microsoft.com/library/7c5924f1-91f3-436a-9d94-2e0dc454c8cc%28Office.15%29.aspx).
+Informationen zu den Abfragezeichenfolgenparametern finden Sie unter  [Editoren für benutzerdefinierte PerformancePoint Services-Objekte](http://msdn.microsoft.com/library/7c5924f1-91f3-436a-9d94-2e0dc454c8cc%28Office.15%29.aspx).
     
   
 10. Rufen Sie das **FilterRepositoryHelper**-Objekt ab, das für Aufrufe an das Repository verwendet wird, wie im folgenden Codebeispiel illustriert.
