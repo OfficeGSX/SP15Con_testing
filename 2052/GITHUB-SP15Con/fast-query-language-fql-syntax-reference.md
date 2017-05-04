@@ -96,7 +96,7 @@ FAST 查询语言查询的长度限制为 2,048 个字符。
     
   ```
   
-title:string("to be or not to be")
+  title:string("to be or not to be")
   ```
 
 
