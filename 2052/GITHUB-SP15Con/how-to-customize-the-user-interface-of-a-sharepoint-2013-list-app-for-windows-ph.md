@@ -96,7 +96,7 @@ ms.assetid: 09ed59af-5e2b-4716-a9e4-a015e4793d85
   ```
 
 
-    对由模板生成的默认标记的唯一更改是增加"xmlns:toolkit"命名空间指定。此外，请注意此处 **Class** 的属性值取决于您的项目名称。"ContosoSPListApp"是此示例项目的名称。您的项目中此属性的值与此处由您的项目名称决定的值有所不同。
+对由模板生成的默认标记的唯一更改是增加"xmlns:toolkit"命名空间指定。此外，请注意此处 **Class** 的属性值取决于您的项目名称。"ContosoSPListApp"是此示例项目的名称。您的项目中此属性的值与此处由您的项目名称决定的值有所不同。
     
   
 7. 在 EditForm.xaml 文件中，找到包含与 **Order Date** 字段（此字段在 XML 架构中被指定为"Order_x0020_Date"）相关联的控件的标记中的 **StackPanel** 控件。默认情况下，该模板为 **DateTime** 字段生成一个 **TextBox** 控件和两个 **TextBlock** 控件。用于 **StackPanel** 控件以及它所包含的控件的标记应类似于以下标记。
