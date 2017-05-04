@@ -36,7 +36,7 @@ ms.assetid: 6febe7dc-a552-4c79-aa3e-203d882286e3
     
   ```
   
-public void CloseWorkbookAsync(string sessionId)
+  public void CloseWorkbookAsync(string sessionId)
   ```
 
 
