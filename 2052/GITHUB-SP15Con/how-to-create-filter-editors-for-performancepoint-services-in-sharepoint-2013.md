@@ -131,7 +131,7 @@ Dim action As String = Request.QueryString(ClickOnceLaunchKeys.LaunchOperation)
   ```
 
 
-    有关查询字符串参数的信息，请参阅  [用于自定义 PerformancePoint Services 对象的编辑器](http://msdn.microsoft.com/library/7c5924f1-91f3-436a-9d94-2e0dc454c8cc%28Office.15%29.aspx)。
+有关查询字符串参数的信息，请参阅  [用于自定义 PerformancePoint Services 对象的编辑器](http://msdn.microsoft.com/library/7c5924f1-91f3-436a-9d94-2e0dc454c8cc%28Office.15%29.aspx)。
     
   
 10. 检索 **FilterRepositoryHelper** 对象，它用于调用库，如以下代码示例中所示。
