@@ -526,7 +526,7 @@ function _registerCustomGeolocationFieldTemplate() {
   ```
 
 
-    该文件定义 SharePoint 2013 的自定义字段类型。有关其元素的用途和含义的详细信息，请参阅 [自定义字段类型定义](http://msdn.microsoft.com/library/b3315997-671f-4c29-9518-48cc4592f205%28Office.15%29.aspx)、 [FldTypes.xml](http://msdn.microsoft.com/library/8f8db866-03f8-4001-aae3-4c4102a7aed6%28Office.15%29.aspx)、 [FieldTypes 元素（字段类型）](http://msdn.microsoft.com/library/ebac779f-c7c5-401b-8503-e514cd96f5a7%28Office.15%29.aspx)、 [FieldType 元素（字段类型）](http://msdn.microsoft.com/library/9ab89988-3462-422f-9808-40618da7316b%28Office.15%29.aspx)和 [Field 元素（字段类型）](http://msdn.microsoft.com/library/c168e8bc-8aba-4b72-a9c4-a0ad7a4aff9a%28Office.15%29.aspx)。请注意， **<Field Name="FieldTypeClass">** 元素必须全部在一行上。
+该文件定义 SharePoint 2013 的自定义字段类型。有关其元素的用途和含义的详细信息，请参阅 [自定义字段类型定义](http://msdn.microsoft.com/library/b3315997-671f-4c29-9518-48cc4592f205%28Office.15%29.aspx)、 [FldTypes.xml](http://msdn.microsoft.com/library/8f8db866-03f8-4001-aae3-4c4102a7aed6%28Office.15%29.aspx)、 [FieldTypes 元素（字段类型）](http://msdn.microsoft.com/library/ebac779f-c7c5-401b-8503-e514cd96f5a7%28Office.15%29.aspx)、 [FieldType 元素（字段类型）](http://msdn.microsoft.com/library/9ab89988-3462-422f-9808-40618da7316b%28Office.15%29.aspx)和 [Field 元素（字段类型）](http://msdn.microsoft.com/library/c168e8bc-8aba-4b72-a9c4-a0ad7a4aff9a%28Office.15%29.aspx)。请注意， **<Field Name="FieldTypeClass">** 元素必须全部在一行上。
     
   
 3. **<Field Name="FieldTypeClass">** 元素的值是您的自定义字段类的完全限定名称，后跟逗号和 Visual Studio 标记 ( `$SharePoint.Project.AssemblyFullName$`)。编译该项目时，会创建此文件的副本，在该副本中，该标记将被替换为程序集的 4 个部分组成的完整名称。在 Visual Studio 2008 中的 Visual Studio"生成"菜单上选择"部署解决方案"时部署该副本。
