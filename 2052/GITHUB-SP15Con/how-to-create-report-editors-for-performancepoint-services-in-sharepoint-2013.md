@@ -194,7 +194,7 @@ if (0 == reportview.EndPoints.Count)
   ```
 
 
-    示例编辑器在 **VerifyReportView** 方法中定义端点。它还使用 **VerifyReportView** 来验证是否设置了所需属性并定义可选的 [CustomData](https://msdn.microsoft.com/library/Microsoft.PerformancePoint.Scorecards.ReportView.CustomData.aspx) 属性，后者可用来存储报表信息。
+示例编辑器在 **VerifyReportView** 方法中定义端点。它还使用 **VerifyReportView** 来验证是否设置了所需属性并定义可选的 [CustomData](https://msdn.microsoft.com/library/Microsoft.PerformancePoint.Scorecards.ReportView.CustomData.aspx) 属性，后者可用来存储报表信息。
     
   
 14. 使用用户定义的更改来更新报表。示例报表编辑器中的 **buttonOK_Click** 方法调用 **ReportViewRepositoryHelper.Update** 方法来更新库中报表的 [Name](https://msdn.microsoft.com/library/Microsoft.PerformancePoint.Scorecards.Element.Name.aspx) 和 [Description](https://msdn.microsoft.com/library/Microsoft.PerformancePoint.Scorecards.Element.Description.aspx) 属性。 **buttonOK_Click** 还用于验证控件内容并检索自定义报表和帮助程序对象的状态信息。
