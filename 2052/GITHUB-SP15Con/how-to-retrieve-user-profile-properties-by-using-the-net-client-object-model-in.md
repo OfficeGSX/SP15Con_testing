@@ -121,7 +121,7 @@ PersonProperties personProperties = peopleManager.GetPropertiesFor(targetUser);
   ```
 
 
-    **personProperties** 对象是一个客户端对象。有些客户端对象在被初始化之后才会包含数据。例如，直到您初始化 **personProperties** 对象之后，才能访问该对象的属性值。如果您在其初始化之前尝试访问属性，则会收到一条 **PropertyOrFieldNotInitializedException** 异常消息。
+**personProperties** 对象是一个客户端对象。有些客户端对象在被初始化之后才会包含数据。例如，直到您初始化 **personProperties** 对象之后，才能访问该对象的属性值。如果您在其初始化之前尝试访问属性，则会收到一条 **PropertyOrFieldNotInitializedException** 异常消息。
     
   
 9. 若要初始化 **personProperties** 对象，请先注册您要运行的请求，然后在服务器上运行该请求，如以下代码所示。

@@ -121,7 +121,7 @@ PersonProperties personProperties = peopleManager.GetPropertiesFor(targetUser);
   ```
 
 
-    Das **personProperties**-Objekt ist ein Clientobjekt. Einige Clientobjekte enthalten erst Daten, nachdem sie initialisiert wurden. Beispielweise können Sie auf die Eigenschaftswerte des **personProperties**-Objekts zugreifen, nachdem dieses initialisiert wurde. Wenn Sie versuchen, auf eine Eigenschaft zuzugreifen, bevor sie initialisiert wurde, erhalten Sie eine **PropertyOrFieldNotInitializedException**-Ausnahme.
+Das **personProperties**-Objekt ist ein Clientobjekt. Einige Clientobjekte enthalten erst Daten, nachdem sie initialisiert wurden. Beispielweise können Sie auf die Eigenschaftswerte des **personProperties**-Objekts zugreifen, nachdem dieses initialisiert wurde. Wenn Sie versuchen, auf eine Eigenschaft zuzugreifen, bevor sie initialisiert wurde, erhalten Sie eine **PropertyOrFieldNotInitializedException**-Ausnahme.
     
   
 9. Zum Initialisieren des **personProperties**-Objekts registrieren Sie die Anforderung, die Sie ausführen möchten, und führen Sie die Anforderung dann auf dem Server aus, wie im folgenden Code gezeigt.

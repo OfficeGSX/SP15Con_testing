@@ -121,7 +121,7 @@ PersonProperties personProperties = peopleManager.GetPropertiesFor(targetUser);
   ```
 
 
-    **personProperties** オブジェクトは、クライアント オブジェクトです。一部のクライアント オブジェクトには、初期化されるまでデータが一切含まれていません。たとえば、 **personProperties** オブジェクトのプロパティ値は、初期化されるまでアクセスできません。初期化される前にプロパティへのアクセスを試みると、 **PropertyOrFieldNotInitializedException** という例外が発生します。
+**personProperties** オブジェクトは、クライアント オブジェクトです。一部のクライアント オブジェクトには、初期化されるまでデータが一切含まれていません。たとえば、 **personProperties** オブジェクトのプロパティ値は、初期化されるまでアクセスできません。初期化される前にプロパティへのアクセスを試みると、 **PropertyOrFieldNotInitializedException** という例外が発生します。
     
   
 9. **personProperties** オブジェクトを初期化するには、実行するリクエストを登録し、そのリクエストをサーバー上で実行します (次のコードを参照)。

@@ -121,7 +121,7 @@ PersonProperties personProperties = peopleManager.GetPropertiesFor(targetUser);
   ```
 
 
-    El objeto **personProperties** es un objeto de cliente. Algunos objetos de cliente no contienen datos hasta que se inicializan. Por ejemplo, no se puede obtener acceso a los valores de propiedad del objeto **personProperties** hasta que se inicializa. Si intenta obtener acceso a una propiedad antes de inicializarla, recibirá la excepción **PropertyOrFieldNotInitializedException**.
+El objeto **personProperties** es un objeto de cliente. Algunos objetos de cliente no contienen datos hasta que se inicializan. Por ejemplo, no se puede obtener acceso a los valores de propiedad del objeto **personProperties** hasta que se inicializa. Si intenta obtener acceso a una propiedad antes de inicializarla, recibirá la excepción **PropertyOrFieldNotInitializedException**.
     
   
 9. Para inicializar el objeto **personProperties**, registre la solicitud que quiere ejecutar y luego ejecute la solicitud en el servidor, como se ve en el código siguiente.
