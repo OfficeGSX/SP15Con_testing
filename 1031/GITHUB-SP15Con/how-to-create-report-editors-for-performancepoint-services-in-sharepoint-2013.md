@@ -72,8 +72,8 @@ Es wird empfohlen, dass Sie den Beispiel-Editor als Vorlage verwenden. Das Beisp
     
   
 
-    > **HINWEIS**
-      > Der Beispielbericht erhält Daten aus einen Filter, damit es nicht **DataSourceConsumerHelper** oder **IDataSourceConsumer** -Objekten verwendet wird. Wenn Ihr Bericht Daten aus einer Datenquelle PerformancePoint-Dienste erhält, können Sie die Methoden verwenden, die von der abzurufenden Datenquellen wie beschrieben in [Vorgehensweise: Erstellen Filter-Editoren für PerformancePoint Services in SharePoint 2013](how-to-create-filter-editors-for-performancepoint-services-in-sharepoint-2013.md) **DataSourceConsumerHelper** -Klasse verfügbar gemacht werden.
+> **HINWEIS**
+> Der Beispielbericht erhält Daten aus einen Filter, damit es nicht **DataSourceConsumerHelper** oder **IDataSourceConsumer** -Objekten verwendet wird. Wenn Ihr Bericht Daten aus einer Datenquelle PerformancePoint-Dienste erhält, können Sie die Methoden verwenden, die von der abzurufenden Datenquellen wie beschrieben in [Vorgehensweise: Erstellen Filter-Editoren für PerformancePoint Services in SharePoint 2013](how-to-create-filter-editors-for-performancepoint-services-in-sharepoint-2013.md) **DataSourceConsumerHelper** -Klasse verfügbar gemacht werden.
 5. Fügen Sie in der Editorklasse **using** Direktiven für die folgenden PerformancePoint-Dienste-Namespaces hinzu:
     
   - **Microsoft.PerformancePoint.Scorecards**
