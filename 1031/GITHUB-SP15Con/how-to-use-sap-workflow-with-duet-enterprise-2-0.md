@@ -774,8 +774,8 @@ function RegisterCallOut(divId, displayName, aboutme, userUrl, isFollowed) {
   ```
 
 
-    > **HINWEIS**
-      > Der Benutzername des Teilnehmers im Netzwerk des Unternehmens entspricht, die in SAP.
+> **HINWEIS**
+> Der Benutzername des Teilnehmers im Netzwerk des Unternehmens entspricht, die in SAP.
 3. Öffnen Sie die **Datei AppManifest.xml** -Seite.
     
   

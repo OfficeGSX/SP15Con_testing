@@ -774,8 +774,8 @@ function RegisterCallOut(divId, displayName, aboutme, userUrl, isFollowed) {
   ```
 
 
-    > **注释**
-      > 公司网络中参与者的用户名与 SAP 中的用户名相同。 
+> **注释**
+> 公司网络中参与者的用户名与 SAP 中的用户名相同。 
 3. 打开 **AppManifest.xml** 页面。
     
   

@@ -774,8 +774,8 @@ function RegisterCallOut(divId, displayName, aboutme, userUrl, isFollowed) {
   ```
 
 
-    > **メモ**
-      > 企業ネットワークの参加者のユーザー名は SAP のユーザー名と同じです。 
+> **メモ**
+> 企業ネットワークの参加者のユーザー名は SAP のユーザー名と同じです。 
 3. **AppManifest.xml** ページを開きます。
     
   

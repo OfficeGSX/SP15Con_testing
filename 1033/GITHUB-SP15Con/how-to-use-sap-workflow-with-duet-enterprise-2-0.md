@@ -774,8 +774,8 @@ function RegisterCallOut(divId, displayName, aboutme, userUrl, isFollowed) {
   ```
 
 
-    > **NOTE**
-      > The user name of the participant in company's network is same as that in SAP. 
+> **NOTE**
+> The user name of the participant in company's network is same as that in SAP. 
 3. Open the **AppManifest.xml** page.
     
   
