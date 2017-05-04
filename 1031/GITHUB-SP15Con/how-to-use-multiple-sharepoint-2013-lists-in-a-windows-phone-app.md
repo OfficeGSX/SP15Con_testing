@@ -14,7 +14,7 @@ Sie können mehrere SharePoint-Listen in Ihrer app auf verschiedene Weise verwen
 
 
 > **WICHTIG**
-> Wenn Sie eine app für Windows Phone 8 entwickeln, müssen Sie anstelle von Visual Studio 2010 Express Visual Studio Express 2012 verwenden. Alle Informationen in diesem Artikel betrifft mit Ausnahme der Entwicklungsumgebung Erstellen von apps für Windows Phone 8 und Windows Phone 7.> Weitere Informationen finden Sie unter  [Vorgehensweise: Einrichten einer Umgebung für die Entwicklung von mobilen Anwendungen für SharePoint](how-to-set-up-an-environment-for-developing-mobile-apps-for-sharepoint.md).
+> Wenn Sie eine app für Windows Phone 8 entwickeln, müssen Sie anstelle von Visual Studio 2010 Express Visual Studio Express 2012 verwenden. Alle Informationen in diesem Artikel betrifft mit Ausnahme der Entwicklungsumgebung Erstellen von apps für Windows Phone 8 und Windows Phone 7.<br/> Weitere Informationen finden Sie unter  [Vorgehensweise: Einrichten einer Umgebung für die Entwicklung von mobilen Anwendungen für SharePoint](how-to-set-up-an-environment-for-developing-mobile-apps-for-sharepoint.md).
   
     
     
@@ -577,7 +577,7 @@ private void OnRefreshButtonClick(object sender, EventArgs e)
   ```
 
 
-    Wie bei der **LoadData** -Methode wird die **RefreshData** -Methode auch definiert, um optionale Parameter angenommen werden. Beachten Sie, dass die vorherigen drei Schritte, die einzige Änderung an den Ereignishandler generiert mit der Vorlage ist das Hinzufügen der Variablen **CustomerName** als Argument für den Anruf an die Methoden **LoadData** oder **RefreshData**.
+Wie bei der **LoadData** -Methode wird die **RefreshData** -Methode auch definiert, um optionale Parameter angenommen werden. Beachten Sie, dass die vorherigen drei Schritte, die einzige Änderung an den Ereignishandler generiert mit der Vorlage ist das Hinzufügen der Variablen **CustomerName** als Argument für den Anruf an die Methoden **LoadData** oder **RefreshData**.
     
   
 11. Wenn Benutzer auf das Listenformular für die Orders-Liste auf die Schaltfläche **neu** in Ihrer app auswählen können, sollte das Feld Kunde in das neue Formular bereits den Namen des Kunden, enthalten, da die Liste der Aufträge angezeigt, die dem Benutzer basierend auf den Namen des Kunden gefiltert wurde. Neue Aufträge aus der gefilterten Liste hinzugefügt sollte der Name des Kunden zugeordnet sein, auf denen die Liste gefiltert wird. Um den Wert der Variablen **CustomerName** an das neue Formular zu übergeben, ändern Sie das **OnNewButtonClick** -Ereignis, um den Wert als Zeichenfolge in der Pfad zum neuen Formular enthalten wie im folgenden Code dargestellt.

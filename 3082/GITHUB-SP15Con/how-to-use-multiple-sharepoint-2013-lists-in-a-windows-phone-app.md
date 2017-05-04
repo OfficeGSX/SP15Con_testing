@@ -14,7 +14,7 @@ Puede usar varias listas de SharePoint en la aplicación de varias maneras. Al c
 
 
 > **IMPORTANTE**
-> Si está desarrollando una aplicación para Windows Phone 8, debe usar Visual Studio Express 2012 en vez de Visual Studio 2010 Express. Excepto para el entorno de desarrollo, toda la información de este artículo se aplica a la creación de aplicaciones para Windows Phone 8 y Windows Phone 7. > Para obtener más información, consulte  [Cómo: Configurar un entorno de desarrollo de aplicaciones móviles para SharePoint](how-to-set-up-an-environment-for-developing-mobile-apps-for-sharepoint.md). 
+> Si está desarrollando una aplicación para Windows Phone 8, debe usar Visual Studio Express 2012 en vez de Visual Studio 2010 Express. Excepto para el entorno de desarrollo, toda la información de este artículo se aplica a la creación de aplicaciones para Windows Phone 8 y Windows Phone 7. <br/> Para obtener más información, consulte  [Cómo: Configurar un entorno de desarrollo de aplicaciones móviles para SharePoint](how-to-set-up-an-environment-for-developing-mobile-apps-for-sharepoint.md). 
   
     
     
@@ -577,7 +577,7 @@ private void OnRefreshButtonClick(object sender, EventArgs e)
   ```
 
 
-    Como para el método **LoadData**, el método **RefreshData** también se define para que pueda aceptar parámetros opcionales. Observe que en los tres pasos anteriores, el único cambio en los controladores de eventos generado por la plantilla es la adición de la variable **CustomerName** como argumento en la llamada a los métodos **LoadData** o **RefreshData**.
+Como para el método **LoadData**, el método **RefreshData** también se define para que pueda aceptar parámetros opcionales. Observe que en los tres pasos anteriores, el único cambio en los controladores de eventos generado por la plantilla es la adición de la variable **CustomerName** como argumento en la llamada a los métodos **LoadData** o **RefreshData**.
     
   
 11. Cuando los usuarios eligen el botón **Nuevo** en la lista de formularios de la lista de pedidos de la aplicación, el campo Cliente en el formulario Nuevo ya deben contener el nombre del cliente, porque se ha filtrado la lista de pedidos que se muestra al usuario basándose en el nombre del cliente. Los nuevos pedidos agregados de esa lista filtrada deben asociarse con el nombre del cliente filtrado en la lista. Para pasar el valor de la variable **CustomerName** al formulario nuevo modifique el evento **OnNewButtonClick** para que incluya el valor como una cadena de consulta en la ruta de navegación en el nuevo formulario, como se muestra en el siguiente código.
