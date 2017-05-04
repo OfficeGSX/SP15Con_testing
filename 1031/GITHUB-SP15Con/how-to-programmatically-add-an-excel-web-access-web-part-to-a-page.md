@@ -149,8 +149,8 @@ End Sub
   ```
 
 
-    > **WICHTIG**
-      > Ensure that the location where the workbook is saved is a trusted location. 
+> **WICHTIG**
+> Ensure that the location where the workbook is saved is a trusted location. 
 2. You can display an Excel workbook programmatically by using the following code.
     
     **Sample code provided by:** Daniel Mullowney, Microsoft Corporation
