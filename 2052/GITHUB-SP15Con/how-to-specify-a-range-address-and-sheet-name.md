@@ -26,7 +26,7 @@ ms.assetid: 8bfefc48-1fbc-4b65-8156-1b7d0a8453ee
     
   ```cs
   
-object[] rangeResult1 = xlservice.GetRangeA1(sessionId, String.Empty, "Sheet2!A12:G18", true, out outStatus);
+  object[] rangeResult1 = xlservice.GetRangeA1(sessionId, String.Empty, "Sheet2!A12:G18", true, out outStatus);
   ```
 
 
