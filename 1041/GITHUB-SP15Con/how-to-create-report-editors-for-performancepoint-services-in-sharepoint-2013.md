@@ -115,7 +115,7 @@ string action = Request.QueryString[ClickOnceLaunchKeys.LaunchOperation];
   ```
 
 
-    クエリ文字列パラメーターの詳細については、「 [カスタム PerformancePoint Services オブジェクトのエディター](http://msdn.microsoft.com/library/7c5924f1-91f3-436a-9d94-2e0dc454c8cc%28Office.15%29.aspx)」を参照してください。
+クエリ文字列パラメーターの詳細については、「 [カスタム PerformancePoint Services オブジェクトのエディター](http://msdn.microsoft.com/library/7c5924f1-91f3-436a-9d94-2e0dc454c8cc%28Office.15%29.aspx)」を参照してください。
     
   
 10. 以下のコード例に示すように、リポジトリに呼び出しをするための **ReportViewRepositoryHelper** オブジェクトを取得します。
@@ -194,7 +194,7 @@ if (0 == reportview.EndPoints.Count)
   ```
 
 
-    サンプル エディターでは、 **VerifyReportView** メソッドでエンドポイントを定義します。また、 **VerifyReportView** を使用して、必要なプロパティが設定されていることを確認し、オプションの [CustomData](https://msdn.microsoft.com/library/Microsoft.PerformancePoint.Scorecards.ReportView.CustomData.aspx) プロパティを定義します。このプロパティを使用してレポートの情報を格納できます。
+サンプル エディターでは、 **VerifyReportView** メソッドでエンドポイントを定義します。また、 **VerifyReportView** を使用して、必要なプロパティが設定されていることを確認し、オプションの [CustomData](https://msdn.microsoft.com/library/Microsoft.PerformancePoint.Scorecards.ReportView.CustomData.aspx) プロパティを定義します。このプロパティを使用してレポートの情報を格納できます。
     
   
 14. レポートをユーザー定義の変更で更新します。サンプル レポート エディターの **buttonOK_Click** メソッドは、 **ReportViewRepositoryHelper.Update** メソッドを呼び出して、リポジトリでレポートの [Name](https://msdn.microsoft.com/library/Microsoft.PerformancePoint.Scorecards.Element.Name.aspx) と [Description](https://msdn.microsoft.com/library/Microsoft.PerformancePoint.Scorecards.Element.Description.aspx) プロパティを更新します。 **buttonOK_Click** は、コントロールの内容を検証したり、カスタム レポートとヘルパー オブジェクトの状態情報を取得するときにも使用されます。

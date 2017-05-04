@@ -115,7 +115,7 @@ string action = Request.QueryString[ClickOnceLaunchKeys.LaunchOperation];
   ```
 
 
-    Informationen zu den Abfragezeichenfolgenparametern finden Sie unter  [Editoren für benutzerdefinierte PerformancePoint Services-Objekte](http://msdn.microsoft.com/library/7c5924f1-91f3-436a-9d94-2e0dc454c8cc%28Office.15%29.aspx).
+Informationen zu den Abfragezeichenfolgenparametern finden Sie unter  [Editoren für benutzerdefinierte PerformancePoint Services-Objekte](http://msdn.microsoft.com/library/7c5924f1-91f3-436a-9d94-2e0dc454c8cc%28Office.15%29.aspx).
     
   
 10. Rufen Sie das **ReportViewRepositoryHelper**-Objekt ab, das für Aufrufe an das Repository verwendet wird, wie im folgenden Codebeispiel veranschaulicht.
@@ -194,7 +194,7 @@ if (0 == reportview.EndPoints.Count)
   ```
 
 
-    Der Endpunkt wird vom Beispiel-Editor in der **VerifyReportView**-Methode definiert. Darüber hinaus wird **VerifyReportView** definiert, um zu überprüfen, ob die erforderlichen Eigenschaften festgelegt wurden, und um die optionale [CustomData](https://msdn.microsoft.com/library/Microsoft.PerformancePoint.Scorecards.ReportView.CustomData.aspx) -Eigenschaft zu definieren, die Sie zum Speichern von Informationen für Ihren Bericht verwenden können.
+Der Endpunkt wird vom Beispiel-Editor in der **VerifyReportView**-Methode definiert. Darüber hinaus wird **VerifyReportView** definiert, um zu überprüfen, ob die erforderlichen Eigenschaften festgelegt wurden, und um die optionale [CustomData](https://msdn.microsoft.com/library/Microsoft.PerformancePoint.Scorecards.ReportView.CustomData.aspx) -Eigenschaft zu definieren, die Sie zum Speichern von Informationen für Ihren Bericht verwenden können.
     
   
 14. Aktualisieren Sie den Bericht durch benutzerdefinierte Änderungen. Die **ReportViewRepositoryHelper.Update**-Methode wird von der **buttonOK_Click**-Methode im Beispielbericht-Editor aufgerufen, um die Eigenschaften  [Name](https://msdn.microsoft.com/library/Microsoft.PerformancePoint.Scorecards.Element.Name.aspx) und [Description](https://msdn.microsoft.com/library/Microsoft.PerformancePoint.Scorecards.Element.Description.aspx) des Berichts im Repository zu aktualisieren. **buttonOK_Click** wird ebenfalls zum Überprüfen der Inhalte der Steuerelemente und zum Abrufen von Statusinformationen für den benutzerdefinierten Bericht und das Hilfsobjekt verwendet.

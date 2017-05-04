@@ -115,7 +115,7 @@ string action = Request.QueryString[ClickOnceLaunchKeys.LaunchOperation];
   ```
 
 
-    For information about the query string parameters, see  [Editors for Custom PerformancePoint Services Objects](http://msdn.microsoft.com/library/7c5924f1-91f3-436a-9d94-2e0dc454c8cc%28Office.15%29.aspx).
+For information about the query string parameters, see  [Editors for Custom PerformancePoint Services Objects](http://msdn.microsoft.com/library/7c5924f1-91f3-436a-9d94-2e0dc454c8cc%28Office.15%29.aspx).
     
   
 10. Retrieve the **ReportViewRepositoryHelper** object, which is used to make calls to the repository, as shown in the following code example.
@@ -194,7 +194,7 @@ if (0 == reportview.EndPoints.Count)
   ```
 
 
-    The sample editor defines the endpoint in the **VerifyReportView** method. It also uses **VerifyReportView** to verify that required properties are set and to define the optional [CustomData](https://msdn.microsoft.com/library/Microsoft.PerformancePoint.Scorecards.ReportView.CustomData.aspx) property, which you can use to store information for your report.
+The sample editor defines the endpoint in the **VerifyReportView** method. It also uses **VerifyReportView** to verify that required properties are set and to define the optional [CustomData](https://msdn.microsoft.com/library/Microsoft.PerformancePoint.Scorecards.ReportView.CustomData.aspx) property, which you can use to store information for your report.
     
   
 14. Update the report with user-defined changes. The **buttonOK_Click** method in the sample report editor calls the **ReportViewRepositoryHelper.Update** method to update the report's [Name](https://msdn.microsoft.com/library/Microsoft.PerformancePoint.Scorecards.Element.Name.aspx) and [Description](https://msdn.microsoft.com/library/Microsoft.PerformancePoint.Scorecards.Element.Description.aspx) properties in the repository. **buttonOK_Click** is also used to validate the contents of the controls and retrieve state information for the custom report and the helper object.
