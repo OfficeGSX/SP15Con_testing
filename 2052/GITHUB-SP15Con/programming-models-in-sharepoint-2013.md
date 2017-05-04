@@ -8,7 +8,6 @@ ms.assetid: 061985ec-6129-4e91-991b-a72488ce1d34
 
 # SharePoint 2013 中的编程模型
 获取不同类型的 SharePoint 开发项目的简单概述。
- * **适用范围：*** 
   
     
     
@@ -16,29 +15,7 @@ ms.assetid: 061985ec-6129-4e91-991b-a72488ce1d34
 
 |||
 |:-----|:-----|
-|**本文内容**          [SharePoint 加载项](#Apps)           [SharePoint 发布网站](#ECM)           [SharePoint 场解决方案](#Solutions)           [SharePoint 的移动加载项](#Mobile)           [SharePoint 的可重用组件](#Reuse)           [其他资源](#SP15devinSP_addlresources)|
-**观看视频：Office 2013 和 SharePoint 2013 的开发选项**
-
-  
-    
-    
-
-  
-    
-    
-![视频](images/mod_icon_video.png)
-  
-    
-    
-
-  
-    
-    
-
-  
-    
-    
-|
+|**本文内容**<br/>          [SharePoint 加载项](#Apps)<br/>           [SharePoint 发布网站](#ECM)<br/>           [SharePoint 场解决方案](#Solutions)<br/>           [SharePoint 的移动加载项](#Mobile)<br/>           [SharePoint 的可重用组件](#Reuse)<br/>           [其他资源](#SP15devinSP_addlresources)|**观看视频：Office 2013 和 SharePoint 2013 的开发选项**<br/>![视频](images/mod_icon_video.png)|
    
 
 可以通过多种方式开发针对 SharePoint 2013 平台的应用程序。可以基于以下各项将这些应用程序划分下列组中：用于创建应用程序的工具、用于开发应用程序的编程模型、打包和部署应用程序的方法、将应用程序投入市场的方式以及运行应用程序的设备。
