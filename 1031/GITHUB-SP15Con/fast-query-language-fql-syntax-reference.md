@@ -96,7 +96,7 @@ Eine Eigenschaftsspezifikation (der Operator **In**) kann auf die folgenden Abfr
     
   ```
   
-title:string("to be or not to be")
+  title:string("to be or not to be")
   ```
 
 
