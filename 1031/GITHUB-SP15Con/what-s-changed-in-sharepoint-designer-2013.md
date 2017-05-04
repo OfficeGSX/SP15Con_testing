@@ -22,7 +22,7 @@ Die folgenden Features wurden in SharePoint Designer 2013 eingestellt oder entfe
   
     
     
- **Änderungsgrund.**SharePoint 2013 führt eine neue SharePoint 2013-Workflow-Plattform ein, die auf der Windows Workflow Foundation 4.0 aufsetzt und mit Workflow-Manager 1.0 integriert wird.
+ **Änderungsgrund.** SharePoint 2013 führt eine neue SharePoint 2013-Workflow-Plattform ein, die auf der Windows Workflow Foundation 4.0 aufsetzt und mit Workflow-Manager 1.0 integriert wird.
   
     
     
@@ -154,7 +154,7 @@ Das folgende Feature ist in SharePoint 2013 nicht verfügbar.
 #### Entwurfsansicht und geteilte Ansicht
 <a name="WhatsChangedSharePointDesigner2013_DesignViewSplitView"> </a>
 
- **Beschreibung der Änderung.**SharePoint Designer 2010 verfügt über drei Ansichten zum Bearbeiten von HTML- und ASPX-Seiten: Codeansicht, Entwurfsansicht und geteilte Ansicht. Die Entwurfsansicht und geteilte Ansicht wurden in SharePoint Designer 2013 entfernt. Das Entfernen der Entwurfsansicht und der geteilten Ansicht wirkt sich auf die Features von SharePoint Designer 2013 aus, die zum Bearbeiten von Webparts und Gestaltungsvorlagen verwendet werden. Wenn Sie Seiten in SharePoint Designer 2013 bearbeiten, müssen Sie die Codeansicht verwenden.
+ **Beschreibung der Änderung.** SharePoint Designer 2010 verfügt über drei Ansichten zum Bearbeiten von HTML- und ASPX-Seiten: Codeansicht, Entwurfsansicht und geteilte Ansicht. Die Entwurfsansicht und geteilte Ansicht wurden in SharePoint Designer 2013 entfernt. Das Entfernen der Entwurfsansicht und der geteilten Ansicht wirkt sich auf die Features von SharePoint Designer 2013 aus, die zum Bearbeiten von Webparts und Gestaltungsvorlagen verwendet werden. Wenn Sie Seiten in SharePoint Designer 2013 bearbeiten, müssen Sie die Codeansicht verwenden.
   
     
     
