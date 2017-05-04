@@ -328,7 +328,7 @@ End If
   ```
 
 
-    The sample editor defines its beginpoint in the **VerifyFilter** method. It also uses **VerifyFilter** to verify that required properties are set and to define the selection mode, which is an optional property.
+The sample editor defines its beginpoint in the **VerifyFilter** method. It also uses **VerifyFilter** to verify that required properties are set and to define the selection mode, which is an optional property.
     
   
 16. Initialize the filter by running the filter's query and retrieving data from the data source. The **buttonOK_Click** method in the sample filter editor calls the **FilterRepositoryHelper.GetParameterDisplayData** method to initialize the filter.

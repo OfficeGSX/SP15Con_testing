@@ -328,7 +328,7 @@ End If
   ```
 
 
-    Der Anfangspunkt für den Beispieleditor wird in der **VerifyFilter**-Methode definiert. Mithilfe von **VerifyFilter** wird außerdem überprüft, ob erforderliche Eigenschaften festgelegt sind, und der Auswahlmodus wird definiert, bei dem es sich um eine optionale Eigenschaft handelt.
+Der Anfangspunkt für den Beispieleditor wird in der **VerifyFilter**-Methode definiert. Mithilfe von **VerifyFilter** wird außerdem überprüft, ob erforderliche Eigenschaften festgelegt sind, und der Auswahlmodus wird definiert, bei dem es sich um eine optionale Eigenschaft handelt.
     
   
 16. Initialisieren Sie den Filter, indem Sie die Abfrage des Filters ausführen und Daten aus der Datenquelle abrufen. Mit der **buttonOK_Click**-Methode im Beispiel-Filter-Editor wird die **FilterRepositoryHelper.GetParameterDisplayData**-Methode zum Initialisieren des Filters aufgerufen.
