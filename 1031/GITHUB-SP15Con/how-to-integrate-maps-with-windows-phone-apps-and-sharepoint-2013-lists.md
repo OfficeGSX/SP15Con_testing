@@ -244,7 +244,7 @@ In diesem Schritt können Sie Ihre app ausführen und zu überprüfen.
 ![Datenschutzrichtlinie für Karten zulassen](images/SP15Con_HowToCreateMapBasedPhoneApp_Fig2.png)
   
 
-    Kartenansicht wird angezeigt, wie in Abbildung 3 dargestellt.
+Kartenansicht wird angezeigt, wie in Abbildung 3 dargestellt.
     
 
    **Abbildung 3. Mobile App Anzeigeort Bing Map**

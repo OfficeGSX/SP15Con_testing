@@ -244,7 +244,7 @@ public override void FeatureDeactivating(
 ![地図のプライバシー ポリシーを許可](images/SP15Con_HowToCreateMapBasedPhoneApp_Fig2.png)
   
 
-    図 3 に示すように、マップ ビューが表示されます。
+図 3 に示すように、マップ ビューが表示されます。
     
 
    **図 3: Bing マップで位置を表示するモバイル アプリケーション**

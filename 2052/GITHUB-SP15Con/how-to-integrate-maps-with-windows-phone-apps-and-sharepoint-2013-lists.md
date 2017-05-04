@@ -244,7 +244,7 @@ public override void FeatureDeactivating(
 ![允许用于地图的隐私策略](images/SP15Con_HowToCreateMapBasedPhoneApp_Fig2.png)
   
 
-    将显示地图视图，如图 3 所示。
+将显示地图视图，如图 3 所示。
     
 
    **图 3. 手机应用程序在 Bing 地图中显示位置**

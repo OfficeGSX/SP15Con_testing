@@ -244,7 +244,7 @@ In this step, you can run your app and validate it.
 ![Allow privacy policy for maps](images/SP15Con_HowToCreateMapBasedPhoneApp_Fig2.png)
   
 
-    The map view is displayed, as shown in Figure 3.
+The map view is displayed, as shown in Figure 3.
     
 
    **Figure 3.Mobile App display location in Bing map**
