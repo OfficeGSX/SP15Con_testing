@@ -149,7 +149,7 @@ public class CustomSecurityPreTrimmer : ISecurityTrimmerPre
   ```
 
 
-    The basic version of this sample does not include any code in the **Initialize** method.
+The basic version of this sample does not include any code in the **Initialize** method.
     
   
 2. Add the following code for the  [AddAccess()](https://msdn.microsoft.com/library/Microsoft.Office.Server.Search.Query.ISecurityTrimmerPre.AddAccess.aspx) method declaration.
@@ -231,7 +231,7 @@ if (!string.IsNullOrEmpty(strUser))
   ```
 
 
-    The **GetMembership** method contains the custom logic of your trimmer.
+The **GetMembership** method contains the custom logic of your trimmer.
     
   
 
@@ -298,7 +298,7 @@ public class CustomSecurityPostTrimmer : ISecurityTrimmerPost
   ```
 
 
-    The basic version of this sample does not include any code in the Initialize method.
+The basic version of this sample does not include any code in the Initialize method.
     
   
 2. Add the following code for the  [CheckAccess()](https://msdn.microsoft.com/library/Microsoft.Office.Server.Search.Query.ISecurityTrimmerPost.CheckAccess.aspx) method declaration.
@@ -356,7 +356,7 @@ if (claimsIdentity != null)
   ```
 
 
-    If the user has access to the content item, set the value of the **BitArray** item at that index, **urlStatusArray[i]**, to **true**; otherwise, set it to **false**.
+If the user has access to the content item, set the value of the **BitArray** item at that index, **urlStatusArray[i]**, to **true**; otherwise, set it to **false**.
     
   
 5. Set the return value of the **CheckAccess** method to **urlStatusArray**, as shown in the following code.
@@ -413,10 +413,10 @@ Version=1.0.0.0, Culture=neutral, PublicKeyToken=token" -RulePath "xmldoc://*"
   ```
 
 
-    In the command, replace  _ClassName_ either with **CustomSecurityPreTrimmer** or **CustomSecurityPostTrimmer** and _token_ with the Public Key Token for the CustomSecurityTrimmerSample.dll file. You must associate all post-trimmers with a crawl rule, _"xmldoc://*"_; but this is optional for pre-trimmers.
+In the command, replace  _ClassName_ either with **CustomSecurityPreTrimmer** or **CustomSecurityPostTrimmer** and _token_ with the Public Key Token for the CustomSecurityTrimmerSample.dll file. You must associate all post-trimmers with a crawl rule, _"xmldoc://*"_; but this is optional for pre-trimmers.
     
-    > **NOTE**
-      > If you have multiple front-end web servers, you must deploy your security trimmer to the global assembly cache on all the front-end web servers in the farm. 
+> **NOTE**
+> If you have multiple front-end web servers, you must deploy your security trimmer to the global assembly cache on all the front-end web servers in the farm. 
 6. Verify that your security trimmer is registered with the following PowerShell cmdlets.
     
   ```
@@ -426,7 +426,7 @@ $searchApp | Get-SPEnterpriseSearchSecurityTrimmer
   ```
 
 
-    Your security trimmer must be visible in the results.
+Your security trimmer must be visible in the results.
     
   
 
@@ -437,7 +437,7 @@ $searchApp | Get-SPEnterpriseSearchSecurityTrimmer
     
   ```
   
-net restart sphostcontrollerservice
+  net restart sphostcontrollerservice
 
   ```
 

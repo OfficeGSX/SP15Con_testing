@@ -149,7 +149,7 @@ public class CustomSecurityPreTrimmer : ISecurityTrimmerPre
   ```
 
 
-    このサンプルの基本バージョンでは、 **Initialize** メソッドにコードが含まれていません。
+このサンプルの基本バージョンでは、 **Initialize** メソッドにコードが含まれていません。
     
   
 2.  [AddAccess()](https://msdn.microsoft.com/library/Microsoft.Office.Server.Search.Query.ISecurityTrimmerPre.AddAccess.aspx) メソッド宣言用の以下のコードを追加します。
@@ -231,7 +231,7 @@ if (!string.IsNullOrEmpty(strUser))
   ```
 
 
-    **GetMembership** メソッドには、トリマーのカスタム ロジックが含まれています。
+**GetMembership** メソッドには、トリマーのカスタム ロジックが含まれています。
     
   
 
@@ -298,7 +298,7 @@ public class CustomSecurityPostTrimmer : ISecurityTrimmerPost
   ```
 
 
-    このサンプルの基本バージョンでは、Initialize メソッドにコードは含まれていません。
+このサンプルの基本バージョンでは、Initialize メソッドにコードは含まれていません。
     
   
 2.  [CheckAccess()](https://msdn.microsoft.com/library/Microsoft.Office.Server.Search.Query.ISecurityTrimmerPost.CheckAccess.aspx) メソッドの宣言に次のコードを追加します。
@@ -356,7 +356,7 @@ if (claimsIdentity != null)
   ```
 
 
-    次のように、ユーザーがコンテンツ アイテムにアクセスできる場合は、そのインデックス **urlStatusArray[i]** にある **BitArray** アイテムの値を **true** に設定します。それ以外の場合は、 **false** に設定します。
+次のように、ユーザーがコンテンツ アイテムにアクセスできる場合は、そのインデックス **urlStatusArray[i]** にある **BitArray** アイテムの値を **true** に設定します。それ以外の場合は、 **false** に設定します。
     
   
 5. 次のコードで示すように、 **CheckAccess** メソッドの戻り値を **urlStatusArray** に設定します。
@@ -413,10 +413,10 @@ Version=1.0.0.0, Culture=neutral, PublicKeyToken=token" -RulePath "xmldoc://*"
   ```
 
 
-    コマンドで、 _ClassName_ を **CustomSecurityPreTrimmer** または **CustomSecurityPostTrimmer** のいずれかで置換し、 _token_ を CustomSecurityTrimmerSample.dll ファイル用の公開キー トークンで置換します。クロール ルール ( _"xmldoc://*"_) とすべてのポストトリマーを関連付ける必要がありますが、プリトリマーについては任意です。
+コマンドで、 _ClassName_ を **CustomSecurityPreTrimmer** または **CustomSecurityPostTrimmer** のいずれかで置換し、 _token_ を CustomSecurityTrimmerSample.dll ファイル用の公開キー トークンで置換します。クロール ルール ( _"xmldoc://*"_) とすべてのポストトリマーを関連付ける必要がありますが、プリトリマーについては任意です。
     
-    > **メモ**
-      > 複数のフロントエンド Web サーバーがある場合は、ファーム内のすべてのフロントエンド Web サーバー上のグローバル アセンブリ キャッシュにセキュリティ トリマーを展開する必要があります。 
+> **メモ**
+> 複数のフロントエンド Web サーバーがある場合は、ファーム内のすべてのフロントエンド Web サーバー上のグローバル アセンブリ キャッシュにセキュリティ トリマーを展開する必要があります。 
 6. セキュリティ トリマーが登録されていることを次の PowerShell コマンドレットで確認してください。
     
   ```
@@ -426,7 +426,7 @@ $searchApp | Get-SPEnterpriseSearchSecurityTrimmer
   ```
 
 
-    セキュリティ トリマーは結果に表示されます。
+セキュリティ トリマーは結果に表示されます。
     
   
 
@@ -437,7 +437,7 @@ $searchApp | Get-SPEnterpriseSearchSecurityTrimmer
     
   ```
   
-net restart sphostcontrollerservice
+  net restart sphostcontrollerservice
 
   ```
 

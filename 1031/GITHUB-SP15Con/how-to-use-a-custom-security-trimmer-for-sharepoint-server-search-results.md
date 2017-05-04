@@ -155,7 +155,7 @@ public class CustomSecurityPreTrimmer : ISecurityTrimmerPre
   ```
 
 
-    Die Basisversion von in diesem Beispiel enthält keinen Code in der **Initialize** -Methode.
+Die Basisversion von in diesem Beispiel enthält keinen Code in der **Initialize** -Methode.
     
   
 2. Fügen Sie den folgenden Code für die  [AddAccess()](https://msdn.microsoft.com/library/Microsoft.Office.Server.Search.Query.ISecurityTrimmerPre.AddAccess.aspx) -Methodendeklaration hinzu.
@@ -237,7 +237,7 @@ if (!string.IsNullOrEmpty(strUser))
   ```
 
 
-    Die **GetMembership** -Methode enthält die benutzerdefinierte Logik des Ihrer Trimmer.
+Die **GetMembership** -Methode enthält die benutzerdefinierte Logik des Ihrer Trimmer.
     
   
 
@@ -304,7 +304,7 @@ public class CustomSecurityPostTrimmer : ISecurityTrimmerPost
   ```
 
 
-    Die Basisversion von in diesem Beispiel enthält keinen Code in der Initialize-Methode.
+Die Basisversion von in diesem Beispiel enthält keinen Code in der Initialize-Methode.
     
   
 2. Fügen Sie den folgenden Code für die  [CheckAccess()](https://msdn.microsoft.com/library/Microsoft.Office.Server.Search.Query.ISecurityTrimmerPost.CheckAccess.aspx) -Methodendeklaration hinzu.
@@ -362,7 +362,7 @@ if (claimsIdentity != null)
   ```
 
 
-    Wenn der Benutzer Zugriff auf das Inhaltselement verfügt, legen Sie den Wert des Elements **BitArray** an diesem Index **urlStatusArray[i]**zu **true**; Legen Sie sie andernfalls zu **false**.
+Wenn der Benutzer Zugriff auf das Inhaltselement verfügt, legen Sie den Wert des Elements **BitArray** an diesem Index **urlStatusArray[i]**zu **true**; Legen Sie sie andernfalls zu **false**.
     
   
 5. Legen Sie den Rückgabewert der Methode **CheckAccess** auf **urlStatusArray**, wie im folgenden Code gezeigt.
@@ -419,10 +419,10 @@ Version=1.0.0.0, Culture=neutral, PublicKeyToken=token" -RulePath "xmldoc://*"
   ```
 
 
-    Ersetzen Sie in den Befehl  _ClassName_ entweder mit **CustomSecurityPreTrimmer** oder **CustomSecurityPostTrimmer** und _token_ durch das öffentliche Schlüsseltoken für die Datei CustomSecurityTrimmerSample.dll. Sie müssen alle Post-trimmern eine Durchforstungsregel, _"xmldoc://*"_zuordnen. aber dieser Schritt ist optional für Trimmer vor.
+Ersetzen Sie in den Befehl  _ClassName_ entweder mit **CustomSecurityPreTrimmer** oder **CustomSecurityPostTrimmer** und _token_ durch das öffentliche Schlüsseltoken für die Datei CustomSecurityTrimmerSample.dll. Sie müssen alle Post-trimmern eine Durchforstungsregel, _"xmldoc://*"_zuordnen. aber dieser Schritt ist optional für Trimmer vor.
     
-    > **HINWEIS**
-      > Wenn Sie mehrere Front-End-Webserver vorhanden sind, müssen Sie den Security Trimmer auf allen Front-End-Webservern in der Farm im globalen Assemblycache bereitstellen.
+> **HINWEIS**
+> Wenn Sie mehrere Front-End-Webserver vorhanden sind, müssen Sie den Security Trimmer auf allen Front-End-Webservern in der Farm im globalen Assemblycache bereitstellen.
 6. Stellen Sie sicher, dass mit den folgenden PowerShell-Cmdlets der Security Trimmer registriert ist.
     
   ```
@@ -432,7 +432,7 @@ $searchApp | Get-SPEnterpriseSearchSecurityTrimmer
   ```
 
 
-    Die Einschränkung aus Sicherheitsgründen muss in den Ergebnissen sichtbar sein.
+Die Einschränkung aus Sicherheitsgründen muss in den Ergebnissen sichtbar sein.
     
   
 
@@ -443,7 +443,7 @@ $searchApp | Get-SPEnterpriseSearchSecurityTrimmer
     
   ```
   
-net restart sphostcontrollerservice
+  net restart sphostcontrollerservice
 
   ```
 
