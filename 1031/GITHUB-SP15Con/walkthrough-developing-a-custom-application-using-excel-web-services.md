@@ -42,14 +42,14 @@ Zum Abschluss dieser exemplarischen Vorgehensweise benötigen Sie Folgendes:
 - Ausreichende Berechtigungen (mindestens die Berechtigung "Anzeigen"), um auf die Excel Web Services auf dem Computer zugreifen zu können, auf dem sich SharePoint Server 2010 befindet.
     
     > **HINWEIS**
-      > Weitere Informationen zu Arbeitsmappenberechtigungen finden Sie weiter unten im Abschnitt "Arbeitsmappenberechtigungen".
+    > Weitere Informationen zu Arbeitsmappenberechtigungen finden Sie weiter unten im Abschnitt "Arbeitsmappenberechtigungen".
 - Eine Beispielarbeitsmappe, die auf einem lokalen Laufwerk oder in einer lokalen SharePoint-Dokumentbibliothek installiert ist.
     
   
 - Einen vertrauenswürdigen Speicherort zum Speichern von Arbeitsmappen, auf die Sie mithilfe der Excel Web Services zugreifen möchten. Wenn die Arbeitsmappen nicht an einem vertrauenswürdigen Speicherort gespeichert sind, führen die Excel Web Services-Aufrufe zum Öffnen der Arbeitsmappe zu einem Fehler. Bei dieser exemplarischen Vorgehensweise wird davon ausgegangen, dass sich die Arbeitsmappe auf dem lokalen Computer befindet.
     
     > **HINWEIS**
-      > Informationen zum Festlegen eines vertrauenswürdigen Speicherorts finden Sie unter  [How to: Trust a Location](how-to-trust-a-location.md) und [How to: Trust Workbook Locations Using Script](http://msdn.microsoft.com/library/79ab6ced-7a0c-4275-b852-bb246fc6be57%28Office.15%29.aspx).
+    > Informationen zum Festlegen eines vertrauenswürdigen Speicherorts finden Sie unter  [How to: Trust a Location](how-to-trust-a-location.md) und [How to: Trust Workbook Locations Using Script](http://msdn.microsoft.com/library/79ab6ced-7a0c-4275-b852-bb246fc6be57%28Office.15%29.aspx).
 - Die Arbeitsmappe muss mit Excel erstellt werden.
     
   
@@ -73,7 +73,7 @@ Die Arbeitsmappe, die in diesem Beispiel verwendet wird, trägt den Namen "Sheet
 - Für die übrigen Excel Web Services-Methoden benötigt der Aufrufer die Berechtigung "Anzeigen" (in Microsoft SharePoint Foundation) oder "Lesen" (auf einer Dateifreigabe ) für die Arbeitsmappe.
     
     > **HINWEIS**
-      > Weitere Informationen zum Festlegen von Berechtigungen finden Sie in der Dokumentation zu SharePoint Foundation.
+    > Weitere Informationen zum Festlegen von Berechtigungen finden Sie in der Dokumentation zu SharePoint Foundation.
 
 ## Siehe auch
 
