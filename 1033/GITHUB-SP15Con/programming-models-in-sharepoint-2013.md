@@ -8,15 +8,14 @@ ms.assetid: 061985ec-6129-4e91-991b-a72488ce1d34
 
 # Programming models in SharePoint 2013
 Get a quick overview of the different kinds of SharePoint development projects.
- * **Applies to: *** 
-  
+
     
     
 
 
 |||
 |:-----|:-----|
-|**In this article**          [Add-ins for SharePoint](#Apps)           [SharePoint publishing sites](#ECM)           [SharePoint farm solutions](#Solutions)           [Mobile add-ins for SharePoint](#Mobile)           [Reusable components for SharePoint](#Reuse)           [Additional resources](#SP15devinSP_addlresources)|
+|**In this article**<br/>          [Add-ins for SharePoint](#Apps)<br/>           [SharePoint publishing sites](#ECM)<br/>           [SharePoint farm solutions](#Solutions)<br/>           [Mobile add-ins for SharePoint](#Mobile)<br/>           [Reusable components for SharePoint](#Reuse)<br/>           [Additional resources](#SP15devinSP_addlresources)|
 **Watch the video: Development options for Office 2013 and SharePoint 2013**
 
   
