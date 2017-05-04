@@ -49,9 +49,9 @@ SharePoint 2013 での固定について理解するため、管理されたメ�
 
   ```cs
   
-public void TermPinningTest()
+  public void TermPinningTest()
         {
-using (SPSite site = new SPSite(TestConfig.ServerUrl))
+  using (SPSite site = new SPSite(TestConfig.ServerUrl))
             {
                 using (SPWeb web = site.OpenWeb())
                 {
