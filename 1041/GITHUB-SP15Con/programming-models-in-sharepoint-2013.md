@@ -15,29 +15,7 @@ ms.assetid: 061985ec-6129-4e91-991b-a72488ce1d34
 
 |||
 |:-----|:-----|
-|**この記事の内容**          [SharePoint 用アドイン](#Apps)<br/>           [SharePoint 発行サイト](#ECM)<br/>           [SharePoint ファーム ソリューション](#Solutions)<br/>           [SharePoint 用モバイル アドイン](#Mobile)<br/>           [SharePoint 用再利用可能コンポーネント](#Reuse)<br/>           [その他の技術情報](#SP15devinSP_addlresources)|
-**ビデオを見る: Office 2013 および SharePoint 2013 の開発オプション**
-
-  
-    
-    
-
-  
-    
-    
-![ビデオ](images/mod_icon_video.png)
-  
-    
-    
-
-  
-    
-    
-
-  
-    
-    
-|
+|**この記事の内容**          [SharePoint 用アドイン](#Apps)<br/>           [SharePoint 発行サイト](#ECM)<br/>           [SharePoint ファーム ソリューション](#Solutions)<br/>           [SharePoint 用モバイル アドイン](#Mobile)<br/>           [SharePoint 用再利用可能コンポーネント](#Reuse)<br/>           [その他の技術情報](#SP15devinSP_addlresources)|**ビデオを見る: Office 2013 および SharePoint 2013 の開発オプション**<br/>![ビデオ](images/mod_icon_video.png)|
    
 
 SharePoint 2013 プラットフォーム用のアプリケーションはさまざまな方法で開発できます。これらのアプリケーションは、作成に使用するツール、開発に使用するプログラミング モデル、パッケージ化と展開の方法、販売方法、および実行するデバイスに基づいて、次のグループに通常分類されます。
