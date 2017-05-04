@@ -474,7 +474,7 @@ private void EditForm_Loaded(object sender, RoutedEventArgs e)
   ```
 
 
-    在此代码中，在调用 **RegisterEditFieldValueConverter** 类的 **Converter** 方法时所用的 lambda 语句确定 **rbOtherCategory** **RadioButton** 控件（在步骤 3 中添加的）是否已选中。若已选中，则 **Text** **txtOtherCategory** 控件的 **TextBox** 属性中的值将传递给 **SetConvertedChoiceEditFieldValue** 函数。如果 **rbOtherCategory** 未选中，则会传递一个空字符串。如果 **rbOtherCategory** 已选中，但实际上用户在 **txtOtherCategory** 的 TextBox 中并未指定值，则会传递值"(Unspecified)"。
+在此代码中，在调用 **RegisterEditFieldValueConverter** 类的 **Converter** 方法时所用的 lambda 语句确定 **rbOtherCategory** **RadioButton** 控件（在步骤 3 中添加的）是否已选中。若已选中，则 **Text** **txtOtherCategory** 控件的 **TextBox** 属性中的值将传递给 **SetConvertedChoiceEditFieldValue** 函数。如果 **rbOtherCategory** 未选中，则会传递一个空字符串。如果 **rbOtherCategory** 已选中，但实际上用户在 **txtOtherCategory** 的 TextBox 中并未指定值，则会传递值"(Unspecified)"。
     
   
 7. 最后，为 **rbOtherCategory** **RadioButton** 的 **Checked** 和 **Unchecked** 事件添加处理程序，以显示或隐藏用于提供自定义产品类别值的 **TextBox** 控件。仍在 **EditForm** 分部类的实现代码块中，将这些处理程序的下列实现放到 EditForm.xaml.cs 文件中。

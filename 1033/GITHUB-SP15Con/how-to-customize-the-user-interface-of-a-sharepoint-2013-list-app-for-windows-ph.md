@@ -474,7 +474,7 @@ private void EditForm_Loaded(object sender, RoutedEventArgs e)
   ```
 
 
-    In this code, the lambda statement used in the call to the **RegisterEditFieldValueConverter** method of the **Converter** class determines whether the **rbOtherCategory** **RadioButton** control (added in Step 3) is checked. If so, the value in the **Text** property of **txtOtherCategory** **TextBox** control is passed to the **SetConvertedChoiceEditFieldValue** function. If **rbOtherCategory** is not checked, an empty string is passed. If **rbOtherCategory** is checked, but nothing is actually specified by the user in the **txtOtherCategory** text box, a value of "(Unspecified)" is passed.
+In this code, the lambda statement used in the call to the **RegisterEditFieldValueConverter** method of the **Converter** class determines whether the **rbOtherCategory** **RadioButton** control (added in Step 3) is checked. If so, the value in the **Text** property of **txtOtherCategory** **TextBox** control is passed to the **SetConvertedChoiceEditFieldValue** function. If **rbOtherCategory** is not checked, an empty string is passed. If **rbOtherCategory** is checked, but nothing is actually specified by the user in the **txtOtherCategory** text box, a value of "(Unspecified)" is passed.
     
   
 7. Finally, add handlers for the **Checked** and **Unchecked** events of the **rbOtherCategory** **RadioButton** to show or hide the **TextBox** control used to provide custom Product Category values. Include the following implementations for these handlers in the EditForm.xaml.cs file, again within the code block that implements the **EditForm** partial class.

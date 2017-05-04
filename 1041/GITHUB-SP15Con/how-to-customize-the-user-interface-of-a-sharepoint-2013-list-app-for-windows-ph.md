@@ -474,7 +474,7 @@ private void EditForm_Loaded(object sender, RoutedEventArgs e)
   ```
 
 
-    このコードでは、 **Converter** クラスの **RegisterEditFieldValueConverter** メソッドの呼び出しに使用するラムダ ステートメントが、 **rbOtherCategory** **RadioButton** コントロール (手順 3 で追加されています) がチェックされるかどうかを決定します。チェックされる場合は、 **txtOtherCategory** **TextBox** コントロールの **Text** プロパティの値が **SetConvertedChoiceEditFieldValue** 関数に渡されます。 **rbOtherCategory** がチェックされない場合は、空の文字列が渡されます。 **rbOtherCategory** がチェックされるが、ユーザーが **txtOtherCategory** テキスト ボックスで何も指定していない場合は、値 "(Unspecified)" が渡されます。
+このコードでは、 **Converter** クラスの **RegisterEditFieldValueConverter** メソッドの呼び出しに使用するラムダ ステートメントが、 **rbOtherCategory** **RadioButton** コントロール (手順 3 で追加されています) がチェックされるかどうかを決定します。チェックされる場合は、 **txtOtherCategory** **TextBox** コントロールの **Text** プロパティの値が **SetConvertedChoiceEditFieldValue** 関数に渡されます。 **rbOtherCategory** がチェックされない場合は、空の文字列が渡されます。 **rbOtherCategory** がチェックされるが、ユーザーが **txtOtherCategory** テキスト ボックスで何も指定していない場合は、値 "(Unspecified)" が渡されます。
     
   
 7. 最後に、 **rbOtherCategory** **RadioButton** の **Checked** および **Unchecked** イベントのハンドラーを追加し、Product Category のカスタム値を提供するために使用される **TextBox** コントロールを表示または非表示にします。 **EditForm** 部分クラスを実装するコード ブロックの範囲内で、これらのハンドラーの次の実装を EditForm.xaml.cs ファイルに含めます。
