@@ -22,7 +22,7 @@ Les fonctionnalités suivantes sont déconseillées dans SharePoint Designer 201
   
     
     
- **Motif du changement.**SharePoint 2013 introduit une nouvelle plateforme de flux de travail SharePoint 2013 qui repose sur Windows Workflow Foundation 4.0 et qui est intégrée à Workflow Manager 1.0.
+ **Motif du changement.** SharePoint 2013 introduit une nouvelle plateforme de flux de travail SharePoint 2013 qui repose sur Windows Workflow Foundation 4.0 et qui est intégrée à Workflow Manager 1.0.
   
     
     
@@ -154,7 +154,7 @@ La fonctionnalité suivante n'est pas disponible dans SharePoint 2013.
 #### Mode Création et mode Fractionné
 <a name="WhatsChangedSharePointDesigner2013_DesignViewSplitView"> </a>
 
- **Description du changement.**SharePoint Designer 2010 propose trois modes d'affichage pour modifier les pages HTML et ASPX : mode Code, mode Création et mode Fractionné. Le mode Création et le mode Fractionné sont supprimés de SharePoint Designer 2013. La suppression du mode Création et du mode Fractionné a une incidence sur les fonctionnalités de SharePoint Designer 2013 utilisées pour modifier des composants WebPart et des pages maîtres. Si vous modifiez des pages dans SharePoint Designer 2013, vous devez utiliser le mode Code.
+ **Description du changement.** SharePoint Designer 2010 propose trois modes d'affichage pour modifier les pages HTML et ASPX : mode Code, mode Création et mode Fractionné. Le mode Création et le mode Fractionné sont supprimés de SharePoint Designer 2013. La suppression du mode Création et du mode Fractionné a une incidence sur les fonctionnalités de SharePoint Designer 2013 utilisées pour modifier des composants WebPart et des pages maîtres. Si vous modifiez des pages dans SharePoint Designer 2013, vous devez utiliser le mode Code.
   
     
     
