@@ -42,7 +42,7 @@ public void CloseWorkbookAsync(string sessionId)
 
   ```VB.net
   Public Sub CloseWorkbookAsync(ByVal sessionId As String)
-End Sub
+  End Sub
   ```
 
  **CloseWorkbookAsync** メソッドが呼び出される際に呼び出されるイベントは、実装する必要はありません。シグネチャは、プロジェクトの Web References ディレクトリの Reference.cs ファイルにあります。 

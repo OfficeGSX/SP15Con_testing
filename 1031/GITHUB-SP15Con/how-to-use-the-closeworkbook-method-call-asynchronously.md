@@ -42,7 +42,7 @@ public void CloseWorkbookAsync(string sessionId)
 
   ```VB.net
   Public Sub CloseWorkbookAsync(ByVal sessionId As String)
-End Sub
+  End Sub
   ```
 
 You don't have to implement the event that is called when the **CloseWorkbookAsync** method is called.You can find the signature in the "Reference.cs" file in your project "Web References" directory. 
