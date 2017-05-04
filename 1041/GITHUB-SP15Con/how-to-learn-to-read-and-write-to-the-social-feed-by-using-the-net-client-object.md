@@ -114,8 +114,8 @@ const string targetUser = "domainName\\\\userName";
   ```
 
 
-    > **メモ**
-      > コードを実行する前に、 `http://serverName/` および `domainName\\\\userName` プレースホルダーの値を必ず置き換えてください。
+> **メモ**
+> コードを実行する前に、 `http://serverName/` および `domainName\\\\userName` プレースホルダーの値を必ず置き換えてください。
 2. **Main** メソッドで、SharePoint クライアント コンテキストを初期化します。
     
   ```cs
@@ -151,7 +151,7 @@ clientContext.ExecuteQuery();
   ```
 
 
-     [GetFeedFor](https://msdn.microsoft.com/library/Microsoft.SharePoint.Client.Social.SocialFeedManager.GetFeedFor.aspx) は、 **ClientResult<T>** オブジェクトを返します。スレッドのコレクションは、このオブジェクトの [Value](https://msdn.microsoft.com/library/Microsoft.SharePoint.Client.ClientResult`1.Value.aspx) プロパティに格納されています。
+[GetFeedFor](https://msdn.microsoft.com/library/Microsoft.SharePoint.Client.Social.SocialFeedManager.GetFeedFor.aspx) は、 **ClientResult<T>** オブジェクトを返します。スレッドのコレクションは、このオブジェクトの [Value](https://msdn.microsoft.com/library/Microsoft.SharePoint.Client.ClientResult`1.Value.aspx) プロパティに格納されています。
     
   
 
@@ -211,8 +211,8 @@ clientContext.ExecuteQuery();
   ```
 
 
-    > **メモ**
-      >  [CreatePost](https://msdn.microsoft.com/library/Microsoft.SharePoint.Client.Social.SocialFeedManager.CreatePost.aspx) メソッドは、最初のパラメーターに **null** を渡すことで、現在のユーザーのフィードに対する最初の投稿の発行にも使用されます。
+> **メモ**
+>  [CreatePost](https://msdn.microsoft.com/library/Microsoft.SharePoint.Client.Social.SocialFeedManager.CreatePost.aspx) メソッドは、最初のパラメーターに **null** を渡すことで、現在のユーザーのフィードに対する最初の投稿の発行にも使用されます。
 4. (UI 関連のみ) プログラムを終了します。
     
   ```cs

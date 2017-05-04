@@ -114,8 +114,8 @@ const string targetUser = "domainName\\\\userName";
   ```
 
 
-    > **HINWEIS**
-      > Ersetzen Sie unbedingt die Platzhalterwerte  `http://serverName/` und `domainName\\\\userName`, bevor Sie den Code ausführen.
+> **HINWEIS**
+> Ersetzen Sie unbedingt die Platzhalterwerte  `http://serverName/` und `domainName\\\\userName`, bevor Sie den Code ausführen.
 2. Initialisieren Sie in der Methode **Main** Clientkontexts SharePoint aus.
     
   ```cs
@@ -151,7 +151,7 @@ clientContext.ExecuteQuery();
   ```
 
 
-     [GetFeedFor](https://msdn.microsoft.com/library/Microsoft.SharePoint.Client.Social.SocialFeedManager.GetFeedFor.aspx) gibt ein **ClientResult<T>** -Objekt, das die Auflistung der Threads im dessen [Value](https://msdn.microsoft.com/library/Microsoft.SharePoint.Client.ClientResult`1.Value.aspx) -Eigenschaft gespeichert werden.
+[GetFeedFor](https://msdn.microsoft.com/library/Microsoft.SharePoint.Client.Social.SocialFeedManager.GetFeedFor.aspx) gibt ein **ClientResult<T>** -Objekt, das die Auflistung der Threads im dessen [Value](https://msdn.microsoft.com/library/Microsoft.SharePoint.Client.ClientResult`1.Value.aspx) -Eigenschaft gespeichert werden.
     
   
 
@@ -211,8 +211,8 @@ clientContext.ExecuteQuery();
   ```
 
 
-    > **HINWEIS**
-      > Die  [CreatePost](https://msdn.microsoft.com/library/Microsoft.SharePoint.Client.Social.SocialFeedManager.CreatePost.aspx) -Methode wird auch zum Veröffentlichen von Beiträgen Stamm des aktuellen Benutzers Feed, indem Sie **null** für den ersten Parameter übergeben.
+> **HINWEIS**
+> Die  [CreatePost](https://msdn.microsoft.com/library/Microsoft.SharePoint.Client.Social.SocialFeedManager.CreatePost.aspx) -Methode wird auch zum Veröffentlichen von Beiträgen Stamm des aktuellen Benutzers Feed, indem Sie **null** für den ersten Parameter übergeben.
 4. (UI-bezogene nur) Das Programm zu beenden.
     
   ```cs

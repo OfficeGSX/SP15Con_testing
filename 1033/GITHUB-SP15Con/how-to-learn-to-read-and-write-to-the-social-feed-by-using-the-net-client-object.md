@@ -114,8 +114,8 @@ const string targetUser = "domainName\\\\userName";
   ```
 
 
-    > **NOTE**
-      > Remember to replace the  `http://serverName/` and `domainName\\\\userName` placeholder values before you run the code.
+> **NOTE**
+> Remember to replace the  `http://serverName/` and `domainName\\\\userName` placeholder values before you run the code.
 2. In the **Main** method, initialize the SharePoint client context.
     
   ```cs
@@ -151,7 +151,7 @@ clientContext.ExecuteQuery();
   ```
 
 
-     [GetFeedFor](https://msdn.microsoft.com/library/Microsoft.SharePoint.Client.Social.SocialFeedManager.GetFeedFor.aspx) returns a **ClientResult<T>** object that stores the collection of threads in its [Value](https://msdn.microsoft.com/library/Microsoft.SharePoint.Client.ClientResult`1.Value.aspx) property.
+[GetFeedFor](https://msdn.microsoft.com/library/Microsoft.SharePoint.Client.Social.SocialFeedManager.GetFeedFor.aspx) returns a **ClientResult<T>** object that stores the collection of threads in its [Value](https://msdn.microsoft.com/library/Microsoft.SharePoint.Client.ClientResult`1.Value.aspx) property.
     
   
 
@@ -211,8 +211,8 @@ clientContext.ExecuteQuery();
   ```
 
 
-    > **NOTE**
-      > The  [CreatePost](https://msdn.microsoft.com/library/Microsoft.SharePoint.Client.Social.SocialFeedManager.CreatePost.aspx) method is also used to publish a root post to the current user's feed by passing **null** for the first parameter.
+> **NOTE**
+> The  [CreatePost](https://msdn.microsoft.com/library/Microsoft.SharePoint.Client.Social.SocialFeedManager.CreatePost.aspx) method is also used to publish a root post to the current user's feed by passing **null** for the first parameter.
 4. (UI-related only) Exit the program.
     
   ```cs
