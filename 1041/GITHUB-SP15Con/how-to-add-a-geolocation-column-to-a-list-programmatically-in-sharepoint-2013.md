@@ -124,7 +124,7 @@ SharePoint リストに地理位置情報フィールドを追加したら、そ
     
   ```cs
   
-private void AddListItem()
+  private void AddListItem()
         {   // Replace site URL and List Title with Valid values.
             ClientContext context = new ClientContext("<Site Url>");
             List oList = context.Web.Lists.GetByTitle("<List Name>");
@@ -153,7 +153,7 @@ private void AddListItem()
     
   ```cs
   
-private void AddListItem()
+  private void AddListItem()
         {   // Replace site URL and List Title with Valid values.
             ClientContext context = new ClientContext("<Site Url>");
             List oList = context.Web.Lists.GetByTitle("<List Name>");
