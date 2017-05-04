@@ -33,7 +33,7 @@ Die folgende Tabelle enthält einige Vorteile der Verwendung von MDS.
 |:-----|:-----|
 |Weniger Datenmengen pro Seitenanforderung heruntergeladen haben. <br/> |Keine Browser blinken zurückzuführen ganze Seite neu zu laden. <br/> |
 |Browser muss nur die Bereiche der Seite aktualisieren, die seit der letzten Anforderung geändert. <br/> |Leicht zu identifizieren, Animationen. <br/> |
-|Kleine Datenmengen Verarbeitung auf dem Client erforderlich. <br/> > **HINWEIS**> Die Hälfte der Client Seite Ladezeit 1 (PLT1) ist aufgrund von Chrome cascading Stylesheet (CSS) Rendering und Analysieren von JavaScript und Ausführung.          |Änderungen in der Seite wecken des Benutzers. <br/> |
+|Kleine Datenmengen Verarbeitung auf dem Client erforderlich. <br/> <br/> **HINWEIS**<br/> Die Hälfte der Client Seite Ladezeit 1 (PLT1) ist aufgrund von Chrome cascading Stylesheet (CSS) Rendering und Analysieren von JavaScript und Ausführung.          |Änderungen in der Seite wecken des Benutzers. <br/> |
    
 AJAX und MDS sind Technologien, die nur Abschnitte der Seite, um Daten zu minimieren herunterladen und Verbesserung der Seite Reaktionsfähigkeit anfordern. Die folgende Abbildung zeigt die MDS-Architektur.
   
