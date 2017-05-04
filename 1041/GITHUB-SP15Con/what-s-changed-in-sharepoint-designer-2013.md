@@ -22,11 +22,11 @@ SharePoint Designer 2013 では使用されていない機能や削除されて�
   
     
     
- **変更の理由:**SharePoint 2013には、新しい SharePoint 2013 ワークフロー プラットフォームが導入されています。このプラットフォームは、Windows Workflow Foundation 4.0 上に構築され、ワークフロー マネージャー 1.0 と統合されています。
+ **変更の理由:** SharePoint 2013には、新しい SharePoint 2013 ワークフロー プラットフォームが導入されています。このプラットフォームは、Windows Workflow Foundation 4.0 上に構築され、ワークフロー マネージャー 1.0 と統合されています。
   
     
     
- **移行パス:**SharePoint Designer 2013では、SharePoint 2010 ワークフロー プラットフォームを選択することで、依然として SharePoint 2010 ワークフローを作成したり、すべての SharePoint 2010 ワークフロー機能を使用したりできます。
+ **移行パス:** SharePoint Designer 2013では、SharePoint 2010 ワークフロー プラットフォームを選択することで、依然として SharePoint 2010 ワークフローを作成したり、すべての SharePoint 2010 ワークフロー機能を使用したりできます。
   
     
     
@@ -154,7 +154,7 @@ SharePoint Designer 2013 では使用されていない機能や削除されて�
 #### デザイン ビューと分割ビュー
 <a name="WhatsChangedSharePointDesigner2013_DesignViewSplitView"> </a>
 
- **変更の説明:**SharePoint Designer 2010 には、HTML および ASPX ページを編集するためのビューとして、コード ビュー、デザイン ビュー、分割ビューの 3 つがあります。デザイン ビューと分割ビューは、SharePoint Designer 2013から削除されています。デザイン ビューと分割ビューの削除は、Web パーツやマスター ページを編集するために使用される SharePoint Designer 2013の機能に影響します。SharePoint Designer 2013でページを編集する場合は、コード ビューを使用する必要があります。
+ **変更の説明:** SharePoint Designer 2010 には、HTML および ASPX ページを編集するためのビューとして、コード ビュー、デザイン ビュー、分割ビューの 3 つがあります。デザイン ビューと分割ビューは、SharePoint Designer 2013から削除されています。デザイン ビューと分割ビューの削除は、Web パーツやマスター ページを編集するために使用される SharePoint Designer 2013の機能に影響します。SharePoint Designer 2013でページを編集する場合は、コード ビューを使用する必要があります。
   
     
     
