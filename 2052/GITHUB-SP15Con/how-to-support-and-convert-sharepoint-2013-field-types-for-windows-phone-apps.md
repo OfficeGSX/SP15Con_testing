@@ -14,7 +14,7 @@ ms.assetid: 301e6e58-5153-4ca9-a419-8ae0535ebbed
 
 
 > **重要信息**
-> 如果您正在开发适用于 Windows Phone 8 的应用程序，则必须使用 Visual Studio Express 2012（而非 Visual Studio 2010 Express）。除开发环境以外，本文中的所有信息均适用于 Windows Phone 8 和 Windows Phone 7。 > 有关详细信息，请参阅 [如何：设置用于为 SharePoint 开发移动应用程序的环境](how-to-set-up-an-environment-for-developing-mobile-apps-for-sharepoint.md)。 
+> 如果您正在开发适用于 Windows Phone 8 的应用程序，则必须使用 Visual Studio Express 2012（而非 Visual Studio 2010 Express）。除开发环境以外，本文中的所有信息均适用于 Windows Phone 8 和 Windows Phone 7。 <br/> 有关详细信息，请参阅 [如何：设置用于为 SharePoint 开发移动应用程序的环境](how-to-set-up-an-environment-for-developing-mobile-apps-for-sharepoint.md)。 
   
     
     
@@ -339,7 +339,7 @@ private bool _isConversionRegistered;
   ```
 
 
-    此方法直接调用 **Converter** 类的适当注册方法。对于此代码，它假定在之前过程中创建的包含 **get** 和 **set** 函数的自定义类名为"ContosoConverter"。如果您为自己的类指定一个不同的名称，请相应地更改此处的代码。
+此方法直接调用 **Converter** 类的适当注册方法。对于此代码，它假定在之前过程中创建的包含 **get** 和 **set** 函数的自定义类名为"ContosoConverter"。如果您为自己的类指定一个不同的名称，请相应地更改此处的代码。
     
   
 5. 通过以下方法修改文件中 **OnNavigatedTo** 事件处理程序的实现：添加对 **_isConversionRegistered** 标记的值的检查，以及对在上一步中添加的 **RegisterTextFieldValueConverters** 函数的调用。修改后的处理程序应如下所示。
@@ -492,9 +492,9 @@ namespace SPListAppGuidConversion
   ```
 
 
-    在此自定义类中，通过匿名函数（由语句 lambda 定义）调用 **Converter** 类的 **RegisterDisplayFieldValueConverter** 和 **RegisterNewFieldValueConverter** 方法来为注册方法所需的委托实现 **get** 和 **set** 例程。此处的可选参数标签（例如，"getConvertedFieldValue:"）包含在此代码中仅是为了明确说明定义了哪些委托）。
+在此自定义类中，通过匿名函数（由语句 lambda 定义）调用 **Converter** 类的 **RegisterDisplayFieldValueConverter** 和 **RegisterNewFieldValueConverter** 方法来为注册方法所需的委托实现 **get** 和 **set** 例程。此处的可选参数标签（例如，"getConvertedFieldValue:"）包含在此代码中仅是为了明确说明定义了哪些委托）。
     
-    这种方法涉及 lambda 表达式，可以替代将命名函数作为参数传递给转换器注册函数的那种方法，后者在本主题的上述过程中已演示（在 [注册数据转换函数](#BKMK_RegisterFunctions)部分）。
+这种方法涉及 lambda 表达式，可以替代将命名函数作为参数传递给转换器注册函数的那种方法，后者在本主题的上述过程中已演示（在 [注册数据转换函数](#BKMK_RegisterFunctions)部分）。
     
   
 5. 保存该文件。
@@ -556,7 +556,7 @@ private void Application_Launching(object sender, LaunchingEventArgs e)
   ```
 
 
-    保存该文件。
+保存该文件。
     
   
 如果您启动项目并将应用程序部署到 Windows Phone Emulator 来运行它，则只要 SharePoint 列表中的相应字段包含 GUID 值，"标识符"字段中的数据就会显示在"列表"窗体 (List.xaml) 中（参见图 1）。
