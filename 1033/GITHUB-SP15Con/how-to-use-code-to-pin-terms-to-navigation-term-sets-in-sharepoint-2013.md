@@ -49,9 +49,9 @@ You can use custom code from the .NET server, .NET client (CSOM), Silverlight, o
 
   ```cs
   
-public void TermPinningTest()
+  public void TermPinningTest()
         {
-using (SPSite site = new SPSite(TestConfig.ServerUrl))
+  using (SPSite site = new SPSite(TestConfig.ServerUrl))
             {
                 using (SPWeb web = site.OpenWeb())
                 {
@@ -134,7 +134,7 @@ using (SPSite site = new SPSite(TestConfig.ServerUrl))
                 }
             }
 
-}
+  }
   ```
 
 
