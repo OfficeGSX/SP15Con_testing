@@ -14,7 +14,7 @@ Windows Phone SharePoint リスト アプリケーション テンプレート�
 
 
 > **重要**
-> Windows Phone 8 用のアプリを開発する場合は、Visual Studio 2010 Express でなく、Visual Studio Express 2012 を使用する必要があります。開発環境に関する内容を除けば、この記事の情報はすべて、Windows Phone 8 および Windows Phone 7 の両方のアプリを作成する場合に適用されます。 > 詳細については、「 [[方法]: SharePoint 用モバイル アプリの開発環境をセットアップする](how-to-set-up-an-environment-for-developing-mobile-apps-for-sharepoint.md)」を参照してください。 
+> Windows Phone 8 用のアプリを開発する場合は、Visual Studio 2010 Express でなく、Visual Studio Express 2012 を使用する必要があります。開発環境に関する内容を除けば、この記事の情報はすべて、Windows Phone 8 および Windows Phone 7 の両方のアプリを作成する場合に適用されます。 <br/> 詳細については、「 [[方法]: SharePoint 用モバイル アプリの開発環境をセットアップする](how-to-set-up-an-environment-for-developing-mobile-apps-for-sharepoint.md)」を参照してください。 
   
     
     
@@ -339,7 +339,7 @@ private bool _isConversionRegistered;
   ```
 
 
-    このメソッドは **Converter** クラスの適切な登録メソッドを呼び出します。このコードでは、前の手順で作成された **get** 関数と **set** 関数を持つカスタムクラスが "ContosoConverter" という名前です。違う名前でクラスを指定していた場合は、その名前でここを変更します。
+このメソッドは **Converter** クラスの適切な登録メソッドを呼び出します。このコードでは、前の手順で作成された **get** 関数と **set** 関数を持つカスタムクラスが "ContosoConverter" という名前です。違う名前でクラスを指定していた場合は、その名前でここを変更します。
     
   
 5. **_isConversionRegistered** フラグの値のチェックと、前の手順で追加した **RegisterTextFieldValueConverters** 関数の呼び出しを追加して、ファイルの **OnNavigatedTo** イベント ハンドラーの実装を修正します。修正されたハンドラーは以下のようになります。
@@ -492,9 +492,9 @@ namespace SPListAppGuidConversion
   ```
 
 
-    このカスタム クラスでは、 **Converter** クラスの **RegisterDisplayFieldValueConverter** と **RegisterNewFieldValueConverter** メソッドを匿名関数 (ラムダ ステートメントで定義) を使用して呼び出し、登録メソッドに必要なデリゲート用の **get** ルーチンと **set** ルーチンを実装します。ここでのオプションの引数ラベル (たとえば "getConvertedFieldValue:") は、どのデリゲートが定義されているかを明確にするためだけに使用されています。
+このカスタム クラスでは、 **Converter** クラスの **RegisterDisplayFieldValueConverter** と **RegisterNewFieldValueConverter** メソッドを匿名関数 (ラムダ ステートメントで定義) を使用して呼び出し、登録メソッドに必要なデリゲート用の **get** ルーチンと **set** ルーチンを実装します。ここでのオプションの引数ラベル (たとえば "getConvertedFieldValue:") は、どのデリゲートが定義されているかを明確にするためだけに使用されています。
     
-    ラムダ式を含むこのアプローチは、このトピックの前の手順 (「 [データ変換関数を登録するには](#BKMK_RegisterFunctions)」セクション) で説明したコンバーターの登録関数に対して、パラメーターとして名前付き関数を渡す代替手段です。
+ラムダ式を含むこのアプローチは、このトピックの前の手順 (「 [データ変換関数を登録するには](#BKMK_RegisterFunctions)」セクション) で説明したコンバーターの登録関数に対して、パラメーターとして名前付き関数を渡す代替手段です。
     
   
 5. ファイルを保存します。
@@ -556,7 +556,7 @@ private void Application_Launching(object sender, LaunchingEventArgs e)
   ```
 
 
-    ファイルを保存します。
+ファイルを保存します。
     
   
 プロジェクトを開始し、Windows Phone エミュレーターにアプリを配置して実行すると、SharePoint リストの対応するフィールドに GUID 値が格納されている場合、Identifier フィールドのデータが List フォーム (List.xaml) に表示されます (図 1 を参照してください)。

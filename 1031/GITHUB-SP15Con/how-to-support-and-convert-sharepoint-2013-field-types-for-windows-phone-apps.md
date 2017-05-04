@@ -14,7 +14,7 @@ In Projekten basierend auf die Vorlage Windows Phone SharePoint List Application
 
 
 > **WICHTIG**
-> Wenn Sie eine app für Windows Phone 8 entwickeln, müssen Sie anstelle von Visual Studio 2010 Express Visual Studio Express 2012 verwenden. Alle Informationen in diesem Artikel betrifft mit Ausnahme der Entwicklungsumgebung Erstellen von apps für Windows Phone 8 und Windows Phone 7.> Weitere Informationen finden Sie unter  [Vorgehensweise: Einrichten einer Umgebung für die Entwicklung von mobilen Anwendungen für SharePoint](how-to-set-up-an-environment-for-developing-mobile-apps-for-sharepoint.md).
+> Wenn Sie eine app für Windows Phone 8 entwickeln, müssen Sie anstelle von Visual Studio 2010 Express Visual Studio Express 2012 verwenden. Alle Informationen in diesem Artikel betrifft mit Ausnahme der Entwicklungsumgebung Erstellen von apps für Windows Phone 8 und Windows Phone 7.<br/> Weitere Informationen finden Sie unter  [Vorgehensweise: Einrichten einer Umgebung für die Entwicklung von mobilen Anwendungen für SharePoint](how-to-set-up-an-environment-for-developing-mobile-apps-for-sharepoint.md).
   
     
     
@@ -339,7 +339,7 @@ private bool _isConversionRegistered;
   ```
 
 
-    Diese Methode ruft einfach die entsprechende Registrierungsmethoden der **Converter** -Klasse. Für diesen Code wird vorausgesetzt, dass die benutzerdefinierte Klasse, die im vorhergehenden Verfahren erstellten **Abrufen** und **Festlegen von** Funktionen mit dem Namen "ContosoConverter". Wenn Sie einen anderen Namen für die Klasse angegeben haben, ändern Sie den Code hier entsprechend anpassen.
+Diese Methode ruft einfach die entsprechende Registrierungsmethoden der **Converter** -Klasse. Für diesen Code wird vorausgesetzt, dass die benutzerdefinierte Klasse, die im vorhergehenden Verfahren erstellten **Abrufen** und **Festlegen von** Funktionen mit dem Namen "ContosoConverter". Wenn Sie einen anderen Namen für die Klasse angegeben haben, ändern Sie den Code hier entsprechend anpassen.
     
   
 5. Ändern Sie die Implementierung der **OnNavigatedTo** -Ereignishandler in der Datei, indem Sie eine Prüfung auf den Wert des Flags **_isConversionRegistered** und einen Anruf an die **RegisterTextFieldValueConverters** -Funktion, die im vorherigen Schritt hinzugefügt hinzufügen. Der geänderte Handler sollte wie folgt aussehen.
@@ -492,9 +492,9 @@ namespace SPListAppGuidConversion
   ```
 
 
-    In dieser benutzerdefinierten Klasse die **RegisterDisplayFieldValueConverter** und die **RegisterNewFieldValueConverter** -Methoden der Klasse **Converter** heißen anonyme Funktionen (definiert durch eine Anweisung Lambda) verwenden, um das **Abrufen** und **Festlegen von** Routinen für die Delegaten von den Registrierungsmethoden erforderlich zu implementieren. Das optionale Argument hier Etiketten (z. B. "GetConvertedFieldValue:") sind in diesen Code nur, um zu verdeutlichen, welche Stellvertretungen definiert sind enthalten.)
+In dieser benutzerdefinierten Klasse die **RegisterDisplayFieldValueConverter** und die **RegisterNewFieldValueConverter** -Methoden der Klasse **Converter** heißen anonyme Funktionen (definiert durch eine Anweisung Lambda) verwenden, um das **Abrufen** und **Festlegen von** Routinen für die Delegaten von den Registrierungsmethoden erforderlich zu implementieren. Das optionale Argument hier Etiketten (z. B. "GetConvertedFieldValue:") sind in diesen Code nur, um zu verdeutlichen, welche Stellvertretungen definiert sind enthalten.)
     
-    Dieser Ansatz, mit Lambdaausdrücken ist eine Alternative zur Übergabe von benannten fungiert als Parameter an die Konverter Registration-Funktionen, die in einem früheren Verfahren in diesem Thema (im Abschnitt  [zum Registrieren der Daten Konvertierungsfunktionen](#BKMK_RegisterFunctions)) beschriebenen nachgewiesen wurde.
+Dieser Ansatz, mit Lambdaausdrücken ist eine Alternative zur Übergabe von benannten fungiert als Parameter an die Konverter Registration-Funktionen, die in einem früheren Verfahren in diesem Thema (im Abschnitt  [zum Registrieren der Daten Konvertierungsfunktionen](#BKMK_RegisterFunctions)) beschriebenen nachgewiesen wurde.
     
   
 5. Speichern Sie die Datei.
@@ -556,7 +556,7 @@ private void Application_Launching(object sender, LaunchingEventArgs e)
   ```
 
 
-    Speichern Sie die Datei.
+Speichern Sie die Datei.
     
   
 Wenn Sie das Projekt starten und die app in der Windows Phone-Emulator bereitstellen, um Sie auszuführen, werden in der Listenform (List.xaml) Daten im Feld ID angezeigt, das entsprechende Feld in der SharePoint-Liste enthält einen GUID-Wert. (Siehe Abbildung 1).
