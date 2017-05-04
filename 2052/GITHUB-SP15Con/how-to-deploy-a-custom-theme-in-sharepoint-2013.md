@@ -51,7 +51,7 @@ SharePoint 2013 包括预先安装的主题。您可以通过创建更多调色�
 - **样式库** 列出了您希望在主题设置体验中使用的自定义 CSS 文件。您可以直接导航到样式库（替换此 URL 中的 _SiteCollectionName_ 和 _language_：http:// _SiteCollectionName_/Style Library/ _language_/Themable/）。
     
     > **注释**
-      > 将自定义 CSS 文件放置在主题库的 Themable 文件夹中，而不是母版页样式库的 Themable 文件夹中。主题引擎仅可识别存储在样式库的 Themable 文件夹中的 CSS 文件。 
+      <br/> 将自定义 CSS 文件放置在主题库的 Themable 文件夹中，而不是母版页样式库的 Themable 文件夹中。主题引擎仅可识别存储在样式库的 Themable 文件夹中的 CSS 文件。 
 
 > **注释**
 > 如果您在母版页样式库和主题库上启用了版本控制，您必须先发布设计文件，然后才可供主题引擎使用。 
@@ -169,8 +169,8 @@ theme.ApplyTo(Web, true);
   ```
 
 
-    > **注释**
-      > **ApplyTo** 方法中的 _shareGenerated_ 参数指定是否可以在网站集中的网站之间共享主题文件。通常，对于 SharePoint Server 和 SharePoint Online 网站，设置为 **true**；对于 SharePoint Foundation 网站，设置为 **false**。如果您希望共享主题文件，必须将  _shareGenerated_ 参数设置为 **true**。有关详细信息，请参阅  [ApplyTo(SPWeb, Boolean)](https://msdn.microsoft.com/library/Microsoft.SharePoint.Utilities.SPTheme.ApplyTo.aspx) 。
+> **注释**
+> **ApplyTo** 方法中的 _shareGenerated_ 参数指定是否可以在网站集中的网站之间共享主题文件。通常，对于 SharePoint Server 和 SharePoint Online 网站，设置为 **true**；对于 SharePoint Foundation 网站，设置为 **false**。如果您希望共享主题文件，必须将  _shareGenerated_ 参数设置为 **true**。有关详细信息，请参阅  [ApplyTo(SPWeb, Boolean)](https://msdn.microsoft.com/library/Microsoft.SharePoint.Utilities.SPTheme.ApplyTo.aspx) 。
 
     当用户在"更改外观"向导中应用主题时，该向导还会更新"组合外观"列表和设计库中名为"当前"的主题。当您以编程方式应用主题时，必须手动更新"当前"主题。以下示例说明如何更新"当前"主题。
     
