@@ -425,8 +425,8 @@ public class Northwind : DataService<NorthwindEntities>
     
   ```cs
   
-config.SetEntitySetAccessRule("*", EntitySetRights.All);
-config.SetServiceOperationAccessRule("*", ServiceOperationRights.All);
+  config.SetEntitySetAccessRule("*", EntitySetRights.All);
+  config.SetServiceOperationAccessRule("*", ServiceOperationRights.All);
   ```
 
 
