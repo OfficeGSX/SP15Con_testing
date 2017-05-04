@@ -432,7 +432,7 @@ Sie können verschiedene Arten von Filtern erstellen. Führen Sie für jeden Fil
     
 
     
-    Verwenden Sie den externen Inhaltstyp **Seitenzahl**, um den SharePoint-Seitengrenzwert zu ersetzen, der auf der Seite **Listenansicht** der externen Liste festgelegt ist. Dies sind die Unterschiede:
+Verwenden Sie den externen Inhaltstyp **Seitenzahl**, um den SharePoint-Seitengrenzwert zu ersetzen, der auf der Seite **Listenansicht** der externen Liste festgelegt ist. Dies sind die Unterschiede:
     
   - Beim externen Inhaltstyp **Seitenzahl** werden zuerst die Ergebnisse innerhalb der SQL Server-Datenbank verarbeitet. Dann nur wird die Anzahl der Zeilen zurückgegeben und angezeigt, die vom Wert **Seitengröße** bestimmt wird.
     

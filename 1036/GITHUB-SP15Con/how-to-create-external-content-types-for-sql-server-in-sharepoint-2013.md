@@ -432,7 +432,7 @@ Vous pouvez créer différents types de filtres. Pour chaque filtre que vous cr�
     
 
     
-    Utilisez le numéro de la page du type de contenu externe pour remplacer la limite de page SharePoint définie dans la page **Affichage de liste** de la liste externe. Voici la différence :
+Utilisez le numéro de la page du type de contenu externe pour remplacer la limite de page SharePoint définie dans la page **Affichage de liste** de la liste externe. Voici la différence :
     
   - Le numéro de la page du type de contenu externe traite d'abord les résultats dans la base de données SQL Server, puis renvoie et affiche uniquement le nombre de lignes déterminé par la valeur Taille de la page.
     

@@ -432,7 +432,7 @@ En la mayoría de los casos, debe definir un filtro de límite para las operacio
     
 
     
-    Use el número de página de tipo de contenido externo para sustituir el límite de la página de SharePoint definido en la página **Vista de lista** de la lista externa. Aquí esta la diferencia:
+Use el número de página de tipo de contenido externo para sustituir el límite de la página de SharePoint definido en la página **Vista de lista** de la lista externa. Aquí esta la diferencia:
     
   - El tipo de contenido externo de número de página procesa primero los resultados de la base de datos de SQL Server y luego devuelve y muestra solo el número de filas determinado por el valor de tamaño de página.
     

@@ -432,7 +432,7 @@ You can create several different types of filters. For each filter that you crea
     
 
     
-    Use the external content type Page Number to supersede the SharePoint page limit defined in the **List View** page of the external list. Here's the difference:
+Use the external content type Page Number to supersede the SharePoint page limit defined in the **List View** page of the external list. Here's the difference:
     
   - The external content type Page Number first processes the results within the SQL Server database, and then returns and displays only the number of rows determined by the Page Size value.
     
