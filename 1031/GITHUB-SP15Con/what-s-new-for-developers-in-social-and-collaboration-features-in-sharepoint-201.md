@@ -262,7 +262,7 @@ Die folgende Liste enthält Informationen zum Entwickeln mit Communitywebsite Fe
   
 - Community-Websites verwenden asynchrone Ereignisse, um Objekte zu aktualisieren. Wenn asynchrone Ereignisse im Hintergrund ausgeführt werden soll, können, wenn Sie versuchen, Listen oder Listenelementen aktualisieren und Ihre Handle für das Objekt möglicherweise veraltet  *Speichern*  Konflikte auftreten.
     
-    Um dieses Problem zu umgehen Ausnahmen behandeln, die von der **Update** -Aufrufe zurückgegeben werden aktualisieren Sie die Instanz vor wiederholen Sie den Anruf, und für mehrere Wiederholungsversuche Schleife wie im folgenden Codebeispiel dargestellt.
+Um dieses Problem zu umgehen Ausnahmen behandeln, die von der **Update** -Aufrufe zurückgegeben werden aktualisieren Sie die Instanz vor wiederholen Sie den Anruf, und für mehrere Wiederholungsversuche Schleife wie im folgenden Codebeispiel dargestellt.
     
 
 
