@@ -201,8 +201,8 @@ static Dictionary<string, string> ViewXmls = new Dictionary<string, string>()
   ```
 
 
-    > **注释**
-      >  特别是， **PivotItem** 控件的 **Name** 属性（"视图2"）的值与添加到在步骤 2 中定义的 **Dictionary** 类型的条目的键值相同。此值用于标识用来检索要在 **PivotItem** 中显示的数据的适当 CAML 查询。另请注意，此处声明的 **ListBox**（名为"lstBox2"，仅用于将其与默认视图的 **ListBox** 区别开来）也绑定到视图。
+> **注释**
+>  特别是， **PivotItem** 控件的 **Name** 属性（"视图2"）的值与添加到在步骤 2 中定义的 **Dictionary** 类型的条目的键值相同。此值用于标识用来检索要在 **PivotItem** 中显示的数据的适当 CAML 查询。另请注意，此处声明的 **ListBox**（名为"lstBox2"，仅用于将其与默认视图的 **ListBox** 区别开来）也绑定到视图。
 
     
     
