@@ -114,8 +114,8 @@ const string targetUser = "domainName\\\\userName";
   ```
 
 
-    > **注释**
-      > 请记住在运行代码之前，替换  `http://serverName/` 和 `domainName\\\\userName` 占位符值。
+> **注释**
+> 请记住在运行代码之前，替换  `http://serverName/` 和 `domainName\\\\userName` 占位符值。
 2. 在 **Main** 方法中，初始化 SharePoint 客户端上下文。
     
   ```cs
@@ -151,7 +151,7 @@ clientContext.ExecuteQuery();
   ```
 
 
-     [GetFeedFor](https://msdn.microsoft.com/library/Microsoft.SharePoint.Client.Social.SocialFeedManager.GetFeedFor.aspx) 会返回将线索集合存储在其 [Value](https://msdn.microsoft.com/library/Microsoft.SharePoint.Client.ClientResult`1.Value.aspx) 属性中的 **ClientResult<T>** 对象。
+[GetFeedFor](https://msdn.microsoft.com/library/Microsoft.SharePoint.Client.Social.SocialFeedManager.GetFeedFor.aspx) 会返回将线索集合存储在其 [Value](https://msdn.microsoft.com/library/Microsoft.SharePoint.Client.ClientResult`1.Value.aspx) 属性中的 **ClientResult<T>** 对象。
     
   
 
@@ -211,8 +211,8 @@ clientContext.ExecuteQuery();
   ```
 
 
-    > **注释**
-      >  [CreatePost](https://msdn.microsoft.com/library/Microsoft.SharePoint.Client.Social.SocialFeedManager.CreatePost.aspx) 方法还可以用于通过为第一个参数传递 **null** 将根帖发布到当前用户的订阅源中。
+> **注释**
+>  [CreatePost](https://msdn.microsoft.com/library/Microsoft.SharePoint.Client.Social.SocialFeedManager.CreatePost.aspx) 方法还可以用于通过为第一个参数传递 **null** 将根帖发布到当前用户的订阅源中。
 4. （仅与 UI 相关）退出程序。
     
   ```cs
