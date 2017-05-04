@@ -8,7 +8,6 @@ ms.assetid: 061985ec-6129-4e91-991b-a72488ce1d34
 
 # Programmiermodelle in SharePoint 2013
 In diesem Artikel erhalten Sie einen schnellen Überblick über die unterschiedlichen SharePoint-Entwicklungsprojekte.
- * **Gilt für:*** 
   
     
     
@@ -16,7 +15,7 @@ In diesem Artikel erhalten Sie einen schnellen Überblick über die unterschiedl
 
 |||
 |:-----|:-----|
-|**In diesem Artikel**          [Add-Ins für SharePoint](#Apps)           [SharePoint-Veröffentlichungssites](#ECM)           [SharePoint-Farmlösungen](#Solutions)           [Mobile Add-Ins für SharePoint](#Mobile)           [Wiederverwendbare Komponenten für SharePoint](#Reuse)           [Zusätzliche Ressourcen](#SP15devinSP_addlresources)|
+|**In diesem Artikel**<br/>          [Add-Ins für SharePoint](#Apps)<br/>           [SharePoint-Veröffentlichungssites](#ECM)<br/>           [SharePoint-Farmlösungen](#Solutions)<br/>           [Mobile Add-Ins für SharePoint](#Mobile)<br/>           [Wiederverwendbare Komponenten für SharePoint](#Reuse)<br/>           [Zusätzliche Ressourcen](#SP15devinSP_addlresources)|
 **Video anschauen: Entwicklungsoptionen für Office 2013 und SharePoint 2013**
 
   
