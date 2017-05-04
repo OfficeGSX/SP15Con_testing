@@ -18,15 +18,15 @@ SharePoint Designer 2013 中弃用了或移除了以下功能。
 ### SharePoint 2010 工作流平台
 <a name="WhatsChangedSharePointDesigner2013_WorkflowPlatform"> </a>
 
- **更改的说明。**SharePoint 2013 中弃用了 SharePoint 2010 工作流平台的一些依赖 Windows Workflow Foundation 3.0 的功能。
+ **更改的说明。** SharePoint 2013 中弃用了 SharePoint 2010 工作流平台的一些依赖 Windows Workflow Foundation 3.0 的功能。
   
     
     
- **更改的原因。**SharePoint 2013 引入了在 Windows Workflow Foundation 4.0 基础上构建并与 工作流管理器 1.0 集成的新 SharePoint 2013 工作流平台。
+ **更改的原因。** SharePoint 2013 引入了在 Windows Workflow Foundation 4.0 基础上构建并与 工作流管理器 1.0 集成的新 SharePoint 2013 工作流平台。
   
     
     
- **迁移路径。**在 SharePoint Designer 2013 中，您仍可以通过选择 SharePoint 2010 工作流平台来创建 SharePoint 2010 工作流并使用所有 SharePoint 2010 工作流功能。
+ **迁移路径。** 在 SharePoint Designer 2013 中，您仍可以通过选择 SharePoint 2010 工作流平台来创建 SharePoint 2010 工作流并使用所有 SharePoint 2010 工作流功能。
   
     
     
@@ -154,15 +154,15 @@ SharePoint Designer 2013 中弃用了或移除了以下功能。
 #### 设计视图和拆分视图
 <a name="WhatsChangedSharePointDesigner2013_DesignViewSplitView"> </a>
 
- **更改的说明。**SharePoint Designer 2010 具有三个用于编辑 HTML 和 ASPX 页面的视图：代码视图、设计视图和拆分视图。从 SharePoint Designer 2013 中移除了设计视图和拆分视图。设计视图和拆分视图的移除会影响 SharePoint Designer 2013 的用于编辑 Web 部件和母版页的功能。如果您在 SharePoint Designer 2013 中编辑页面，则必须使用代码视图。
+ **更改的说明。** SharePoint Designer 2010 具有三个用于编辑 HTML 和 ASPX 页面的视图：代码视图、设计视图和拆分视图。从 SharePoint Designer 2013 中移除了设计视图和拆分视图。设计视图和拆分视图的移除会影响 SharePoint Designer 2013 的用于编辑 Web 部件和母版页的功能。如果您在 SharePoint Designer 2013 中编辑页面，则必须使用代码视图。
   
     
     
- **更改的原因。**与当前版本的 Internet Explorer 相比，设计视图是不支持许多新的 HTML5 和 CSS 标记的较旧技术。 
+ **更改的原因。** 与当前版本的 Internet Explorer 相比，设计视图是不支持许多新的 HTML5 和 CSS 标记的较旧技术。 
   
     
     
- **迁移路径。**如果您在代码视图中编辑页面，则可以按 **F12** 在浏览器中预览页面。您也可以使用 Visual Studio 来编辑页面。
+ **迁移路径。** 如果您在代码视图中编辑页面，则可以按 **F12** 在浏览器中预览页面。您也可以使用 Visual Studio 来编辑页面。
   
     
     
