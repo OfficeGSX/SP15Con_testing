@@ -195,7 +195,7 @@ Una vez que el nuevo formulario se agrega al proyecto, Visual Studio lo abre aut
   ```
 
 
-    Este control de servidor realiza dos tareas importantes. Primero, agrega las bibliotecas de JavaScript que necesita el formulario de asociación. Luego, toma los valores del formulario que envió el formulario anterior y los escribe en la página como controles de entrada HTML ocultos. La página anterior era el formulario de asociación predeterminado de SharePoint, donde el usuario especificó la definición del flujo de trabajo, el nombre de la asociación, el historial, la lista de tareas del flujo de trabajo y las opciones de inicio. Este formulario usaba un HTTP POST para mover al formulario de asociación personalizado que se ha agregado al flujo de trabajo. Como se trata de un HTTP POST, los valores no son accesibles en el formulario, pues toda la lógica personalizada se debe implementar sin código del lado cliente. Por lo tanto, SharePoint ofrece este control de servidor para extraer esos valores de la canalización de la solicitud HTTP y agregarlos a esta página.
+Este control de servidor realiza dos tareas importantes. Primero, agrega las bibliotecas de JavaScript que necesita el formulario de asociación. Luego, toma los valores del formulario que envió el formulario anterior y los escribe en la página como controles de entrada HTML ocultos. La página anterior era el formulario de asociación predeterminado de SharePoint, donde el usuario especificó la definición del flujo de trabajo, el nombre de la asociación, el historial, la lista de tareas del flujo de trabajo y las opciones de inicio. Este formulario usaba un HTTP POST para mover al formulario de asociación personalizado que se ha agregado al flujo de trabajo. Como se trata de un HTTP POST, los valores no son accesibles en el formulario, pues toda la lógica personalizada se debe implementar sin código del lado cliente. Por lo tanto, SharePoint ofrece este control de servidor para extraer esos valores de la canalización de la solicitud HTTP y agregarlos a esta página.
     
   
 3. Desplácese hacia abajo en el archivo de código fuente hasta que encuentre la tabla HTML de ejemplo y reemplácela por la siguiente:
@@ -216,7 +216,7 @@ Una vez que el nuevo formulario se agrega al proyecto, Visual Studio lo abre aut
   ```
 
 
-    Esta tabla muestra un cuadro de texto HTML simple que se usa para pasar información a la asociación de flujo de trabajo. El formulario tiene dos botones, que se usan para guardar o cancelar el flujo de trabajo. Al hacer clic en el botón **Guardar**, el flujo de trabajo llama a la función **runAssocWfTask()** de JavaScript, que está unas líneas más abajo en el archivo de código fuente. Tenemos que modificar ese siguiente.
+Esta tabla muestra un cuadro de texto HTML simple que se usa para pasar información a la asociación de flujo de trabajo. El formulario tiene dos botones, que se usan para guardar o cancelar el flujo de trabajo. Al hacer clic en el botón **Guardar**, el flujo de trabajo llama a la función **runAssocWfTask()** de JavaScript, que está unas líneas más abajo en el archivo de código fuente. Tenemos que modificar ese siguiente.
     
   
 

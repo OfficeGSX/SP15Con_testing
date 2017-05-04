@@ -195,7 +195,7 @@ Nachdem das neue Formular dem Projekt hinzugefügt wurde, wird es in Visual Stud
   ```
 
 
-    Dieses Serversteuerelement führt zwei wichtige Aufgaben durch. Erstens fügt es die vom Zuordnungsformular benötigten JavaScript-Bibliotheken hinzu. Zweitens verwendet es die vom vorherigen Formular übermittelten Formularwerte und schreibt sie als verborgene HTML-Eingabesteuerelemente auf die Seite. Bei der vorherigen Seite handelte es sich um das SharePoint-Standardzuordnungsformular, d. h. das Formular, in dem der Benutzer die Workflowdefinition, den Zuordnungsnamen, die Workflowaufgabe und die Verlaufsliste sowie die Startoptionen angegeben hat. Dieses Formular verwendete eine HTTP POST-Anforderung, um zu dem benutzerdefinierten Zuordnungsformular zu gelangen, das dem Workflow hinzugefügt wurde. Da es sich um eine HTTP POST-Anforderung handelt, ist der Zugriff auf die Werte in dem Formular nicht möglich, weil die gesamte benutzerdefinierte Logik ohne serverseitigen Code implementiert werden muss. SharePoint stellt daher dieses Serversteuerelement zur Verfügung, um diese Werte aus der HTTP-Anforderungspipeline zu extrahieren und dieser Seite hinzuzufügen.
+Dieses Serversteuerelement führt zwei wichtige Aufgaben durch. Erstens fügt es die vom Zuordnungsformular benötigten JavaScript-Bibliotheken hinzu. Zweitens verwendet es die vom vorherigen Formular übermittelten Formularwerte und schreibt sie als verborgene HTML-Eingabesteuerelemente auf die Seite. Bei der vorherigen Seite handelte es sich um das SharePoint-Standardzuordnungsformular, d. h. das Formular, in dem der Benutzer die Workflowdefinition, den Zuordnungsnamen, die Workflowaufgabe und die Verlaufsliste sowie die Startoptionen angegeben hat. Dieses Formular verwendete eine HTTP POST-Anforderung, um zu dem benutzerdefinierten Zuordnungsformular zu gelangen, das dem Workflow hinzugefügt wurde. Da es sich um eine HTTP POST-Anforderung handelt, ist der Zugriff auf die Werte in dem Formular nicht möglich, weil die gesamte benutzerdefinierte Logik ohne serverseitigen Code implementiert werden muss. SharePoint stellt daher dieses Serversteuerelement zur Verfügung, um diese Werte aus der HTTP-Anforderungspipeline zu extrahieren und dieser Seite hinzuzufügen.
     
   
 3. Führen Sie einen Bildlauf in der Quelldatei durch, bis Sie die HTML-Beispieltabelle gefunden haben, und ersetzen Sie durch den folgenden Code:
@@ -216,7 +216,7 @@ Nachdem das neue Formular dem Projekt hinzugefügt wurde, wird es in Visual Stud
   ```
 
 
-    Diese Tabelle zeigt ein einfaches HTML-Textfeld, mit dem Informationen in die Workflowzuordnung übergeben werden. Beachten Sie, dass das Formular zwei Schaltflächen aufweist. Über diese Schaltflächen wird der Workflow gespeichert oder abgebrochen. Wenn Sie auf die Schaltfläche **Speichern** klicken, ruft der Workflow die JavaScript-Funktion **runAssocWfTask()** auf, die sich einige Zeilen weiter unten in der Quelldatei befindet. Dies muss als Nächstes geändert werden.
+Diese Tabelle zeigt ein einfaches HTML-Textfeld, mit dem Informationen in die Workflowzuordnung übergeben werden. Beachten Sie, dass das Formular zwei Schaltflächen aufweist. Über diese Schaltflächen wird der Workflow gespeichert oder abgebrochen. Wenn Sie auf die Schaltfläche **Speichern** klicken, ruft der Workflow die JavaScript-Funktion **runAssocWfTask()** auf, die sich einige Zeilen weiter unten in der Quelldatei befindet. Dies muss als Nächstes geändert werden.
     
   
 

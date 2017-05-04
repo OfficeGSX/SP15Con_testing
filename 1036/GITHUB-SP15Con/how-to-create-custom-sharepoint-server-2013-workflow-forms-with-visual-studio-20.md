@@ -195,7 +195,7 @@ Une fois le nouveau formulaire ajouté au projet, Visual Studio l'ouvre automati
   ```
 
 
-    Ce contrôle du serveur effectue deux tâches importantes. Tout d'abord, il ajoute les bibliothèques JavaScript nécessaires pour le formulaire d'association. Ensuite, il prend les valeurs de formulaire soumises par le formulaire précédent et les écrit sur la page en tant que contrôles d'entrée HTML masqués. La page précédente est le formulaire d'association SharePoint par défaut, celui où l'utilisateur spécifie la définition de flux de travail, le nom de l'association, la tâche de flux de travail et l'historique, ainsi que les options de démarrage. Ce formulaire utilise une demande POST HTTP pour passer au formulaire d'association personnalisé ajouté au flux de travail. Étant donné qu'il s'agit d'une demande POST HTTP, les valeurs ne sont pas accessibles dans le formulaire, puisque toute logique personnalisée doit être implémentée sans code côté serveur. Par conséquent, SharePoint fournit ce contrôle du serveur pour extraire ces valeurs du pipeline de demandes HTTP et les ajouter à cette page.
+Ce contrôle du serveur effectue deux tâches importantes. Tout d'abord, il ajoute les bibliothèques JavaScript nécessaires pour le formulaire d'association. Ensuite, il prend les valeurs de formulaire soumises par le formulaire précédent et les écrit sur la page en tant que contrôles d'entrée HTML masqués. La page précédente est le formulaire d'association SharePoint par défaut, celui où l'utilisateur spécifie la définition de flux de travail, le nom de l'association, la tâche de flux de travail et l'historique, ainsi que les options de démarrage. Ce formulaire utilise une demande POST HTTP pour passer au formulaire d'association personnalisé ajouté au flux de travail. Étant donné qu'il s'agit d'une demande POST HTTP, les valeurs ne sont pas accessibles dans le formulaire, puisque toute logique personnalisée doit être implémentée sans code côté serveur. Par conséquent, SharePoint fournit ce contrôle du serveur pour extraire ces valeurs du pipeline de demandes HTTP et les ajouter à cette page.
     
   
 3. Faites défiler le fichier source vers le bas jusqu'à ce que vous localisiez l'exemple de table HTML et remplacez-le par la table suivante :
@@ -216,7 +216,7 @@ Une fois le nouveau formulaire ajouté au projet, Visual Studio l'ouvre automati
   ```
 
 
-    Cette table affiche une zone de texte HTML simple utilisée pour transmettre des informations dans l'association de flux de travail. Notez que le formulaire comporte deux boutons. Ces boutons sont utilisés pour enregistrer ou annuler le flux de travail. Lorsque vous cliquez sur le bouton **Enregistrer**, le flux de travail appelle la fonction JavaScript **runAssocWfTask()** située quelques lignes plus bas dans le fichier source. C'est ce que nous allons modifier à la prochaine étape.
+Cette table affiche une zone de texte HTML simple utilisée pour transmettre des informations dans l'association de flux de travail. Notez que le formulaire comporte deux boutons. Ces boutons sont utilisés pour enregistrer ou annuler le flux de travail. Lorsque vous cliquez sur le bouton **Enregistrer**, le flux de travail appelle la fonction JavaScript **runAssocWfTask()** située quelques lignes plus bas dans le fichier source. C'est ce que nous allons modifier à la prochaine étape.
     
   
 
