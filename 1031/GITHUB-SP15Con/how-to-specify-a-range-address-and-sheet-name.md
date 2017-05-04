@@ -26,7 +26,7 @@ A range specification must contain a sheet name; Excel Web Services does not rec
     
   ```cs
   
-object[] rangeResult1 = xlservice.GetRangeA1(sessionId, String.Empty, "Sheet2!A12:G18", true, out outStatus);
+  object[] rangeResult1 = xlservice.GetRangeA1(sessionId, String.Empty, "Sheet2!A12:G18", true, out outStatus);
   ```
 
 
