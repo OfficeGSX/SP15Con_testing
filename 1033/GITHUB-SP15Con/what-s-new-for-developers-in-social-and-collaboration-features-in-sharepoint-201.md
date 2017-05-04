@@ -262,7 +262,7 @@ The following list contains information for developing with Community Site featu
   
 - Community Sites use asynchronous events to update objects. If asynchronous events run in the background, you may encounter  *Save*  conflicts when you attempt to update lists or list items, and your handle to the object may become stale.
     
-    As a workaround, handle exceptions that are returned by **Update** calls, refresh the instance before you retry the call, and loop for multiple retries, as shown in the following code example.
+As a workaround, handle exceptions that are returned by **Update** calls, refresh the instance before you retry the call, and loop for multiple retries, as shown in the following code example.
     
 
 
