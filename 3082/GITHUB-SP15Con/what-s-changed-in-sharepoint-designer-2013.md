@@ -22,7 +22,7 @@ Las siguientes características se han quitado o están en desuso en SharePoint 
   
     
     
- **Motivo del cambio.**SharePoint 2013 presenta una nueva plataforma de flujo de trabajo de SharePoint 2013 que se basa en Windows Workflow Foundation 4.0 y se integra con Administrador de flujos de trabajo 1.0.
+ **Motivo del cambio.** SharePoint 2013 presenta una nueva plataforma de flujo de trabajo de SharePoint 2013 que se basa en Windows Workflow Foundation 4.0 y se integra con Administrador de flujos de trabajo 1.0.
   
     
     
@@ -154,7 +154,7 @@ La siguiente característica no está disponible en SharePoint 2013.
 #### Vista de diseño y vista en dos paneles
 <a name="WhatsChangedSharePointDesigner2013_DesignViewSplitView"> </a>
 
- **Descripción del cambio.**SharePoint Designer 2010 tiene tres vistas para editar las páginas HTML y ASPX: la vista de código, la vista de diseño y la vista en dos paneles. La vista de diseño y la vista en dos paneles se han quitado de SharePoint Designer 2013. La eliminación de la vista de diseño y la vista en dos paneles afecta a las características de SharePoint Designer 2013 que se utilizan para editar elementos web y páginas maestras. Si modifica las páginas en SharePoint Designer 2013, debe utilizar la vista de código.
+ **Descripción del cambio.** SharePoint Designer 2010 tiene tres vistas para editar las páginas HTML y ASPX: la vista de código, la vista de diseño y la vista en dos paneles. La vista de diseño y la vista en dos paneles se han quitado de SharePoint Designer 2013. La eliminación de la vista de diseño y la vista en dos paneles afecta a las características de SharePoint Designer 2013 que se utilizan para editar elementos web y páginas maestras. Si modifica las páginas en SharePoint Designer 2013, debe utilizar la vista de código.
   
     
     
