@@ -49,9 +49,9 @@ ms.assetid: 4a2811dc-25fd-4eb2-b0ab-1edded64c556
 
   ```cs
   
-public void TermPinningTest()
+  public void TermPinningTest()
         {
-using (SPSite site = new SPSite(TestConfig.ServerUrl))
+  using (SPSite site = new SPSite(TestConfig.ServerUrl))
             {
                 using (SPWeb web = site.OpenWeb())
                 {
