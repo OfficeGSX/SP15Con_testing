@@ -8,7 +8,6 @@ ms.assetid: 061985ec-6129-4e91-991b-a72488ce1d34
 
 # SharePoint 2013 でのプログラミング モデル
 さまざまな種類の SharePoint 開発プロジェクトの概要について説明します。
- * **適用対象:*** 
   
     
     
@@ -16,7 +15,7 @@ ms.assetid: 061985ec-6129-4e91-991b-a72488ce1d34
 
 |||
 |:-----|:-----|
-|**この記事の内容**          [SharePoint 用アドイン](#Apps)           [SharePoint 発行サイト](#ECM)           [SharePoint ファーム ソリューション](#Solutions)           [SharePoint 用モバイル アドイン](#Mobile)           [SharePoint 用再利用可能コンポーネント](#Reuse)           [その他の技術情報](#SP15devinSP_addlresources)|
+|**この記事の内容**          [SharePoint 用アドイン](#Apps)<br/>           [SharePoint 発行サイト](#ECM)<br/>           [SharePoint ファーム ソリューション](#Solutions)<br/>           [SharePoint 用モバイル アドイン](#Mobile)<br/>           [SharePoint 用再利用可能コンポーネント](#Reuse)<br/>           [その他の技術情報](#SP15devinSP_addlresources)|
 **ビデオを見る: Office 2013 および SharePoint 2013 の開発オプション**
 
   
