@@ -577,7 +577,7 @@ private void OnRefreshButtonClick(object sender, EventArgs e)
   ```
 
 
-    至于 **LoadData** 方法，也定义 **RefreshData** 方法以便能够接受可选参数。请注意在前面的三个步骤中，对由模板生成的事件处理程序所作的唯一更改是将 **CustomerName** 变量作为调用参数添加到 **LoadData** 或 **RefreshData** 方法。
+至于 **LoadData** 方法，也定义 **RefreshData** 方法以便能够接受可选参数。请注意在前面的三个步骤中，对由模板生成的事件处理程序所作的唯一更改是将 **CustomerName** 变量作为调用参数添加到 **LoadData** 或 **RefreshData** 方法。
     
   
 11. 当用户在您的应用程序中的"订单"列表的列表窗体上选择"新建"按钮时，"新建窗体"中的"客户"字段应已包含客户名称，这是因为对用户显示的订单列表已根据客户名称进行了筛选。从该筛选的列表中添加的新订单应与作为列表筛选依据的客户名称相关。若要将 **CustomerName** 的变量值传递到"新窗体"，请修改 **OnNewButtonClick** 事件来将这个值作为导航路径中的查询字符串包含到"新窗体"中，如以下代码所示。
