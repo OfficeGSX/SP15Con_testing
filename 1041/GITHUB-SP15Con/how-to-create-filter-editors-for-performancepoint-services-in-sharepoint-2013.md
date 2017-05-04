@@ -252,9 +252,9 @@ Dim dataSourceCollection As ICollection = filterRepositoryHelper.DataSourceHelpe
   ```
 
 
-    サンプル フィルター エディターでは 2 種類のデータ ソースのみが取得されますが、このメソッドを変更して、他のデータ ソースの種類をサポートしたり、取得するデータ ソースの種類をユーザーに要求したりできます。特定の種類のネイティブ データ ソースを参照するには、 [DataSourceNames](https://msdn.microsoft.com/library/Microsoft.PerformancePoint.Scorecards.DataSourceNames.aspx) クラスからフィールドを返す [SourceName](https://msdn.microsoft.com/library/Microsoft.PerformancePoint.Scorecards.DataSource.SourceName.aspx) プロパティを使用します。カスタム データ ソースを参照するには、データ ソースの [SubTypeId](https://msdn.microsoft.com/library/Microsoft.PerformancePoint.Scorecards.DataSource.SubTypeId.aspx) プロパティを使用します。この値は、PerformancePoint サービス web.config ファイルに登録された、データ ソース拡張機能の **subType** 属性と同じです。
+サンプル フィルター エディターでは 2 種類のデータ ソースのみが取得されますが、このメソッドを変更して、他のデータ ソースの種類をサポートしたり、取得するデータ ソースの種類をユーザーに要求したりできます。特定の種類のネイティブ データ ソースを参照するには、 [DataSourceNames](https://msdn.microsoft.com/library/Microsoft.PerformancePoint.Scorecards.DataSourceNames.aspx) クラスからフィールドを返す [SourceName](https://msdn.microsoft.com/library/Microsoft.PerformancePoint.Scorecards.DataSource.SourceName.aspx) プロパティを使用します。カスタム データ ソースを参照するには、データ ソースの [SubTypeId](https://msdn.microsoft.com/library/Microsoft.PerformancePoint.Scorecards.DataSource.SubTypeId.aspx) プロパティを使用します。この値は、PerformancePoint サービス web.config ファイルに登録された、データ ソース拡張機能の **subType** 属性と同じです。
     
-    このメソッドを変更する場合、サンプル フィルターのデータ プロバイダー内の  [GetDisplayDataInternal](https://msdn.microsoft.com/library/Microsoft.PerformancePoint.Scorecards.Server.Extensions.CustomParameterDataProvider.GetDisplayDataInternal.aspx) メソッドに、対応する変更を加える必要があります。
+このメソッドを変更する場合、サンプル フィルターのデータ プロバイダー内の  [GetDisplayDataInternal](https://msdn.microsoft.com/library/Microsoft.PerformancePoint.Scorecards.Server.Extensions.CustomParameterDataProvider.GetDisplayDataInternal.aspx) メソッドに、対応する変更を加える必要があります。
     
   
 15.  [BeginPoints](https://msdn.microsoft.com/library/Microsoft.PerformancePoint.Scorecards.Filter.BeginPoints.aspx) プロパティで表される、フィルターの開始ポイントを定義します。これは、フィルター値のソースを定義し、フィルターでデータをスコアカードおよびレポートに送信できるようにするために必要とされます。
