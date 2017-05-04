@@ -50,8 +50,8 @@ Vous pouvez créer des thèmes personnalisés en créant des palettes de couleur
   
 - **Bibliothèque de styles** Regroupe les fichiers CSS personnalisés que vous souhaitez utiliser dans l'interface de thèmes. Vous pouvez accéder directement à la bibliothèque de styles (remplacez _ SiteCollectionName_ et _language_ dans cette URL : http:// _SiteCollectionName_/Style Library/ _language_/Themable/).
     
-    > **REMARQUE**
-      > Placez les fichiers CSS personnalisés dans le dossier Themable de la bibliothèque de styles et pas dans le dossier Themable de la galerie de pages maîtres. Seuls les fichiers CSS stockés dans le dossier Themable de la bibliothèque de styles sont reconnus par le moteur de thèmes. 
+> **REMARQUE**
+> Placez les fichiers CSS personnalisés dans le dossier Themable de la bibliothèque de styles et pas dans le dossier Themable de la galerie de pages maîtres. Seuls les fichiers CSS stockés dans le dossier Themable de la bibliothèque de styles sont reconnus par le moteur de thèmes. 
 
 > **REMARQUE**
 > Si le contrôle de version est activé dans la galerie de pages maîtres et la galerie de thèmes, vous devez également publier les fichiers de conception pour qu'ils puissent être utilisés par le moteur de thèmes. 
@@ -169,10 +169,10 @@ theme.ApplyTo(Web, true);
   ```
 
 
-    > **REMARQUE**
-      > Le paramètre  _shareGenerated_ de la méthode **ApplyTo** indique si les fichiers de thème peuvent être communs à plusieurs sites d'une collection de sites. Généralement, il est défini sur **true** pour SharePoint Server et les sites SharePoint Online, et sur **false** pour les sites SharePoint Foundation. Le paramètre _shareGenerated_ doit être défini sur **true** si vous souhaitez que les fichiers de thème soient partagés. Pour plus d'informations, voir [ApplyTo(SPWeb, Boolean)](https://msdn.microsoft.com/library/Microsoft.SharePoint.Utilities.SPTheme.ApplyTo.aspx) .
+> **REMARQUE**
+> Le paramètre  _shareGenerated_ de la méthode **ApplyTo** indique si les fichiers de thème peuvent être communs à plusieurs sites d'une collection de sites. Généralement, il est défini sur **true** pour SharePoint Server et les sites SharePoint Online, et sur **false** pour les sites SharePoint Foundation. Le paramètre _shareGenerated_ doit être défini sur **true** si vous souhaitez que les fichiers de thème soient partagés. Pour plus d'informations, voir [ApplyTo(SPWeb, Boolean)](https://msdn.microsoft.com/library/Microsoft.SharePoint.Utilities.SPTheme.ApplyTo.aspx) .
 
-    Lorsqu'un utilisateur applique un thème dans l'Assistant **Modifier l'apparence**, ce dernier met également à jour le thème actuel dans la liste Présentations composées et la bibliothèque de présentations. Lorsque vous appliquez un thème par programmation, vous devez mettre manuellement à jour le thème actuel. L'exemple suivant montre comment mettre à jour le thème actuel.
+Lorsqu'un utilisateur applique un thème dans l'Assistant **Modifier l'apparence**, ce dernier met également à jour le thème actuel dans la liste Présentations composées et la bibliothèque de présentations. Lorsque vous appliquez un thème par programmation, vous devez mettre manuellement à jour le thème actuel. L'exemple suivant montre comment mettre à jour le thème actuel.
     
 
 

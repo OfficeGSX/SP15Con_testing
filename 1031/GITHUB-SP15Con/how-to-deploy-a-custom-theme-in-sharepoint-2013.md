@@ -50,8 +50,8 @@ Sie können benutzerdefinierte Designs erstellen, indem Sie zusätzliche Farbpal
   
 - **Formatbibliothek** Führt die benutzerdefinierten CSS-Dateien auf, die Sie in der Designoberfläche verwenden möchten. Sie können direkt zur Formatbibliothek navigieren (ersetzen Sie _SiteCollectionName_ und _language_ in dieser URL: http:// _SiteCollectionName_/Style Library/ _language_/Themable/).
     
-    > **HINWEIS**
-      > Legen Sie die benutzerdefinierten CSS-Dateien im Ordner "Themable" in der Formatbibliothek ab, nicht im Ordner "Themable" im Gestaltungsvorlagenkatalog. Vom Designmodul werden nur CSS-Dateien erkannt, die im Ordner "Themable" in der Formatbibliothek gespeichert sind. 
+> **HINWEIS**
+> Legen Sie die benutzerdefinierten CSS-Dateien im Ordner "Themable" in der Formatbibliothek ab, nicht im Ordner "Themable" im Gestaltungsvorlagenkatalog. Vom Designmodul werden nur CSS-Dateien erkannt, die im Ordner "Themable" in der Formatbibliothek gespeichert sind. 
 
 > **HINWEIS**
 > Wenn Sie im Gestaltungsvorlagenkatalog und der Design Gallery Versionsverwaltung aktiviert haben, müssen Sie auch die Designdateien veröffentlichen, bevor sie vom Designmodul verwendet werden können. 
@@ -169,10 +169,10 @@ theme.ApplyTo(Web, true);
   ```
 
 
-    > **HINWEIS**
-      > Der  _shareGenerated_-Parameter in der **ApplyTo**-Methode gibt an, ob die Designdateien von mehreren Websites in einer Websitesammlung verwendet werden können. Normalerweise ist er bei SharePoint Server- und SharePoint Online-Websites auf **true** und bei SharePoint Foundation-Websites auf **false** festgelegt. Der _shareGenerated_-Parameter muss auf **true** festgelegt sein, wenn die Designdateien freigegeben werden sollen. Weitere Informationen finden Sie unter [ApplyTo(SPWeb, Boolean)](https://msdn.microsoft.com/library/Microsoft.SharePoint.Utilities.SPTheme.ApplyTo.aspx) .
+> **HINWEIS**
+> Der  _shareGenerated_-Parameter in der **ApplyTo**-Methode gibt an, ob die Designdateien von mehreren Websites in einer Websitesammlung verwendet werden können. Normalerweise ist er bei SharePoint Server- und SharePoint Online-Websites auf **true** und bei SharePoint Foundation-Websites auf **false** festgelegt. Der _shareGenerated_-Parameter muss auf **true** festgelegt sein, wenn die Designdateien freigegeben werden sollen. Weitere Informationen finden Sie unter [ApplyTo(SPWeb, Boolean)](https://msdn.microsoft.com/library/Microsoft.SharePoint.Utilities.SPTheme.ApplyTo.aspx) .
 
-    Wenn ein Benutzer im Assistenten **Aussehen ändern** ein Design anwendet, aktualisiert der Assistent auch das Design mit dem Titel "Aktuell" in der Liste "Durchkomponierte Looks" und in der Design Gallery. Wenn Sie ein Design programmgesteuert anwenden, müssen Sie das Design mit dem Titel "Aktuell" manuell aktualisieren. Mit dem folgenden Beispiel wird gezeigt, wie Sie das Design mit dem Titel "Aktuell" aktualisieren.
+Wenn ein Benutzer im Assistenten **Aussehen ändern** ein Design anwendet, aktualisiert der Assistent auch das Design mit dem Titel "Aktuell" in der Liste "Durchkomponierte Looks" und in der Design Gallery. Wenn Sie ein Design programmgesteuert anwenden, müssen Sie das Design mit dem Titel "Aktuell" manuell aktualisieren. Mit dem folgenden Beispiel wird gezeigt, wie Sie das Design mit dem Titel "Aktuell" aktualisieren.
     
 
 

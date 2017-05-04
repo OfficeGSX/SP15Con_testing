@@ -50,8 +50,8 @@ You can create custom themes by creating additional color palettes and font sche
   
 - **Style library** Lists custom CSS files that you want to use in the theming experience. You can navigate directly to the Style library (replace _SiteCollectionName_ and _language_ in this URL: http:// _SiteCollectionName_/Style Library/ _language_/Themable/).
     
-    > **NOTE**
-      > Place the custom CSS files in the Themable folder in the Style library, not the Themable folder in the Master Page Gallery. Only CSS files that are stored in the Themable folder in the Style library are recognized by the theming engine. 
+> **NOTE**
+> Place the custom CSS files in the Themable folder in the Style library, not the Themable folder in the Master Page Gallery. Only CSS files that are stored in the Themable folder in the Style library are recognized by the theming engine. 
 
 > **NOTE**
 > If you have versioning enabled on the Master Page Gallery and the Theme Gallery, you must also publish the design files before they can be used by the theming engine. 
@@ -169,10 +169,10 @@ theme.ApplyTo(Web, true);
   ```
 
 
-    > **NOTE**
-      > The  _shareGenerated_ parameter in the **ApplyTo** method specifies whether the themed files can be shared across sites in a site collection. In general, it is set to **true** for SharePoint Server and SharePoint Online sites and set to **false** for SharePoint Foundation sites. The _shareGenerated_ parameter must be set to **true** if you intend the themed files to be shared. For more information, see [ApplyTo(SPWeb, Boolean)](https://msdn.microsoft.com/library/Microsoft.SharePoint.Utilities.SPTheme.ApplyTo.aspx) .
+> **NOTE**
+> The  _shareGenerated_ parameter in the **ApplyTo** method specifies whether the themed files can be shared across sites in a site collection. In general, it is set to **true** for SharePoint Server and SharePoint Online sites and set to **false** for SharePoint Foundation sites. The _shareGenerated_ parameter must be set to **true** if you intend the themed files to be shared. For more information, see [ApplyTo(SPWeb, Boolean)](https://msdn.microsoft.com/library/Microsoft.SharePoint.Utilities.SPTheme.ApplyTo.aspx) .
 
-    When a user applies a theme in the **Change the look** wizard, the wizard also updates a theme named Current in the Composed Looks list and the design gallery. When you apply a theme programmatically, you have to update the Current theme manually. The following example shows how to update the Current theme.
+When a user applies a theme in the **Change the look** wizard, the wizard also updates a theme named Current in the Composed Looks list and the design gallery. When you apply a theme programmatically, you have to update the Current theme manually. The following example shows how to update the Current theme.
     
 
 

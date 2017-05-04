@@ -50,8 +50,8 @@ SharePoint 2013 には事前にインストールされているテーマがあ�
   
 - **スタイル ライブラリ** テーマ エクスペリエンスを使用するカスタム CSS ファイルを表示します。スタイル ライブラリに直接移動することもできます (次の URL の _SiteCollectionName_ および _language_ を置換します。http:// _SiteCollectionName_/Style Library/ _language_/Themable/)。
     
-    > **メモ**
-      > マスター ページ ギャラリーの Themable フォルダーではなく、スタイル ライブラリの Themable フォルダーにカスタム CSS ファイルを配置します。スタイル ライブラリの Themable フォルダーに保存された CSS ファイルのみがテーマ設定エンジンに認識されます。 
+> **メモ**
+> マスター ページ ギャラリーの Themable フォルダーではなく、スタイル ライブラリの Themable フォルダーにカスタム CSS ファイルを配置します。スタイル ライブラリの Themable フォルダーに保存された CSS ファイルのみがテーマ設定エンジンに認識されます。 
 
 > **メモ**
 > マスター ページ ギャラリーおよびテーマ ギャラリーで有効なバージョン管理機能がある場合、テーマ設定エンジンで使用できるようにする前に、デザイン ファイルも発行する必要があります。 
@@ -169,10 +169,10 @@ theme.ApplyTo(Web, true);
   ```
 
 
-    > **メモ**
-      > **ApplyTo** メソッドの _shareGenerated_ パラメーターは、テーマ設定されたファイルをサイト コレクションのサイト間で共有できるかどうかを示します。一般に、SharePoint Server および SharePoint Online サイトに **true** が設定され、SharePoint Foundation サイトに **false** が設定されます。テーマ設定されたファイルを共有しようとする場合、 _shareGenerated_ パラメーターを **true** に設定する必要があります。詳細については、 [ApplyTo(SPWeb, Boolean)](https://msdn.microsoft.com/library/Microsoft.SharePoint.Utilities.SPTheme.ApplyTo.aspx) を参照してください。
+> **メモ**
+> **ApplyTo** メソッドの _shareGenerated_ パラメーターは、テーマ設定されたファイルをサイト コレクションのサイト間で共有できるかどうかを示します。一般に、SharePoint Server および SharePoint Online サイトに **true** が設定され、SharePoint Foundation サイトに **false** が設定されます。テーマ設定されたファイルを共有しようとする場合、 _shareGenerated_ パラメーターを **true** に設定する必要があります。詳細については、 [ApplyTo(SPWeb, Boolean)](https://msdn.microsoft.com/library/Microsoft.SharePoint.Utilities.SPTheme.ApplyTo.aspx) を参照してください。
 
-    ユーザーが [ **外観の変更**] ウィザードにテーマを適用する場合、ウィザードは構成された外観のリストおよびデザイン ギャラリーの Current という名前のテーマも更新します。プログラムでテーマを適用する場合、現在のテーマは手動で更新する必要があります。次の例は、現在のテーマを更新する方法を示します。
+ユーザーが [ **外観の変更**] ウィザードにテーマを適用する場合、ウィザードは構成された外観のリストおよびデザイン ギャラリーの Current という名前のテーマも更新します。プログラムでテーマを適用する場合、現在のテーマは手動で更新する必要があります。次の例は、現在のテーマを更新する方法を示します。
     
 
 
