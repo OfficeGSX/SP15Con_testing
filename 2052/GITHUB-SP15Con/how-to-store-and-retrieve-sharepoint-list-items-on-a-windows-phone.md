@@ -14,7 +14,7 @@ ms.assetid: 14ca37a2-5b45-430d-9004-ff3016f89834
 
 
 > **重要信息**
-> 如果您正在开发适用于 Windows Phone 8 的应用程序，则必须使用 Visual Studio Express 2012（而非 Visual Studio 2010 Express）。除开发环境以外，本文中的所有信息均适用于 Windows Phone 8 和 Windows Phone 7。 > 有关详细信息，请参阅 [如何：设置用于为 SharePoint 开发移动应用程序的环境](how-to-set-up-an-environment-for-developing-mobile-apps-for-sharepoint.md)。 
+> 如果您正在开发适用于 Windows Phone 8 的应用程序，则必须使用 Visual Studio Express 2012（而非 Visual Studio 2010 Express）。除开发环境以外，本文中的所有信息均适用于 Windows Phone 8 和 Windows Phone 7。 <br/> 有关详细信息，请参阅 [如何：设置用于为 SharePoint 开发移动应用程序的环境](how-to-set-up-an-environment-for-developing-mobile-apps-for-sharepoint.md)。 
   
     
     
@@ -238,7 +238,7 @@ namespace SPListAppLocalStorage // Based on project name by default.
   ```
 
 
-    此代码中指定的命名空间基于项目的名称（在本例中为 SPListAppLocalStorage）。您可能希望基于您的项目名称指定一个不同的命名空间。
+此代码中指定的命名空间基于项目的名称（在本例中为 SPListAppLocalStorage）。您可能希望基于您的项目名称指定一个不同的命名空间。
     
   
 5. 保存该文件。
@@ -356,7 +356,7 @@ namespace SPListAppLocalStorage // Based on project name by default.
   ```
 
 
-    此代码中的命名空间指定  `<x:Class>`("SPListAppLocalStorage.Views.Drafts") 将根据您项目的名称而变化。
+此代码中的命名空间指定  `<x:Class>`("SPListAppLocalStorage.Views.Drafts") 将根据您项目的名称而变化。
     
   
 7. 在"解决方案资源管理器"中选中 Drafts.xaml 文件后，按 F7 打开相关联的代码隐藏文件 Drafts.xaml.cs 以供编辑。
