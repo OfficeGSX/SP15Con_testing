@@ -585,7 +585,7 @@ namespace SPListAppLocalStorage.Views
   ```
 
 
-    The XAML for defining this page is similar to that of the EditForm.xaml file. You can copy the EditForm.xaml file to use as a basis for DraftItemEditForm.xaml, making the modifications to the file as indicated in this markup.
+The XAML for defining this page is similar to that of the EditForm.xaml file. You can copy the EditForm.xaml file to use as a basis for DraftItemEditForm.xaml, making the modifications to the file as indicated in this markup.
     
   
 7. With the DraftItemEditForm.xaml file chosen in **Solution Explorer**, press F7 to open the associated code-behind file, DraftItemEditForm.xaml.cs, for editing.
@@ -699,7 +699,7 @@ namespace SPListAppLocalStorage
   ```
 
 
-    As you can see, the namespace used in this file is based on the name of the project (SPListAppLocalStorage).
+As you can see, the namespace used in this file is based on the name of the project (SPListAppLocalStorage).
     
   
 9. Add the appbar.back.rest.png image to your project for the **ApplicationBar** button (btnBack) declared in the DraftItemEditForm.xaml file. In **Solution Explorer**, choose the **Images** folder node in the project.
