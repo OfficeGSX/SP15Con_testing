@@ -102,8 +102,8 @@ const string targetUser = "domainName\\\\userName";
   ```
 
 
-    > **NOTA**
-      > Recuerde sustituir los valores de marcador de posición  `http://serverName/` y `domainName\\\\userName` antes de ejecutar el código.
+> **NOTA**
+> Recuerde sustituir los valores de marcador de posición  `http://serverName/` y `domainName\\\\userName` antes de ejecutar el código.
 7. Inicialice el contexto de cliente de SharePoint como se ve en el código siguiente.
     
   ```cs
@@ -133,10 +133,10 @@ clientContext.ExecuteQuery();
   ```
 
 
-    Al llamar al método **Load** (o al método **LoadQuery**), se pasa el objeto que se quiere recuperar o cambiar. En este ejemplo, la llamada al método **Load** pasa parámetros opcionales para filtrar la solicitud. Los parámetros son expresiones lambda que solicitan solo la propiedad **AccountName** y la propiedad **UserProfileProperties** del objeto **personProperties**.
+Al llamar al método **Load** (o al método **LoadQuery**), se pasa el objeto que se quiere recuperar o cambiar. En este ejemplo, la llamada al método **Load** pasa parámetros opcionales para filtrar la solicitud. Los parámetros son expresiones lambda que solicitan solo la propiedad **AccountName** y la propiedad **UserProfileProperties** del objeto **personProperties**.
     
-    > **SUGERENCIA**
-      > Para reducir el tráfico de red, tiene que solicitar solo las propiedades con las que quiere trabajar al llamar al método **Load**. Además, si va a trabajar con varios objetos, agrupe varias llamadas en el método **Load** cuando se pueda antes de llamar al método **ExecuteQuery**. 
+> **SUGERENCIA**
+> Para reducir el tráfico de red, tiene que solicitar solo las propiedades con las que quiere trabajar al llamar al método **Load**. Además, si va a trabajar con varios objetos, agrupe varias llamadas en el método **Load** cuando se pueda antes de llamar al método **ExecuteQuery**. 
 10. Itere las propiedades de perfil de usuario y lea el nombre y el valor de cada propiedad, tal como se ve en el código siguiente.
     
   ```cs

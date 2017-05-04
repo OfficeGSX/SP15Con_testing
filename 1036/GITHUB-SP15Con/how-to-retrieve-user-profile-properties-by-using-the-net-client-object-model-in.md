@@ -102,8 +102,8 @@ const string targetUser = "domainName\\\\userName";
   ```
 
 
-    > **REMARQUE**
-      > N'oubliez pas de remplacer les valeurs des espaces réservés  `http://serverName/` et `domainName\\\\userName` avant d'exécuter le code.
+> **REMARQUE**
+> N'oubliez pas de remplacer les valeurs des espaces réservés  `http://serverName/` et `domainName\\\\userName` avant d'exécuter le code.
 7. Initialisez le contexte client SharePoint, comme indiqué dans le code suivant.
     
   ```cs
@@ -133,10 +133,10 @@ clientContext.ExecuteQuery();
   ```
 
 
-    Lorsque vous appelez la méthode **Load** (ou la méthode **LoadQuery**), vous transmettez l'objet que vous voulez récupérer ou modifier. Dans cet exemple, l'appel de la méthode **Load** transmet des paramètres facultatifs pour filtrer la demande. Les paramètres sont des expressions lambda qui demandent uniquement les propriétés **AccountName** et **UserProfileProperties** de l'objet **personProperties**.
+Lorsque vous appelez la méthode **Load** (ou la méthode **LoadQuery**), vous transmettez l'objet que vous voulez récupérer ou modifier. Dans cet exemple, l'appel de la méthode **Load** transmet des paramètres facultatifs pour filtrer la demande. Les paramètres sont des expressions lambda qui demandent uniquement les propriétés **AccountName** et **UserProfileProperties** de l'objet **personProperties**.
     
-    > **CONSEIL**
-      > Pour réduire le trafic réseau, demandez uniquement les propriétés que vous souhaitez utiliser lorsque vous appelez la méthode **Load**. En outre, si vous utilisez plusieurs objets, si possible, regroupez plusieurs appels de la méthode **Load** avant d'appeler la méthode **ExecuteQuery**. 
+> **CONSEIL**
+> Pour réduire le trafic réseau, demandez uniquement les propriétés que vous souhaitez utiliser lorsque vous appelez la méthode **Load**. En outre, si vous utilisez plusieurs objets, si possible, regroupez plusieurs appels de la méthode **Load** avant d'appeler la méthode **ExecuteQuery**. 
 10. Itérez les propriétés de profil utilisateur et lisez le nom et la valeur de chaque propriété, comme indiqué dans le code suivant.
     
   ```cs

@@ -102,8 +102,8 @@ const string targetUser = "domainName\\\\userName";
   ```
 
 
-    > **HINWEIS**
-      > Ersetzen Sie unbedingt die Platzhalterwerte  `http://serverName/` und `domainName\\\\userName`, bevor Sie den Code ausführen. 
+> **HINWEIS**
+> Ersetzen Sie unbedingt die Platzhalterwerte  `http://serverName/` und `domainName\\\\userName`, bevor Sie den Code ausführen. 
 7. Initialisieren Sie den SharePoint-Clientkontext, wie im folgenden Code gezeigt.
     
   ```cs
@@ -133,10 +133,10 @@ clientContext.ExecuteQuery();
   ```
 
 
-    Wenn Sie die **Load**-Methode (oder die **LoadQuery**-Methode) aufrufen, übergeben Sie das Objekt, das Sie abrufen oder ändern möchten. In diesem Beispiel werden durch den Aufruf der **Load**-Methode optionale Parameter zum Filtern der Anforderung übergeben. Bei den Parametern handelt es sich um lambda-Ausdrücke, die nur die **AccountName**-Eigenschaft und die **UserProfileProperties**-Eigenschaft des **personProperties**-Objekts anfordern.
+Wenn Sie die **Load**-Methode (oder die **LoadQuery**-Methode) aufrufen, übergeben Sie das Objekt, das Sie abrufen oder ändern möchten. In diesem Beispiel werden durch den Aufruf der **Load**-Methode optionale Parameter zum Filtern der Anforderung übergeben. Bei den Parametern handelt es sich um lambda-Ausdrücke, die nur die **AccountName**-Eigenschaft und die **UserProfileProperties**-Eigenschaft des **personProperties**-Objekts anfordern.
     
-    > **TIPP**
-      > Um den Netzwerkverkehr zu reduzieren, sollten Sie beim Aufrufen der **Load**-Methode nur die Eigenschaften anfordern, mit denen Sie arbeiten möchten. Wenn Sie mit mehreren Objekten arbeiten, sollten Sie möglichst mehrere Aufrufe der **Load**-Methode gruppieren, bevor Sie die **ExecuteQuery**-Methode aufrufen. 
+> **TIPP**
+> Um den Netzwerkverkehr zu reduzieren, sollten Sie beim Aufrufen der **Load**-Methode nur die Eigenschaften anfordern, mit denen Sie arbeiten möchten. Wenn Sie mit mehreren Objekten arbeiten, sollten Sie möglichst mehrere Aufrufe der **Load**-Methode gruppieren, bevor Sie die **ExecuteQuery**-Methode aufrufen. 
 10. Durchlaufen Sie die Benutzerprofileigenschaften, und lesen Sie den Namen und den Wert jeder Eigenschaft, wie im folgenden Code gezeigt.
     
   ```cs
