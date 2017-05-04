@@ -42,14 +42,14 @@ ms.assetid: 2f9bf243-281a-4d70-917e-9eaf0b867631
 - 能够访问 SharePoint Server 2010 所在的计算机上的 Excel Web Services 的足够权限（至少为"查看"权限）。 
     
     > **注释**
-      > 有关工作簿权限的详细信息，请参阅下一节"工作簿权限"。 
+    > 有关工作簿权限的详细信息，请参阅下一节"工作簿权限"。 
 - 安装在本地驱动器或本地 SharePoint 文档库中的示例工作簿。 
     
   
 - 存储您想使用 Excel Web Services 访问的工作簿的受信任位置。如果工作簿未存储在受信任位置，打开工作簿的 Excel Web Services 调用将失败。本演练假定工作簿存在于本地计算机上。 
     
     > **注释**
-      > 有关如何信任某个位置的信息，请参阅 [如何：信任位置](how-to-trust-a-location.md)和 [如何：使用脚本信任工作簿位置](http://msdn.microsoft.com/library/79ab6ced-7a0c-4275-b852-bb246fc6be57%28Office.15%29.aspx)。 
+    > 有关如何信任某个位置的信息，请参阅 [如何：信任位置](how-to-trust-a-location.md)和 [如何：使用脚本信任工作簿位置](http://msdn.microsoft.com/library/79ab6ced-7a0c-4275-b852-bb246fc6be57%28Office.15%29.aspx)。 
 - 使用 Excel 创建工作簿。
     
   
@@ -73,7 +73,7 @@ ms.assetid: 2f9bf243-281a-4d70-917e-9eaf0b867631
 - 对于其余 Excel Web Services 方法，调用者需要具备工作簿的"查看"权限（在 Microsoft SharePoint Foundation 中）或"读取"权限（在文件共享中）。
     
     > **注释**
-      > 有关设置权限的详细信息，请参阅 SharePoint Foundation 文档。 
+    > 有关设置权限的详细信息，请参阅 SharePoint Foundation 文档。 
 
 ## 另请参阅
 
