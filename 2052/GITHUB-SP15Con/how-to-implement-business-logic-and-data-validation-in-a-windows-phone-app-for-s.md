@@ -266,7 +266,7 @@ public override void Validate(string fieldName, object value)
   ```
 
 
-    请记住此代码示例指定的字段名称是基于表 1 中指定的产品预订列表示例属性。（请注意在用于 SharePoint Server 列表字段的 XML 架构中，针对定义既定字段 **Field** 元素的 **Name** 属性，将字段名称空格替换为"_x0020_"字符串。该模板按照服务器的 XML 架构中的定义将 **Name** 属性而不是 **DisplayName** 属性用于 **Field** 元素。）您可以通过查看 EditForm.xaml 中定义的 **TextBox** 对象的 **Text** 属性的 **Binding** 声明或者通过检查 ListProvider.cs 文件中 **CamlQueryBuilder** 类的 **ViewFields** 字符串来识别希望实现验证逻辑字段名称。
+请记住此代码示例指定的字段名称是基于表 1 中指定的产品预订列表示例属性。（请注意在用于 SharePoint Server 列表字段的 XML 架构中，针对定义既定字段 **Field** 元素的 **Name** 属性，将字段名称空格替换为"_x0020_"字符串。该模板按照服务器的 XML 架构中的定义将 **Name** 属性而不是 **DisplayName** 属性用于 **Field** 元素。）您可以通过查看 EditForm.xaml 中定义的 **TextBox** 对象的 **Text** 属性的 **Binding** 声明或者通过检查 ListProvider.cs 文件中 **CamlQueryBuilder** 类的 **ViewFields** 字符串来识别希望实现验证逻辑字段名称。
     
   
 5. 保存该文件。
