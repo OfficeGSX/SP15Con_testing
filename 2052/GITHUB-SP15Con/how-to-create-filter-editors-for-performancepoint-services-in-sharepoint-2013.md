@@ -252,9 +252,9 @@ Dim dataSourceCollection As ICollection = filterRepositoryHelper.DataSourceHelpe
   ```
 
 
-    本示例筛选器编辑器仅检索两类数据源，但您可修改此方法以支持其他数据源类型或提示用户要检索的数据源的类型。若要引用特定类型的本机数据源，请使用  [SourceName](https://msdn.microsoft.com/library/Microsoft.PerformancePoint.Scorecards.DataSource.SourceName.aspx) 属性，该属性会从 [DataSourceNames](https://msdn.microsoft.com/library/Microsoft.PerformancePoint.Scorecards.DataSourceNames.aspx) 类返回一个字段。若要引用一个自定义数据源，请使用该数据源的 [SubTypeId](https://msdn.microsoft.com/library/Microsoft.PerformancePoint.Scorecards.DataSource.SubTypeId.aspx) 属性，该属性的值与在 PerformancePoint Services web.config 文件中为数据源扩展注册的 **subType** 属性的值相同。
+本示例筛选器编辑器仅检索两类数据源，但您可修改此方法以支持其他数据源类型或提示用户要检索的数据源的类型。若要引用特定类型的本机数据源，请使用  [SourceName](https://msdn.microsoft.com/library/Microsoft.PerformancePoint.Scorecards.DataSource.SourceName.aspx) 属性，该属性会从 [DataSourceNames](https://msdn.microsoft.com/library/Microsoft.PerformancePoint.Scorecards.DataSourceNames.aspx) 类返回一个字段。若要引用一个自定义数据源，请使用该数据源的 [SubTypeId](https://msdn.microsoft.com/library/Microsoft.PerformancePoint.Scorecards.DataSource.SubTypeId.aspx) 属性，该属性的值与在 PerformancePoint Services web.config 文件中为数据源扩展注册的 **subType** 属性的值相同。
     
-    如果修改此方法，则必须在示例筛选器的数据提供程序中的  [GetDisplayDataInternal](https://msdn.microsoft.com/library/Microsoft.PerformancePoint.Scorecards.Server.Extensions.CustomParameterDataProvider.GetDisplayDataInternal.aspx) 方法中进行相应的更改。
+如果修改此方法，则必须在示例筛选器的数据提供程序中的  [GetDisplayDataInternal](https://msdn.microsoft.com/library/Microsoft.PerformancePoint.Scorecards.Server.Extensions.CustomParameterDataProvider.GetDisplayDataInternal.aspx) 方法中进行相应的更改。
     
   
 15. 定义由  [BeginPoints](https://msdn.microsoft.com/library/Microsoft.PerformancePoint.Scorecards.Filter.BeginPoints.aspx) 属性表示的筛选器起点。这将定义筛选值的源，并且筛选器必须使用它才能将数据发送到记分卡和报告。
