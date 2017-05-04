@@ -42,7 +42,7 @@ ms.assetid: 6febe7dc-a552-4c79-aa3e-203d882286e3
 
   ```VB.net
   Public Sub CloseWorkbookAsync(ByVal sessionId As String)
-End Sub
+  End Sub
   ```
 
 您无需实施在调用 **CloseWorkbookAsync** 方法时调用的事件。您可以在项目的"Web References"目录下的"Reference.cs"文件中找到签名。 
