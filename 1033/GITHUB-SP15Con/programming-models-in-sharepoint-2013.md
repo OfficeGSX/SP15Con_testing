@@ -15,29 +15,7 @@ Get a quick overview of the different kinds of SharePoint development projects.
 
 |||
 |:-----|:-----|
-|**In this article**<br/>          [Add-ins for SharePoint](#Apps)<br/>           [SharePoint publishing sites](#ECM)<br/>           [SharePoint farm solutions](#Solutions)<br/>           [Mobile add-ins for SharePoint](#Mobile)<br/>           [Reusable components for SharePoint](#Reuse)<br/>           [Additional resources](#SP15devinSP_addlresources)|
-**Watch the video: Development options for Office 2013 and SharePoint 2013**
-
-  
-    
-    
-
-  
-    
-    
-![Videos](images/mod_icon_video.png)
-  
-    
-    
-
-  
-    
-    
-
-  
-    
-    
-|
+|**In this article**<br/>          [Add-ins for SharePoint](#Apps)<br/>           [SharePoint publishing sites](#ECM)<br/>           [SharePoint farm solutions](#Solutions)<br/>           [Mobile add-ins for SharePoint](#Mobile)<br/>           [Reusable components for SharePoint](#Reuse)<br/>           [Additional resources](#SP15devinSP_addlresources)|**Watch the video: Development options for Office 2013 and SharePoint 2013**<br/>![Videos](images/mod_icon_video.png)|
    
 
 You can develop applications for the SharePoint 2013 platform in many ways. These applications can be usefully categorized into the following groups based on the tools used to create them, the programming models used to develop them, the methods by which they are packaged and deployed, the methods by which they are marketed, and the devices on which they run.
