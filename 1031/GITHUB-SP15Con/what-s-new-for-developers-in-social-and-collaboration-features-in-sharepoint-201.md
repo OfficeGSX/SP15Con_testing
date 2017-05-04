@@ -215,7 +215,7 @@ Die folgenden Meine Website - soziale Netzwerke API und Features sind in SharePo
 - Die **Aktuellsten Aktivitäten**-Webpart wird durch eines neuen **Newsfeed**-Webparts ersetzt, die multithreaded Unterhaltungen und dynamische feed abrufen unterstützt.
     
     > **HINWEIS**
-      > Wir unterstützen keine Anpassungen des Newsfeed-Webparts oder andere Newsfeed-Webparts (beispielsweise das Webpart Websitefeed von Teamwebsites). Wenn Sie diese Webparts beispielsweise anpassen mithilfe von JavaScript Außerkraftsetzungen, beachten Sie, dass die Anpassungen in Updates für SharePoint unterbrochen werden können.
+    > Wir unterstützen keine Anpassungen des Newsfeed-Webparts oder andere Newsfeed-Webparts (beispielsweise das Webpart Websitefeed von Teamwebsites). Wenn Sie diese Webparts beispielsweise anpassen mithilfe von JavaScript Außerkraftsetzungen, beachten Sie, dass die Anpassungen in Updates für SharePoint unterbrochen werden können.
 - Das Webpart **Thematische Kommentare** ist veraltet.
     
   
