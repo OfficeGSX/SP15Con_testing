@@ -585,7 +585,7 @@ namespace SPListAppLocalStorage.Views
   ```
 
 
-    用于定义此页的 XAML 与 EditForm.xaml 文件类似。您可以复制 EditForm.xaml 文件用作 DraftItemEditForm.xaml 的基础，依照此标记中的指示对文件进行修改。
+用于定义此页的 XAML 与 EditForm.xaml 文件类似。您可以复制 EditForm.xaml 文件用作 DraftItemEditForm.xaml 的基础，依照此标记中的指示对文件进行修改。
     
   
 7. 在"解决方案资源管理器"中选中 DraftItemEditForm.xaml 文件后，按 F7 打开相关联的代码隐藏文件 DraftItemEditForm.xaml.cs 以供编辑。
@@ -699,7 +699,7 @@ namespace SPListAppLocalStorage
   ```
 
 
-    您可以看到，此文件中使用的命名空间基于项目名称 (SPListAppLocalStorage)。
+您可以看到，此文件中使用的命名空间基于项目名称 (SPListAppLocalStorage)。
     
   
 9. 将在 DraftItemEditForm.xaml 文件中声明的 **ApplicationBar** 按钮 (btnBack) 的 appbar.back.rest.png 图像添加到您的项目。在"解决方案资源管理器"中，选择项目中的"Images"文件夹节点。
