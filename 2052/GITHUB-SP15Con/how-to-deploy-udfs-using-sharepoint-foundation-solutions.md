@@ -90,8 +90,8 @@ SharePoint Foundation 解决方案框架使您可以将所有组件打包，以�
   ```
 
 
-    > **注释**
-      > 您应该为每个解决方案生成一个唯一的 GUID。有关 **Solution**元素的详细信息，请参阅SharePoint Foundation [解决方案和 Web 部件包](http://msdn.microsoft.com/library/a145a5eb-fbb6-4328-b5b3-96bf5ce89a19%28Office.15%29.aspx) (http://msdn.microsoft.com/zh-cn/library/ms413687.aspx)。
+> **注释**
+> 您应该为每个解决方案生成一个唯一的 GUID。有关 **Solution**元素的详细信息，请参阅SharePoint Foundation [解决方案和 Web 部件包](http://msdn.microsoft.com/library/a145a5eb-fbb6-4328-b5b3-96bf5ce89a19%28Office.15%29.aspx) (http://msdn.microsoft.com/zh-cn/library/ms413687.aspx)。
 
 ### 创建解决方案包
 
@@ -125,7 +125,7 @@ SharePoint Foundation 解决方案框架使您可以将所有组件打包，以�
     stsadm.exe -o addsolution -filename <pathtoCAB>
     
     > **注释**
-      > 您可以在以下位置找到 Stsadm.exe： > C:\\Program Files\\Common Files\\Microsoft Shared\\web server extensions\\12\\BIN。 
+      > 您可以在以下位置找到 Stsadm.exe： <br/> C:\\Program Files\\Common Files\\Microsoft Shared\\web server extensions\\12\\BIN。 
 
     > **注释**
       > 有关 Stsadm.exe 命令选项的详细信息，请参阅  [Stsadm 到 Windows PowerShell 的映射 (SharePoint Foundation 2010)](http://technet.microsoft.com/zh-cn/library/ff621081.aspx) (http://technet.microsoft.com/zh-cn/library/ff621081.aspx)。
