@@ -201,8 +201,8 @@ static Dictionary<string, string> ViewXmls = new Dictionary<string, string>()
   ```
 
 
-    > **HINWEIS**
-      > Insbesondere ist, dass der Wert des Attributs **Name** ("View2") von der **PivotItem** Steuerelement identisch mit den Schlüsselwert des Eintrags, der in Schritt 2 definierten **Dictionary** -Typ hinzugefügt wurde. Dieser Wert wird zum Identifizieren der entsprechenden CAML-Abfrage zum Abrufen der Daten in der **PivotItem**angezeigt werden. Beachten Sie, dass die **ListBox** hier deklariert (namens "lstBox2" einfach zur Unterscheidung von der **ListBox** für die Standardansicht) ist auch auch zur Ansicht gebunden.
+> **HINWEIS**
+> Insbesondere ist, dass der Wert des Attributs **Name** ("View2") von der **PivotItem** Steuerelement identisch mit den Schlüsselwert des Eintrags, der in Schritt 2 definierten **Dictionary** -Typ hinzugefügt wurde. Dieser Wert wird zum Identifizieren der entsprechenden CAML-Abfrage zum Abrufen der Daten in der **PivotItem**angezeigt werden. Beachten Sie, dass die **ListBox** hier deklariert (namens "lstBox2" einfach zur Unterscheidung von der **ListBox** für die Standardansicht) ist auch auch zur Ansicht gebunden.
 
     
     

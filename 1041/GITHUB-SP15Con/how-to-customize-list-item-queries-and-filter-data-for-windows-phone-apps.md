@@ -201,8 +201,8 @@ static Dictionary<string, string> ViewXmls = new Dictionary<string, string>()
   ```
 
 
-    > **メモ**
-      >  特に **PivotItem** コントロールの **Name** 属性 ("View2") の値は、手順 2 で定義された **Dictionary** 型に追加されたエントリのキーの値と同じ値です。この値は **PivotItem** に表示するデータの取得に適切な CAML クエリが使用されているかを識別するのに使用されます。ここで宣言された **ListBox** (名前は "lstBox2" とし、既定ビューの **ListBox** と区別します) もまた、ビューにバインドされることに注意してください。
+> **メモ**
+>  特に **PivotItem** コントロールの **Name** 属性 ("View2") の値は、手順 2 で定義された **Dictionary** 型に追加されたエントリのキーの値と同じ値です。この値は **PivotItem** に表示するデータの取得に適切な CAML クエリが使用されているかを識別するのに使用されます。ここで宣言された **ListBox** (名前は "lstBox2" とし、既定ビューの **ListBox** と区別します) もまた、ビューにバインドされることに注意してください。
 
     
     
