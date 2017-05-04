@@ -96,7 +96,7 @@ ms.assetid: bd98a41b-623c-41d4-a15d-26c0d4ba4311
     
   ```
   
-title:string("to be or not to be")
+  title:string("to be or not to be")
   ```
 
 

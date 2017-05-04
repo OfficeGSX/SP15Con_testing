@@ -96,7 +96,7 @@ A property specification (the **In** Operator) may be applied to the following q
     
   ```
   
-title:string("to be or not to be")
+  title:string("to be or not to be")
   ```
 
 

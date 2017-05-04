@@ -96,7 +96,7 @@ Se puede aplicar una especificación de propiedad (el operador **In**) a las sig
     
   ```
   
-title:string("to be or not to be")
+  title:string("to be or not to be")
   ```
 
 

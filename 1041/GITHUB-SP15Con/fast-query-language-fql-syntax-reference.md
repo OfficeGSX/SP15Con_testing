@@ -96,7 +96,7 @@ FAST クエリ言語のクエリの長さは 2,048 文字に制限されてい�
     
   ```
   
-title:string("to be or not to be")
+  title:string("to be or not to be")
   ```
 
 

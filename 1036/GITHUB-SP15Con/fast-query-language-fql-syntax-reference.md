@@ -96,7 +96,7 @@ Une spécification de propriété (opérateur **In**) peut être appliquée aux 
     
   ```
   
-title:string("to be or not to be")
+  title:string("to be or not to be")
   ```
 
 
