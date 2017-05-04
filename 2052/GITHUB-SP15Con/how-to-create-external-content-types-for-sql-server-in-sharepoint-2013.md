@@ -328,7 +328,7 @@ SharePoint Designer 2013 验证和测试连接信息。如果您看到消息，�
     
 
     
-    比较筛选器会基于某个条件（如 State = "New Jersey"）限制返回哪些项目，并转换为一个 SQL WHERE 子句。
+比较筛选器会基于某个条件（如 State = "New Jersey"）限制返回哪些项目，并转换为一个 SQL WHERE 子句。
     
 1. 在"筛选器类型"框中，选择"比较"。
     
