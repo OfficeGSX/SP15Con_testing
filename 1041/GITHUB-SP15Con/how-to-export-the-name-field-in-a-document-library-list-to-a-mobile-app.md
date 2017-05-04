@@ -72,7 +72,7 @@ Visual Studio SharePoint リスト ウィザードを使用して、ドキュメ
     
   ```cs
   
-public string m_fileUrl;
+  public string m_fileUrl;
         public string FileUrl
         {
             get
@@ -126,14 +126,14 @@ public string m_fileUrl;
     
   ```XML
   
-<StackPanel HorizontalAlignment="Left" Orientation="Horizontal" Margin="0,5,0,5">
+  <StackPanel HorizontalAlignment="Left" Orientation="Horizontal" Margin="0,5,0,5">
   <TextBlock TextWrapping="Wrap" Width="150" HorizontalAlignment="Left" 
    Style="{StaticResource PhoneTextNormalStyle}">
     FileUrl :
   </TextBlock>
   <HyperlinkButton Content="{Binding FileName}" NavigateUri="{Binding FileUrl}" 
    x:Name="hypFile" TargetName="_blank" />
-</StackPanel>
+  </StackPanel>
 
   ```
 
