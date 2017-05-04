@@ -126,14 +126,14 @@ ms.assetid: 901c2012-18c6-4dbd-a787-f8650a0cc7a8
     
   ```XML
   
-<StackPanel HorizontalAlignment="Left" Orientation="Horizontal" Margin="0,5,0,5">
+  <StackPanel HorizontalAlignment="Left" Orientation="Horizontal" Margin="0,5,0,5">
   <TextBlock TextWrapping="Wrap" Width="150" HorizontalAlignment="Left" 
    Style="{StaticResource PhoneTextNormalStyle}">
     FileUrl :
   </TextBlock>
   <HyperlinkButton Content="{Binding FileName}" NavigateUri="{Binding FileUrl}" 
    x:Name="hypFile" TargetName="_blank" />
-</StackPanel>
+  </StackPanel>
 
   ```
 
