@@ -170,8 +170,8 @@ reportviewRepositoryHelper = new ReportViewRepositoryHelper();
   ```
 
 
-    > **HINWEIS**
-      > Standardmäßig können Benutzer von PerformancePoint Dashboard-Designer nur benutzerdefinierte Objekte erstellen. Um Benutzern das Erstellen eines benutzerdefinierten Objekts außerhalb Dashboard-Designer zu aktivieren, müssen Sie ein Menüelement hinzufügen, die vom Inhaltstyp im Repository eine  _CreateItem_ -Anforderung an den Editor sendet. Weitere Informationen finden Sie unter [Editoren für benutzerdefinierte PerformancePoint Services-Objekte](http://msdn.microsoft.com/library/7c5924f1-91f3-436a-9d94-2e0dc454c8cc%28Office.15%29.aspx).
+> **HINWEIS**
+> Standardmäßig können Benutzer von PerformancePoint Dashboard-Designer nur benutzerdefinierte Objekte erstellen. Um Benutzern das Erstellen eines benutzerdefinierten Objekts außerhalb Dashboard-Designer zu aktivieren, müssen Sie ein Menüelement hinzufügen, die vom Inhaltstyp im Repository eine  _CreateItem_ -Anforderung an den Editor sendet. Weitere Informationen finden Sie unter [Editoren für benutzerdefinierte PerformancePoint Services-Objekte](http://msdn.microsoft.com/library/7c5924f1-91f3-436a-9d94-2e0dc454c8cc%28Office.15%29.aspx).
 13. Definieren Sie den Endpunkt des Berichts, damit der Bericht Daten von Filtern und Scorecards empfangen kann. Die erforderlichen Eigenschaften für den Endpunkt werden vom Beispielbericht-Editor definiert, wie im folgenden Codebeispiel veranschaulicht.
     
   ```cs
