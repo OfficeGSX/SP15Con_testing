@@ -149,7 +149,7 @@ public class CustomSecurityPreTrimmer : ISecurityTrimmerPre
   ```
 
 
-    该示例的基本版本未在 **Initialize** 方法中包含任何代码。
+该示例的基本版本未在 **Initialize** 方法中包含任何代码。
     
   
 2. 为  [AddAccess()](https://msdn.microsoft.com/library/Microsoft.Office.Server.Search.Query.ISecurityTrimmerPre.AddAccess.aspx) 方法声明添加下面的代码。
@@ -231,7 +231,7 @@ if (!string.IsNullOrEmpty(strUser))
   ```
 
 
-    **GetMembership** 方法包含修整程序的自定义逻辑。
+**GetMembership** 方法包含修整程序的自定义逻辑。
     
   
 
@@ -298,7 +298,7 @@ public class CustomSecurityPostTrimmer : ISecurityTrimmerPost
   ```
 
 
-    该示例的基本版本未在 Initialize 方法中包含任何代码。
+该示例的基本版本未在 Initialize 方法中包含任何代码。
     
   
 2. 为  [CheckAccess()](https://msdn.microsoft.com/library/Microsoft.Office.Server.Search.Query.ISecurityTrimmerPost.CheckAccess.aspx) 方法声明添加下面的代码。
@@ -356,7 +356,7 @@ if (claimsIdentity != null)
   ```
 
 
-    如果用户具有访问该内容项的权限，请将位于该索引 ( **urlStatusArray[i]**) 的 **BitArray** 项的值设为 **true**；否则，将其设为 **false**。
+如果用户具有访问该内容项的权限，请将位于该索引 ( **urlStatusArray[i]**) 的 **BitArray** 项的值设为 **true**；否则，将其设为 **false**。
     
   
 5. 将 **CheckAccess** 方法的返回值设为 **urlStatusArray**，如以下代码所示。
@@ -413,10 +413,10 @@ Version=1.0.0.0, Culture=neutral, PublicKeyToken=token" -RulePath "xmldoc://*"
   ```
 
 
-    在该命令中，将  _ClassName_ 替换为 **CustomSecurityPreTrimmer** 或 **CustomSecurityPostTrimmer**；将  _token_ 替换为 CustomSecurityTrimmerSample.dll 文件的公钥标记。您必须将所有后修整程序与 _"xmldoc://*"_ 爬网规则关联，但此操作是预修整程序的可选操作。
+在该命令中，将  _ClassName_ 替换为 **CustomSecurityPreTrimmer** 或 **CustomSecurityPostTrimmer**；将  _token_ 替换为 CustomSecurityTrimmerSample.dll 文件的公钥标记。您必须将所有后修整程序与 _"xmldoc://*"_ 爬网规则关联，但此操作是预修整程序的可选操作。
     
-    > **注释**
-      > 如果您有多个前端 Web 服务器，则必须将安全修整程序部署到服务器场中所有前端 Web 服务器上的全局程序集缓存。 
+> **注释**
+> 如果您有多个前端 Web 服务器，则必须将安全修整程序部署到服务器场中所有前端 Web 服务器上的全局程序集缓存。 
 6. 确认您的安全修整程序是使用以下 PowerShell cmdlet 注册的。
     
   ```
@@ -437,7 +437,7 @@ $searchApp | Get-SPEnterpriseSearchSecurityTrimmer
     
   ```
   
-net restart sphostcontrollerservice
+  net restart sphostcontrollerservice
 
   ```
 
