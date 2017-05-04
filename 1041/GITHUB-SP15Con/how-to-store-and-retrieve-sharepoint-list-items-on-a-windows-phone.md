@@ -14,7 +14,7 @@ Windows Phone アプリの開発において最も重要な考慮事項の 1 つ
 
 
 > **重要**
-> Windows Phone 8 のアプリを開発する場合は、Visual Studio 2010 Express ではなく Visual Studio Express 2012 を使用する必要があります。開発環境を除き、この記事のすべての情報は Windows Phone 8 と Windows Phone 7 の両方のアプリの作成に適用されます。 > 詳細については、「 [[方法]: SharePoint 用モバイル アプリの開発環境をセットアップする](how-to-set-up-an-environment-for-developing-mobile-apps-for-sharepoint.md)」を参照してください。 
+> Windows Phone 8 のアプリを開発する場合は、Visual Studio 2010 Express ではなく Visual Studio Express 2012 を使用する必要があります。開発環境を除き、この記事のすべての情報は Windows Phone 8 と Windows Phone 7 の両方のアプリの作成に適用されます。 <br/> 詳細については、「 [[方法]: SharePoint 用モバイル アプリの開発環境をセットアップする](how-to-set-up-an-environment-for-developing-mobile-apps-for-sharepoint.md)」を参照してください。 
   
     
     
@@ -238,7 +238,7 @@ namespace SPListAppLocalStorage // Based on project name by default.
   ```
 
 
-    このコードに指定された名前空間は、プロジェクトの名前 (この例の場合は SPListAppLocalStorage) に基づいています。各自のプロジェクトの名前に応じて、他の名前空間を指定できます。
+このコードに指定された名前空間は、プロジェクトの名前 (この例の場合は SPListAppLocalStorage) に基づいています。各自のプロジェクトの名前に応じて、他の名前空間を指定できます。
     
   
 5. ファイルを保存します。
@@ -356,7 +356,7 @@ namespace SPListAppLocalStorage // Based on project name by default.
   ```
 
 
-    このコード内の名前空間指定  `<x:Class>` の値 ("SPListAppLocalStorage.Views.Drafts") は各自のプロジェクトの名前によって変わります。
+このコード内の名前空間指定  `<x:Class>` の値 ("SPListAppLocalStorage.Views.Drafts") は各自のプロジェクトの名前によって変わります。
     
   
 7. **ソリューション エクスプローラー**で Drafts.xaml ファイルを選択して F7 を押し、関連付けられている分離コード ファイル Drafts.xaml.cs を編集用に開きます。

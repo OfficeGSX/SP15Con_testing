@@ -14,7 +14,7 @@ Una de las cuestiones más importantes en el desarrollo de aplicaciones de Windo
 
 
 > **IMPORTANTE**
-> Si está desarrollando una aplicación para Windows Phone 8, debe usar Visual Studio Express 2012 en lugar de Visual Studio 2010 Express. Excepto el entorno de desarrollo, toda la información de este artículo se aplica a la creación de aplicaciones para Windows Phone 8 y Windows Phone 7. > Para obtener más información, consulte  [Cómo: Configurar un entorno de desarrollo de aplicaciones móviles para SharePoint](how-to-set-up-an-environment-for-developing-mobile-apps-for-sharepoint.md). 
+> Si está desarrollando una aplicación para Windows Phone 8, debe usar Visual Studio Express 2012 en lugar de Visual Studio 2010 Express. Excepto el entorno de desarrollo, toda la información de este artículo se aplica a la creación de aplicaciones para Windows Phone 8 y Windows Phone 7. <br/> Para obtener más información, consulte  [Cómo: Configurar un entorno de desarrollo de aplicaciones móviles para SharePoint](how-to-set-up-an-environment-for-developing-mobile-apps-for-sharepoint.md). 
   
     
     
@@ -238,7 +238,7 @@ namespace SPListAppLocalStorage // Based on project name by default.
   ```
 
 
-    El espacio de nombres especificado en este código se basa en el nombre del proyecto (SPListAppLocalStorage en este caso). Si quiere, puede especificar un espacio de nombres diferente basado en el nombre del proyecto.
+El espacio de nombres especificado en este código se basa en el nombre del proyecto (SPListAppLocalStorage en este caso). Si quiere, puede especificar un espacio de nombres diferente basado en el nombre del proyecto.
     
   
 5. Guarde el archivo.
@@ -356,7 +356,7 @@ Ahora puede agregar elementos a la interfaz de usuario de la aplicación de tel�
   ```
 
 
-    El valor de la designación del espacio de nombres  `<x:Class>` en este código ("SPListAppLocalStorage.Views.Drafts") puede variar según el nombre del proyecto.
+El valor de la designación del espacio de nombres  `<x:Class>` en este código ("SPListAppLocalStorage.Views.Drafts") puede variar según el nombre del proyecto.
     
   
 7. Con el archivo Drafts.xaml seleccionado en el **Explorador de soluciones**, presione F7 para abrir el archivo de código subyacente asociado, Drafts.xaml.cs, para su edición.

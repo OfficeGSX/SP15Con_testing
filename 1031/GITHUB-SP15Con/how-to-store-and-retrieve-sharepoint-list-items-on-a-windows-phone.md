@@ -14,7 +14,7 @@ Einer der wichtigsten Aspekte bei der Entwicklung von apps für Windows Phone is
 
 
 > **WICHTIG**
-> Wenn Sie eine app für Windows Phone 8 entwickeln, müssen Sie anstelle von Visual Studio 2010 Express Visual Studio Express 2012 verwenden. Alle Informationen in diesem Artikel betrifft mit Ausnahme der Entwicklungsumgebung Erstellen von apps für Windows Phone 8 und Windows Phone 7.> Weitere Informationen finden Sie unter  [Vorgehensweise: Einrichten einer Umgebung für die Entwicklung von mobilen Anwendungen für SharePoint](how-to-set-up-an-environment-for-developing-mobile-apps-for-sharepoint.md).
+> Wenn Sie eine app für Windows Phone 8 entwickeln, müssen Sie anstelle von Visual Studio 2010 Express Visual Studio Express 2012 verwenden. Alle Informationen in diesem Artikel betrifft mit Ausnahme der Entwicklungsumgebung Erstellen von apps für Windows Phone 8 und Windows Phone 7.<br/> Weitere Informationen finden Sie unter  [Vorgehensweise: Einrichten einer Umgebung für die Entwicklung von mobilen Anwendungen für SharePoint](how-to-set-up-an-environment-for-developing-mobile-apps-for-sharepoint.md).
   
     
     
@@ -238,7 +238,7 @@ namespace SPListAppLocalStorage // Based on project name by default.
   ```
 
 
-    In diesem Code angegebene Namespace basiert auf den Namen des Projekts (in diesem FallSPListAppLocalStorage ). Möglicherweise möchten einen anderen Namespace, basierend auf den Namen Ihres Projekts angeben.
+In diesem Code angegebene Namespace basiert auf den Namen des Projekts (in diesem FallSPListAppLocalStorage ). Möglicherweise möchten einen anderen Namespace, basierend auf den Namen Ihres Projekts angeben.
     
   
 5. Speichern Sie die Datei.
@@ -356,7 +356,7 @@ Nun können Sie die Benutzeroberfläche der app Telefon Elemente hinzugefügt un
   ```
 
 
-    Der Wert der Namespace Bezeichnung  `<x:Class>` in diesem Code ("SPListAppLocalStorage.Views.Drafts") variiert je nach den Namen Ihres Projekts.
+Der Wert der Namespace Bezeichnung  `<x:Class>` in diesem Code ("SPListAppLocalStorage.Views.Drafts") variiert je nach den Namen Ihres Projekts.
     
   
 7. Die Drafts.xaml-Datei im **Projektmappen-Explorer** ausgewählt und drücken SieF7um die zugeordneten Code-Behind-Datei Drafts.xaml.cs, zur Bearbeitung zu öffnen.
