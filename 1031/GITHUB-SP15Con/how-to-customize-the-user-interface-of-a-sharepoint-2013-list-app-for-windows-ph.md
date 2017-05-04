@@ -96,7 +96,7 @@ Basierend auf dem von der Vorlage generierten Projekt sind die Felder in der Lis
   ```
 
 
-    Die einzige Änderung an dem Standardmarkup, das von der Vorlage generiert wird, ist das Hinzufügen der Namespacebezeichnung „Xmlns:toolkit". Beachten Sie auch, dass der Wert des Attributs **Class** hier auf den Namen Ihres Projekts basiert. „ContosoSPListApp" ist der Name dieses Beispielprojekts. Der Wert dieses Attributs in Ihrem Projekt unterscheidet sich je nach Name des Projekts von dem hier gezeigten Wert.
+Die einzige Änderung an dem Standardmarkup, das von der Vorlage generiert wird, ist das Hinzufügen der Namespacebezeichnung „Xmlns:toolkit". Beachten Sie auch, dass der Wert des Attributs **Class** hier auf den Namen Ihres Projekts basiert. „ContosoSPListApp" ist der Name dieses Beispielprojekts. Der Wert dieses Attributs in Ihrem Projekt unterscheidet sich je nach Name des Projekts von dem hier gezeigten Wert.
     
   
 7. Suchen Sie in der Datei EditForm.xaml nach dem **StackPanel**-Steuerelement im Markup, das die mit dem Feld **Order Date** (das als „Order_x0020_Date" im XML-Schema für das Feld festgelegt ist) verbundenen Steuerelemente enthält. Standardmäßig generiert die Vorlage ein **TextBox**-Steuerelement und zwei **TextBlock**-Steuerelemente für **DateTime** -Felder. Das Markup, das das Steuerelement **StackPanel** und die darin enthaltenen Steuerelemente enthält, sollte dem folgenden Markup ähneln.
