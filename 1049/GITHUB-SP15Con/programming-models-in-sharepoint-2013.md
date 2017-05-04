@@ -8,7 +8,6 @@ ms.assetid: 061985ec-6129-4e91-991b-a72488ce1d34
 
 # Модели программирования в SharePoint 2013
 Краткий обзор различных видов проектов разработки SharePoint.
- * **Область применения:*** 
   
     
     
@@ -16,7 +15,7 @@ ms.assetid: 061985ec-6129-4e91-991b-a72488ce1d34
 
 |||
 |:-----|:-----|
-|**Содержание**          [Надстройки для SharePoint](#Apps)           [Сайты публикации SharePoint](#ECM)           [Решения фермы SharePoint](#Solutions)           [Мобильные надстройки для SharePoint](#Mobile)           [Повторно используемые компоненты для SharePoint](#Reuse)           [Дополнительные ресурсы](#SP15devinSP_addlresources)|
+|**Содержание**<br/>          [Надстройки для SharePoint](#Apps)<br/>           [Сайты публикации SharePoint](#ECM)<br/>           [Решения фермы SharePoint](#Solutions)<br/>           [Мобильные надстройки для SharePoint](#Mobile)<br/>           [Повторно используемые компоненты для SharePoint](#Reuse)<br/>           [Дополнительные ресурсы](#SP15devinSP_addlresources)|
 **Смотреть видео: варианты разработки для Office 2013 и SharePoint 2013**
 
   
