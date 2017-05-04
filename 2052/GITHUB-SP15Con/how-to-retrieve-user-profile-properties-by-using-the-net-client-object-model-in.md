@@ -102,8 +102,8 @@ const string targetUser = "domainName\\\\userName";
   ```
 
 
-    > **注释**
-      > 请记住在运行代码之前，替换  `http://serverName/` 和 `domainName\\\\userName` 占位符值。
+> **注释**
+> 请记住在运行代码之前，替换  `http://serverName/` 和 `domainName\\\\userName` 占位符值。
 7. 初始化 SharePoint 客户端上下文，如以下代码所示。
     
   ```cs
@@ -133,10 +133,10 @@ clientContext.ExecuteQuery();
   ```
 
 
-    当您调用 **Load** 方法（或 **LoadQuery** 方法）时，您即传入了要检索或更改的对象。在此示例中，调用 **Load** 方法可传入可选参数以用于筛选请求。这些参数是 lambda 表达式，仅请求 **personProperties** 对象的 **AccountName** 属性和 **UserProfileProperties** 属性。
+当您调用 **Load** 方法（或 **LoadQuery** 方法）时，您即传入了要检索或更改的对象。在此示例中，调用 **Load** 方法可传入可选参数以用于筛选请求。这些参数是 lambda 表达式，仅请求 **personProperties** 对象的 **AccountName** 属性和 **UserProfileProperties** 属性。
     
-    > **提示**
-      > 若要降低网络流量，请在您调用 **Load** 方法时只请求您要使用的属性。此外，如果您要处理多个对象，请在调用 **ExecuteQuery** 方法之前，分组对 **Load** 方法的多个调用。
+> **提示**
+> 若要降低网络流量，请在您调用 **Load** 方法时只请求您要使用的属性。此外，如果您要处理多个对象，请在调用 **ExecuteQuery** 方法之前，分组对 **Load** 方法的多个调用。
 10. 循环访问用户配置文件属性以及读取每个属性的名称和值，如以下代码所示。
     
   ```cs
