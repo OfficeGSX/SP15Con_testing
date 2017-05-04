@@ -90,8 +90,8 @@ For more information on how to enable UDFs and add UDFs to the trusted UDF list,
   ```
 
 
-    > **HINWEIS**
-      > You should generate a unique GUID for each solution. For more information about **Solution** element, see the SharePoint Foundation [Solutions and Web Part Packages](http://msdn.microsoft.com/library/a145a5eb-fbb6-4328-b5b3-96bf5ce89a19%28Office.15%29.aspx) (http://msdn.microsoft.com/en-us/library/ms413687.aspx).
+> **HINWEIS**
+> You should generate a unique GUID for each solution. For more information about **Solution** element, see the SharePoint Foundation [Solutions and Web Part Packages](http://msdn.microsoft.com/library/a145a5eb-fbb6-4328-b5b3-96bf5ce89a19%28Office.15%29.aspx) (http://msdn.microsoft.com/en-us/library/ms413687.aspx).
 
 ### To create a solution package
 
@@ -125,7 +125,7 @@ For more information on how to enable UDFs and add UDFs to the trusted UDF list,
     stsadm.exe -o addsolution -filename <pathtoCAB>
     
     > **HINWEIS**
-      > You can find the Stsadm.exe at: > C:\\Program Files\\Common Files\\Microsoft Shared\\web server extensions\\12\\BIN. 
+      > You can find the Stsadm.exe at: <br/> C:\\Program Files\\Common Files\\Microsoft Shared\\web server extensions\\12\\BIN. 
 
     > **HINWEIS**
       > For more information about Stsadm.exe command options, see the  [Stsadm to Windows PowerShell Mapping (SharePoint Foundation 2010)](http://technet.microsoft.com/en-us/library/ff621081.aspx) (http://technet.microsoft.com/en-us/library/ff621081.aspx).

@@ -90,8 +90,8 @@ UDF の有効化および信頼できる UDF リストへの UDF の追加につ
   ```
 
 
-    > **メモ**
-      > ソリューションごとに一意の GUID を生成する必要があります。 **Solution** 要素について、詳細は「SharePoint Foundation [ソリューションおよび Web パーツ パッケージ](http://msdn.microsoft.com/library/a145a5eb-fbb6-4328-b5b3-96bf5ce89a19%28Office.15%29.aspx)」(http://msdn.microsoft.com/ja-jp/library/ms413687.aspx) を参照してください。 
+> **メモ**
+> ソリューションごとに一意の GUID を生成する必要があります。 **Solution** 要素について、詳細は「SharePoint Foundation [ソリューションおよび Web パーツ パッケージ](http://msdn.microsoft.com/library/a145a5eb-fbb6-4328-b5b3-96bf5ce89a19%28Office.15%29.aspx)」(http://msdn.microsoft.com/ja-jp/library/ms413687.aspx) を参照してください。 
 
 ### ソリューション パッケージを作成するには
 
@@ -125,7 +125,7 @@ UDF の有効化および信頼できる UDF リストへの UDF の追加につ
     stsadm.exe -o addsolution -filename <pathtoCAB>
     
     > **メモ**
-      > Stsadm.exe は、 > C:\\Program Files\\Common Files\\Microsoft Shared\\web server extensions\\12\\BIN にあります。 
+      > Stsadm.exe は、 <br/> C:\\Program Files\\Common Files\\Microsoft Shared\\web server extensions\\12\\BIN にあります。 
 
     > **メモ**
       > Stsadm.exe コマンド オプションについて、詳細は「 [Stsadm (Windows PowerShell マッピング) (SharePoint Foundation 2010)](http://technet.microsoft.com/ja-jp/library/ff621081.aspx)」 (http://technet.microsoft.com/ja-jp/library/ff621081.aspx) を参照してください。 
