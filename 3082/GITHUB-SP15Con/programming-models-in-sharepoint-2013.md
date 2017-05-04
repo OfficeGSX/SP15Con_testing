@@ -8,7 +8,6 @@ ms.assetid: 061985ec-6129-4e91-991b-a72488ce1d34
 
 # Modelos de programación en SharePoint 2013
 Esta es una breve introducción a los distintos tipos de proyectos de desarrollo de SharePoint.
- * **Hace referencia a:*** 
   
     
     
@@ -16,7 +15,7 @@ Esta es una breve introducción a los distintos tipos de proyectos de desarrollo
 
 |||
 |:-----|:-----|
-|**En este artículo**          [Complementos para SharePoint](#Apps)           [Sitios de publicación de SharePoint](#ECM)           [Soluciones de granja de servidores de SharePoint](#Solutions)           [Complementos móviles para SharePoint](#Mobile)           [Componentes reutilizables para SharePoint](#Reuse)           [Recursos adicionales](#SP15devinSP_addlresources)|
+|**En este artículo**<br/>          [Complementos para SharePoint](#Apps)<br/>           [Sitios de publicación de SharePoint](#ECM)<br/>           [Soluciones de granja de servidores de SharePoint](#Solutions)<br/>           [Complementos móviles para SharePoint](#Mobile)<br/>           [Componentes reutilizables para SharePoint](#Reuse)<br/>           [Recursos adicionales](#SP15devinSP_addlresources)|
 **Vea el vídeo: Opciones de desarrollo para Office 2013 y SharePoint 2013**
 
   
