@@ -328,7 +328,7 @@ End If
   ```
 
 
-    示例编辑器在 **VerifyFilter** 方法中定义其起点，它还使用 **VerifyFilter** 来验证是否已设置所需属性，并定义选择模型（它是一个可选属性）。
+示例编辑器在 **VerifyFilter** 方法中定义其起点，它还使用 **VerifyFilter** 来验证是否已设置所需属性，并定义选择模型（它是一个可选属性）。
     
   
 16. 通过运行筛选器的查询并检索数据源中的数据来初始化筛选器。示例筛选器编辑器中的 **buttonOK_Click** 方法调用 **FilterRepositoryHelper.GetParameterDisplayData** 方法来初始化筛选器。
